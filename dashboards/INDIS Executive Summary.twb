@@ -1,0 +1,1889 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0410.0924                               -->
+<workbook original-version='18.1' source-build='2026.1.1 (20261.26.0410.0924)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location derived-from='https://localhost:8080/workbooks/INDISExecutiveSummary?rev=1.1' id='INDISExecutiveSummary_17911910860420' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='INDIS_Dataset' inline='true' name='federated.1ddni8m0e2qsoz11wvct20lp32xl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='INDIS_Dataset_Clean' name='textscan.0ebcj3s1g4n4dm1f6ycef1cubtd6'>
+            <connection class='textscan' directory='C:/Users/nolao/Downloads' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0ebcj3s1g4n4dm1f6ycef1cubtd6' name='INDIS_Dataset_Clean.csv' table='[INDIS_Dataset_Clean#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='date' name='tanggal_kejadian' ordinal='1' />
+            <column datatype='integer' name='bulan' ordinal='2' />
+            <column datatype='integer' name='tahun' ordinal='3' />
+            <column datatype='string' name='jenis_bencana' ordinal='4' />
+            <column datatype='string' name='provinsi' ordinal='5' />
+            <column datatype='string' name='kabupaten_kota' ordinal='6' />
+            <column datatype='string' name='dc_regional' ordinal='7' />
+            <column datatype='integer' name='jumlah_kejadian' ordinal='8' />
+            <column datatype='integer' name='korban_jiwa' ordinal='9' />
+            <column datatype='integer' name='korban_luka' ordinal='10' />
+            <column datatype='integer' name='pengungsi' ordinal='11' />
+            <column datatype='integer' name='rumah_terdampak' ordinal='12' />
+            <column datatype='string' name='tingkat_risiko' ordinal='13' />
+            <column datatype='string' name='status_penanganan' ordinal='14' />
+            <column datatype='string' name='sensor_id' ordinal='15' />
+            <column datatype='real' name='response_time_detik' ordinal='16' />
+            <column datatype='real' name='latitude' ordinal='17' />
+            <column datatype='real' name='longitude' ordinal='18' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tanggal_kejadian</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[tanggal_kejadian]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>tanggal_kejadian</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bulan</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bulan]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>bulan</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tahun</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tahun]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>tahun</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jenis_bencana</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[jenis_bencana]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>jenis_bencana</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>provinsi</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[provinsi]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>provinsi</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kabupaten_kota</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[kabupaten_kota]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>kabupaten_kota</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dc_regional</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dc_regional]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>dc_regional</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jumlah_kejadian</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[jumlah_kejadian]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>jumlah_kejadian</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>korban_jiwa</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[korban_jiwa]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>korban_jiwa</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>korban_luka</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[korban_luka]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>korban_luka</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pengungsi</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pengungsi]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>pengungsi</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rumah_terdampak</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[rumah_terdampak]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>rumah_terdampak</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tingkat_risiko</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tingkat_risiko]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>tingkat_risiko</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>status_penanganan</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[status_penanganan]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>status_penanganan</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sensor_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sensor_id]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>sensor_id</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>response_time_detik</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[response_time_detik]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>response_time_detik</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[INDIS_Dataset_Clean.csv]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1ddni8m0e2qsoz11wvct20lp32xl].[pcto:sum:Jumlah Kejadian (copy)_1590509451309061:qk]&quot;' value='%' />
+        </aliases>
+      </column>
+      <column caption='Rata-rata Kejadian per Provinsi' datatype='real' name='[Calculation_1590509441736704]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : SUM([jumlah_kejadian]) } / { FIXED : COUNTD([provinsi]) }' />
+      </column>
+      <column caption='Jumlah Kejadian ' datatype='integer' name='[Jumlah Kejadian (copy)_1590509451309061]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[jumlah_kejadian]' />
+      </column>
+      <column caption='INDIS_Dataset_Clean.csv' datatype='table' name='[__tableau_internal_object_id__].[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]' role='measure' type='quantitative' />
+      <column caption='Bulan' datatype='integer' name='[bulan]' role='measure' type='quantitative' />
+      <column caption='Dc Regional' datatype='string' name='[dc_regional]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Jenis Bencana' datatype='string' name='[jenis_bencana]' role='dimension' type='nominal' />
+      <column caption='Jumlah Kejadian' datatype='integer' name='[jumlah_kejadian]' role='measure' type='quantitative' />
+      <column caption='Kabupaten Kota' datatype='string' name='[kabupaten_kota]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Korban Jiwa' datatype='integer' name='[korban_jiwa]' role='measure' type='quantitative' />
+      <column caption='Korban Luka' datatype='integer' name='[korban_luka]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='dimension' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='dimension' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Pengungsi' datatype='integer' name='[pengungsi]' role='measure' type='quantitative' />
+      <column caption='Provinsi' datatype='string' name='[provinsi]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Response Time Detik' datatype='real' name='[response_time_detik]' role='dimension' type='ordinal' />
+      <column caption='Rumah Terdampak' datatype='integer' name='[rumah_terdampak]' role='measure' type='quantitative' />
+      <column caption='Sensor Id' datatype='string' name='[sensor_id]' role='dimension' type='nominal' />
+      <column caption='Status Penanganan' datatype='string' name='[status_penanganan]' role='dimension' type='nominal' />
+      <column caption='Tahun' datatype='integer' name='[tahun]' role='measure' type='quantitative' />
+      <column caption='Tanggal Kejadian' datatype='date' name='[tanggal_kejadian]' role='dimension' type='ordinal' />
+      <column caption='Tingkat Risiko' datatype='string' name='[tingkat_risiko]' role='dimension' type='nominal' />
+      <column-instance column='[jenis_bencana]' derivation='None' name='[none:jenis_bencana:nk]' pivot='key' type='nominal' />
+      <column-instance column='[status_penanganan]' derivation='None' name='[none:status_penanganan:nk]' pivot='key' type='nominal' />
+      <column-instance column='[tingkat_risiko]' derivation='None' name='[none:tingkat_risiko:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Jumlah Kejadian (copy)_1590509451309061]' derivation='Sum' name='[pcto:sum:Jumlah Kejadian (copy)_1590509451309061:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <group caption='Action (Provinsi)' hidden='true' name='[Action (Provinsi)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[provinsi]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Provinsi,Tingkat Risiko)' hidden='true' name='[Action (Provinsi,Tingkat Risiko)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[provinsi]' />
+          <groupfilter function='level-members' level='[tingkat_risiko]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/v/Documents/マイ Tableau リポジトリ/ワークブック/INDIS/dashboards/INDIS Executive Summary.twb Files/Data/INDISExecutiveSummary_17911910860420.twb Files/federated.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/02/2026 03:23:57 AM' username=''>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tanggal_kejadian</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[tanggal_kejadian]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>tanggal_kejadian</remote-alias>
+              <ordinal>1</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>490</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bulan</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[bulan]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bulan</remote-alias>
+              <ordinal>2</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tahun</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[tahun]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>tahun</remote-alias>
+              <ordinal>3</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>jenis_bencana</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[jenis_bencana]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>jenis_bencana</remote-alias>
+              <ordinal>4</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>provinsi</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[provinsi]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>provinsi</remote-alias>
+              <ordinal>5</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kabupaten_kota</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[kabupaten_kota]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kabupaten_kota</remote-alias>
+              <ordinal>6</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>90</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dc_regional</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dc_regional]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dc_regional</remote-alias>
+              <ordinal>7</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>jumlah_kejadian</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[jumlah_kejadian]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>jumlah_kejadian</remote-alias>
+              <ordinal>8</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>korban_jiwa</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[korban_jiwa]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>korban_jiwa</remote-alias>
+              <ordinal>9</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>94</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>korban_luka</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[korban_luka]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>korban_luka</remote-alias>
+              <ordinal>10</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pengungsi</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pengungsi]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pengungsi</remote-alias>
+              <ordinal>11</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>939</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rumah_terdampak</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[rumah_terdampak]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rumah_terdampak</remote-alias>
+              <ordinal>12</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>734</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tingkat_risiko</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[tingkat_risiko]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>tingkat_risiko</remote-alias>
+              <ordinal>13</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>status_penanganan</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[status_penanganan]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>status_penanganan</remote-alias>
+              <ordinal>14</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sensor_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[sensor_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sensor_id</remote-alias>
+              <ordinal>15</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>response_time_detik</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[response_time_detik]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>response_time_detik</remote-alias>
+              <ordinal>16</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>124</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>latitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[latitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>latitude</remote-alias>
+              <ordinal>17</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>longitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[longitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>longitude</remote-alias>
+              <ordinal>18</ordinal>
+              <family>INDIS_Dataset_Clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:tingkat_risiko:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;AMAN&quot;</bucket>
+            </map>
+            <map to='#b71d3e'>
+              <bucket>&quot;AWAS&quot;</bucket>
+            </map>
+            <map to='#f0774a'>
+              <bucket>&quot;SIAGA&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;WASPADA&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:jenis_bencana:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;Banjir&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;Tanah Longsor&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;Gempa Bumi&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;Cuaca Ekstrem&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:status_penanganan:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Selesai&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Belum Ditangani&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Dalam Proses&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Indonesia&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='INDIS_Dataset_Clean.csv' id='INDIS_Dataset_Clean.csv_711512C9CA894A409B64B85FC248D650'>
+            <properties context=''>
+              <relation connection='textscan.0ebcj3s1g4n4dm1f6ycef1cubtd6' name='INDIS_Dataset_Clean.csv' table='[INDIS_Dataset_Clean#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='date' name='tanggal_kejadian' ordinal='1' />
+                  <column datatype='integer' name='bulan' ordinal='2' />
+                  <column datatype='integer' name='tahun' ordinal='3' />
+                  <column datatype='string' name='jenis_bencana' ordinal='4' />
+                  <column datatype='string' name='provinsi' ordinal='5' />
+                  <column datatype='string' name='kabupaten_kota' ordinal='6' />
+                  <column datatype='string' name='dc_regional' ordinal='7' />
+                  <column datatype='integer' name='jumlah_kejadian' ordinal='8' />
+                  <column datatype='integer' name='korban_jiwa' ordinal='9' />
+                  <column datatype='integer' name='korban_luka' ordinal='10' />
+                  <column datatype='integer' name='pengungsi' ordinal='11' />
+                  <column datatype='integer' name='rumah_terdampak' ordinal='12' />
+                  <column datatype='string' name='tingkat_risiko' ordinal='13' />
+                  <column datatype='string' name='status_penanganan' ordinal='14' />
+                  <column datatype='string' name='sensor_id' ordinal='15' />
+                  <column datatype='real' name='response_time_detik' ordinal='16' />
+                  <column datatype='real' name='latitude' ordinal='17' />
+                  <column datatype='real' name='longitude' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_BB483AE4C6774ECA87AC81D547DD661E]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='EXECUTIVE SUMMARY - MONITORING BENCANA NASIONAL' type='sheet' worksheet='Provinsi Paling Terdampak' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='EXECUTIVE SUMMARY - MONITORING BENCANA NASIONAL' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Jenis Bencana Dominan'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>Jenis Bencana Dominan</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://localhost:8080/workbooks/INDISExecutiveSummary/129788078?rev=' id='JenisBencanaDominan' path='/workbooks/INDISExecutiveSummary_17911910860420' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INDIS_Dataset' name='federated.1ddni8m0e2qsoz11wvct20lp32xl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ddni8m0e2qsoz11wvct20lp32xl'>
+            <column caption='Jenis Bencana' datatype='string' name='[jenis_bencana]' role='dimension' type='nominal' />
+            <column caption='Jumlah Kejadian' datatype='integer' name='[jumlah_kejadian]' role='measure' type='quantitative' />
+            <column-instance column='[jenis_bencana]' derivation='None' name='[none:jenis_bencana:nk]' pivot='key' type='nominal' />
+            <column-instance column='[jumlah_kejadian]' derivation='Sum' name='[sum:jumlah_kejadian:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:jenis_bencana:nk]'>
+            <groupfilter count='4' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([jumlah_kejadian])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:jenis_bencana:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:jenis_bencana:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:jumlah_kejadian:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:jenis_bencana:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:jenis_bencana:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:jenis_bencana:nk]</rows>
+        <cols>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:jumlah_kejadian:qk]</cols>
+      </table>
+      <simple-id uuid='{F23993DE-AED8-459D-BA45-9CC5F5239943}' />
+    </worksheet>
+    <worksheet name='Korban Jiwa'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Korban Jiwa</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://localhost:8080/workbooks/INDISExecutiveSummary/129788073?rev=' id='KorbanJiwa' path='/workbooks/INDISExecutiveSummary_17911910860420' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INDIS_Dataset' name='federated.1ddni8m0e2qsoz11wvct20lp32xl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ddni8m0e2qsoz11wvct20lp32xl'>
+            <column caption='Korban Jiwa' datatype='integer' name='[korban_jiwa]' role='measure' type='quantitative' />
+            <column-instance column='[korban_jiwa]' derivation='Sum' name='[sum:korban_jiwa:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='text-align' data-class='subtotal' scope='rows' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='5' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:korban_jiwa:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{95866BCF-1A47-4798-9918-D186B3506FE8}' />
+    </worksheet>
+    <worksheet name='Pengungsi'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Pengungsi</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://localhost:8080/workbooks/INDISExecutiveSummary/129788074?rev=' id='Pengungsi' path='/workbooks/INDISExecutiveSummary_17911910860420' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INDIS_Dataset' name='federated.1ddni8m0e2qsoz11wvct20lp32xl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ddni8m0e2qsoz11wvct20lp32xl'>
+            <column caption='Pengungsi' datatype='integer' name='[pengungsi]' role='measure' type='quantitative' />
+            <column-instance column='[pengungsi]' derivation='Sum' name='[sum:pengungsi:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' data-class='subtotal' scope='rows' value='center' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='text-align' data-class='subtotal' scope='rows' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' scope='rows' value='center' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:pengungsi:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='2' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{55AB8DB5-C0CE-4F44-8E63-D58C7F120EE1}' />
+    </worksheet>
+    <worksheet name='Provinsi Paling Terdampak'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>Provinsi Paling Terdampak</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://localhost:8080/workbooks/INDISExecutiveSummary/129788077?rev=' id='ProvinsiPalingTerdampak' path='/workbooks/INDISExecutiveSummary_17911910860420' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INDIS_Dataset' name='federated.1ddni8m0e2qsoz11wvct20lp32xl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ddni8m0e2qsoz11wvct20lp32xl'>
+            <column-instance column='[provinsi]' derivation='None' name='[none:provinsi:nk]' pivot='key' type='nominal' />
+            <column-instance column='[tingkat_risiko]' derivation='None' name='[none:tingkat_risiko:nk]' pivot='key' type='nominal' />
+            <column caption='Pengungsi' datatype='integer' name='[pengungsi]' role='measure' type='quantitative' />
+            <column caption='Provinsi' datatype='string' name='[provinsi]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[pengungsi]' derivation='Sum' name='[sum:pengungsi:qk]' pivot='key' type='quantitative' />
+            <column caption='Tingkat Risiko' datatype='string' name='[tingkat_risiko]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:provinsi:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([pengungsi])' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Aceh&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Bali&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;DI Yogyakarta&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Jawa Barat&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Jawa Tengah&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Jawa Timur&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Kalimantan Selatan&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Kalimantan Tengah&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Maluku&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Maluku Utara&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Nusa Tenggara Barat&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Nusa Tenggara Timur&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Papua&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Riau&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Sulawesi Selatan&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Sulawesi Tengah&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Sumatera Barat&quot;' />
+                  <groupfilter function='member' level='[none:provinsi:nk]' member='&quot;Sumatera Utara&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:provinsi:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:pengungsi:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:provinsi:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:pengungsi:qk]' value='50' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' value='120' />
+            <format attr='width' value='198' />
+            <format attr='text-align' data-class='subtotal' scope='rows' value='center' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:provinsi:nk]' value='164' />
+            <format attr='text-align' data-class='subtotal' scope='rows' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' scope='rows' value='center' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:pengungsi:qk]' max='408106' min='157419' num-steps='18' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:tingkat_risiko:nk]' />
+              <text column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:pengungsi:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:provinsi:nk]</rows>
+        <cols>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:pengungsi:qk]</cols>
+      </table>
+      <simple-id uuid='{5C90B0B2-3711-4289-97D2-4BE7DFE8578A}' />
+    </worksheet>
+    <worksheet name='Rata-rata Kejadian / Provinsi'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontsize='10'>Rata-rata Kejadian / Provinsi</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://localhost:8080/workbooks/INDISExecutiveSummary/129788075?rev=' id='Rata-rataKejadianProvinsi' path='/workbooks/INDISExecutiveSummary_17911910860420' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INDIS_Dataset' name='federated.1ddni8m0e2qsoz11wvct20lp32xl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ddni8m0e2qsoz11wvct20lp32xl'>
+            <column caption='Rata-rata Kejadian per Provinsi' datatype='real' name='[Calculation_1590509441736704]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED : SUM([jumlah_kejadian]) } / { FIXED : COUNTD([provinsi]) }' />
+            </column>
+            <column caption='Jumlah Kejadian' datatype='integer' name='[jumlah_kejadian]' role='measure' type='quantitative' />
+            <column caption='Provinsi' datatype='string' name='[provinsi]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Calculation_1590509441736704]' derivation='Sum' name='[sum:Calculation_1590509441736704:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' data-class='subtotal' scope='cols' value='center' />
+            <format attr='text-align' data-class='total' scope='rows' value='center' />
+            <format attr='text-align' data-class='subtotal' scope='rows' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' scope='cols' value='center' />
+            <format attr='text-align' scope='rows' value='center' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:Calculation_1590509441736704:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='2.066298246383667' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B5EB77F3-1257-4CDA-A8B4-9BAC80B23954}' />
+    </worksheet>
+    <worksheet name='Status Laporan'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>Status Laporan</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://localhost:8080/workbooks/INDISExecutiveSummary/129788076?rev=' id='StatusLaporan' path='/workbooks/INDISExecutiveSummary_17911910860420' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INDIS_Dataset' name='federated.1ddni8m0e2qsoz11wvct20lp32xl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ddni8m0e2qsoz11wvct20lp32xl'>
+            <column caption='Jumlah Kejadian ' datatype='integer' name='[Jumlah Kejadian (copy)_1590509451309061]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[jumlah_kejadian]' />
+            </column>
+            <column caption='Jumlah Kejadian' datatype='integer' name='[jumlah_kejadian]' role='measure' type='quantitative' />
+            <column-instance column='[status_penanganan]' derivation='None' name='[none:status_penanganan:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Jumlah Kejadian (copy)_1590509451309061]' derivation='Sum' name='[pcto:sum:Jumlah Kejadian (copy)_1590509451309061:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column caption='Status Penanganan' datatype='string' name='[status_penanganan]' role='dimension' type='nominal' />
+            <column-instance column='[jumlah_kejadian]' derivation='Sum' name='[sum:jumlah_kejadian:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:jumlah_kejadian:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ddni8m0e2qsoz11wvct20lp32xl].[pcto:sum:Jumlah Kejadian (copy)_1590509451309061:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:jumlah_kejadian:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ddni8m0e2qsoz11wvct20lp32xl].[pcto:sum:Jumlah Kejadian (copy)_1590509451309061:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#0a3308' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:status_penanganan:nk]' value='128' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:status_penanganan:nk]' />
+              <text column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:status_penanganan:nk]</rows>
+        <cols>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{FBC9F25E-4A7F-4D71-AB45-EDCB29476311}' />
+    </worksheet>
+    <worksheet name='Total Bencana'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Total Bencana</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://localhost:8080/workbooks/INDISExecutiveSummary/129788072?rev=' id='TotalBencana' path='/workbooks/INDISExecutiveSummary_17911910860420' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INDIS_Dataset' name='federated.1ddni8m0e2qsoz11wvct20lp32xl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ddni8m0e2qsoz11wvct20lp32xl'>
+            <column caption='Jumlah Kejadian' datatype='integer' name='[jumlah_kejadian]' role='measure' type='quantitative' />
+            <column-instance column='[jumlah_kejadian]' derivation='Sum' name='[sum:jumlah_kejadian:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='text-align' data-class='subtotal' value='left' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' scope='rows' value='left' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:jumlah_kejadian:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='2.022099494934082' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B53BAEE8-737E-4946-B7B1-4EEAE875A827}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='EXECUTIVE SUMMARY - MONITORING BENCANA NASIONAL'>
+      <repository-location derived-from='https://localhost:8080/workbooks/INDISExecutiveSummary/129788079?rev=' id='EXECUTIVESUMMARY-MONITORINGBENCANANASIONAL' path='/workbooks/INDISExecutiveSummary_17911910860420' revision='' />
+      <style>
+        <style-rule element='dash-text'>
+          <format attr='text-align' id='dash-text_3' value='center' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98230' id='10' param='horz' type-v2='layout-flow' w='99064' x='468' y='885'>
+            <zone h='98230' id='5' param='horz' type-v2='layout-flow' w='99064' x='468' y='885' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='9677' id='3' type-v2='text' w='100751' x='-751' y='-124'>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='18'>EXECUTIVE SUMMARY</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#00007fd0' />
+          </zone-style>
+        </zone>
+        <zone h='9553' id='6' name='Total Bencana' w='16895' x='249' y='11538'>
+          <layout-cache fixed-size-h='219' fixed-size-w='198' type-h='fixed' type-w='fixed' />
+        </zone>
+        <zone h='9553' id='7' name='Korban Jiwa' w='16521' x='20449' y='11538'>
+          <layout-cache fixed-size-h='219' fixed-size-w='198' type-h='fixed' type-w='fixed' />
+        </zone>
+        <zone fixed-size='160' h='30645' id='9' is-fixed='true' param='vert' type-v2='layout-flow' w='52369' x='1621' y='63151'>
+          <zone fixed-size='207' h='23783' id='14' is-fixed='true' name='Jenis Bencana Dominan' w='52369' x='1621' y='63151'>
+            <layout-cache type-h='fixed' type-w='fixed' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone h='31017' id='8' name='Provinsi Paling Terdampak' w='52743' x='1247' y='28536'>
+          <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+        </zone>
+        <zone h='9305' id='11' name='Pengungsi' w='13342' x='42332' y='11538'>
+          <layout-cache fixed-size-h='177' fixed-size-w='198' type-h='fixed' type-w='fixed' />
+        </zone>
+        <zone forceUpdate='true' h='44541' id='15' type-v2='text' w='42332' x='55299' y='27047'>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontsize='12'>Rekomendasi aksi untuk pimpinan </run>
+            <run bold='true' fontcolor='#9d0a0a' fontsize='12'>[P R I O R I T A S]</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#000000' fontsize='12'>- Prioritas Logistik Maluku Utara</run>
+            <run fontcolor='#000000' fontsize='12'> — Wilayah terdampak pengungsi terbesar (4,9jt jiwa secara kumulatif). Perlu penguatan cadangan pangan regional.</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#000000' fontsize='12'>- Mitigasi Bencana Banjir</run>
+            <run fontcolor='#000000' fontsize='12'> — Merupakan jenis bencana dominan (27,5% dari total). Perlu audit infrastruktur drainase di titik rapi banjir.</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#000000' fontsize='12'>- Optimalisasi Respon di Sulawesi Tengah</run>
+            <run fontcolor='#000000' fontsize='12'> — Memiliki frekuensi kejadian tinggi. Perlu evaluasi rasio personel lapangan dibanding jumlah kejadian.</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#000000' fontsize='12'>- Akselerasi Penanganan Laporan</run>
+            <run fontcolor='#000000' fontsize='12'> — Terdapat 7,13% laporan &quot;Belum Ditangani&quot;. Targetkan standarisasi waktu penyelesaian untuk periode mendatang.</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='2978' id='16' type-v2='text' w='8479' x='84102' y='12531'>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Tableau Light' fontsize='10'>Uptime SOC </run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3598' id='17' type-v2='text' w='6234' x='85536' y='16998'>
+          <formatted-text>
+            <run fontname='Tableau Regular' fontsize='12'>99,7%</run>
+          </formatted-text>
+        </zone>
+        <zone h='9429' id='18' name='Rata-rata Kejadian / Provinsi' w='18204' x='61534' y='11538' />
+        <zone h='22953' id='19' name='Status Laporan' w='33791' x='55923' y='71216' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98230' id='32' param='vert' type-v2='layout-flow' w='99064' x='468' y='885'>
+                <zone forceUpdate='true' h='9677' id='3' type-v2='text' w='100751' x='-751' y='-124'>
+                  <formatted-text>
+                    <run fontcolor='#ffffff' fontname='Tableau Bold' fontsize='18'>EXECUTIVE SUMMARY</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#00007fd0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='77' h='9553' id='6' is-fixed='true' name='Total Bencana' w='16895' x='249' y='11538'>
+                  <layout-cache fixed-size-h='219' fixed-size-w='198' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='77' h='9553' id='7' is-fixed='true' name='Korban Jiwa' w='16521' x='20449' y='11538'>
+                  <layout-cache fixed-size-h='219' fixed-size-w='198' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='75' h='9305' id='11' is-fixed='true' name='Pengungsi' w='13342' x='42332' y='11538'>
+                  <layout-cache fixed-size-h='177' fixed-size-w='198' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='76' h='9429' id='18' is-fixed='true' name='Rata-rata Kejadian / Provinsi' w='18204' x='61534' y='11538'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='2978' id='16' type-v2='text' w='8479' x='84102' y='12531'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Tableau Light' fontsize='10'>Uptime SOC </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3598' id='17' type-v2='text' w='6234' x='85536' y='16998'>
+                  <formatted-text>
+                    <run fontname='Tableau Regular' fontsize='12'>99,7%</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='44541' id='15' type-v2='text' w='42332' x='55299' y='27047'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontsize='12'>Rekomendasi aksi untuk pimpinan </run>
+                    <run bold='true' fontcolor='#9d0a0a' fontsize='12'>[P R I O R I T A S]</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontsize='12'>- Prioritas Logistik Maluku Utara</run>
+                    <run fontcolor='#000000' fontsize='12'> — Wilayah terdampak pengungsi terbesar (4,9jt jiwa secara kumulatif). Perlu penguatan cadangan pangan regional.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontsize='12'>- Mitigasi Bencana Banjir</run>
+                    <run fontcolor='#000000' fontsize='12'> — Merupakan jenis bencana dominan (27,5% dari total). Perlu audit infrastruktur drainase di titik rapi banjir.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontsize='12'>- Optimalisasi Respon di Sulawesi Tengah</run>
+                    <run fontcolor='#000000' fontsize='12'> — Memiliki frekuensi kejadian tinggi. Perlu evaluasi rasio personel lapangan dibanding jumlah kejadian.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontsize='12'>- Akselerasi Penanganan Laporan</run>
+                    <run fontcolor='#000000' fontsize='12'> — Terdapat 7,13% laporan &quot;Belum Ditangani&quot;. Targetkan standarisasi waktu penyelesaian untuk periode mendatang.</run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='248' h='31017' id='8' is-fixed='true' name='Provinsi Paling Terdampak' w='52743' x='1247' y='28536'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='182' h='23783' id='14' is-fixed='true' name='Jenis Bencana Dominan' w='52369' x='1621' y='63151'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='183' h='22953' id='19' is-fixed='true' name='Status Laporan' w='33791' x='55923' y='71216'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CA742BC9-DB01-4DC2-8867-594F22B32F8F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='44'>
+    <window class='worksheet' name='Total Bencana'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{CEB78A24-670B-44A1-9F73-0185E60478EC}' />
+    </window>
+    <window class='worksheet' name='Korban Jiwa'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F6DB8A88-F1C7-4340-9564-21DA0C8467F3}' />
+    </window>
+    <window class='worksheet' name='Pengungsi'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[sum:pengungsi:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4939182</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+      </viewpoint>
+      <simple-id uuid='{A859A317-1F65-4F6F-B8AA-911A0DA9DAC2}' />
+    </window>
+    <window class='worksheet' name='Rata-rata Kejadian / Provinsi'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{E9180CE5-AF01-40D0-B9F0-4696DAF74C2D}' />
+    </window>
+    <window class='worksheet' name='Status Laporan'>
+      <cards>
+        <edge name='left'>
+          <strip size='191'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:id:ok]</field>
+            <field>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:status_penanganan:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C5200537-A48A-4A17-927C-24456CFF470B}' />
+    </window>
+    <window class='worksheet' name='Provinsi Paling Terdampak'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='156'>
+            <card param='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:provinsi:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:tingkat_risiko:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:provinsi:nk]</field>
+            <field>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:tingkat_risiko:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{54C1603B-F90A-4B35-9D59-8D28A606E9A5}' />
+    </window>
+    <window class='worksheet' name='Jenis Bencana Dominan'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:jenis_bencana:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ddni8m0e2qsoz11wvct20lp32xl].[none:jenis_bencana:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CC2C035D-7D2B-4BDE-AD97-EF1EEADECD21}' />
+    </window>
+    <window class='dashboard' maximized='true' name='EXECUTIVE SUMMARY - MONITORING BENCANA NASIONAL'>
+      <viewpoints>
+        <viewpoint name='Jenis Bencana Dominan' />
+        <viewpoint name='Korban Jiwa'>
+          <zoom type='entire-view' />
+          <floating-toolbar-visibility value='1' />
+        </viewpoint>
+        <viewpoint name='Pengungsi'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Provinsi Paling Terdampak'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Rata-rata Kejadian / Provinsi'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Status Laporan'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Bencana'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='15' />
+      <simple-id uuid='{D75A544B-5FFC-4B03-899D-0ECC4026ED5B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='EXECUTIVE SUMMARY - MONITORING BENCANA NASIONAL' width='192'>
+      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
+      SPP/AdvM6IUs7xCtAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

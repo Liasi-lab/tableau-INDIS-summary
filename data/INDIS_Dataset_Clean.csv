@@ -1,0 +1,1001 @@
+id,tanggal_kejadian,bulan,tahun,jenis_bencana,provinsi,kabupaten_kota,dc_regional,jumlah_kejadian,korban_jiwa,korban_luka,pengungsi,rumah_terdampak,tingkat_risiko,status_penanganan,sensor_id,response_time_detik,latitude,longitude
+1,2024-10-09,10,2024,Banjir,Kalimantan Tengah,Kab. Kotawaringin Barat,DC Kalimantan,6,43,189,14617,2233,AWAS,Belum Ditangani,SN-0039,3.2,-2.684317,113.507195
+2,2024-01-21,1,2024,Cuaca Ekstrem,Bali,Kab. Tabanan,DC Jawa-Bali,49,8,51,1780,3,WASPADA,Selesai,SN-0010,3.7,-8.034681,115.290139
+3,2025-02-04,2,2025,Cuaca Ekstrem,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,30,8,51,88,373,WASPADA,Selesai,SN-0036,3.9,-7.947672,113.094516
+4,2025-03-29,3,2025,Banjir,Maluku,Kab. Kepulauan Aru,DC Maluku,6,2,169,3733,1185,SIAGA,Selesai,SN-0024,10.1,-2.872016,130.025426
+5,2024-02-22,2,2024,Banjir,Kalimantan Selatan,Kota Banjarmasin,DC Kalimantan,25,46,62,2677,1893,AWAS,Dalam Proses,SN-0021,3.1,-2.667209,115.471962
+6,2025-12-08,12,2025,Banjir,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,21,13,145,14358,2940,AWAS,Dalam Proses,SN-0010,5.2,-7.150769,110.524983
+7,2024-03-18,3,2024,Tanah Longsor,Bali,Kab. Bangli,DC Jawa-Bali,9,37,51,2965,224,AWAS,Belum Ditangani,SN-0041,2.5,-8.749591,114.639116
+8,2025-02-20,2,2025,Kekeringan,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,44,2,17,440,0,AMAN,Selesai,SN-0018,4.7,-7.763178,112.80311
+9,2024-11-10,11,2024,Cuaca Ekstrem,Papua,Kab. Mimika,DC Papua,41,5,32,1869,54,WASPADA,Selesai,SN-0010,11.5,-4.471455,138.219349
+10,2024-04-25,4,2024,Erupsi Gunung Api,DI Yogyakarta,Kab. Sleman,DC Jawa-Bali,20,0,28,11894,1799,AWAS,Dalam Proses,SN-0047,2.4,-8.054728,110.436857
+11,2024-06-25,6,2024,Tanah Longsor,Bali,Kab. Buleleng,DC Jawa-Bali,39,35,21,2171,540,AWAS,Dalam Proses,SN-0013,5.6,-8.628702,115.131296
+12,2024-11-22,11,2024,Tanah Longsor,Maluku,Kab. Buru,DC Maluku,2,15,28,524,346,SIAGA,Selesai,SN-0041,6.6,-3.508385,129.865517
+13,2024-01-02,1,2024,Cuaca Ekstrem,Nusa Tenggara Barat,Kab. Lombok Utara,DC Nusa Tenggara,47,15,13,1104,67,SIAGA,Selesai,SN-0027,8.7,-8.581857,117.334271
+14,2024-02-14,2,2024,Banjir,Maluku,Kab. Buru,DC Maluku,4,43,167,10587,403,AWAS,Dalam Proses,SN-0013,8.2,-3.399197,130.506973
+15,2024-08-06,8,2024,Banjir,Kalimantan Selatan,Kab. Tapin,DC Kalimantan,42,28,140,1604,207,SIAGA,Selesai,SN-0016,6.6,-2.756572,115.752796
+16,2024-02-07,2,2024,Banjir,Maluku Utara,Kota Ternate,DC Maluku,19,24,67,12846,1863,AWAS,Dalam Proses,SN-0046,11.0,1.240618,127.862123
+17,2024-06-07,6,2024,Banjir,Jawa Tengah,Kab. Purworejo,DC Jawa-Bali,31,20,14,821,2392,SIAGA,Selesai,SN-0006,6.8,-6.79728,109.797733
+18,2024-12-03,12,2024,Tanah Longsor,Kalimantan Tengah,Kab. Barito Selatan,DC Kalimantan,6,37,76,325,634,AWAS,Dalam Proses,SN-0014,6.7,-2.132428,113.936283
+19,2024-10-09,10,2024,Banjir,Maluku Utara,Kab. Halmahera Utara,DC Maluku,30,20,192,1188,38,SIAGA,Selesai,SN-0033,10.8,0.846294,126.966681
+20,2025-03-29,3,2025,Tanah Longsor,Jawa Timur,Kab. Lumajang,DC Jawa-Bali,42,28,69,2478,626,SIAGA,Selesai,SN-0007,6.7,-7.816037,112.676002
+21,2024-12-04,12,2024,Tanah Longsor,Sumatera Barat,Kab. Tanah Datar,DC Sumatra,44,38,26,2808,208,AWAS,Belum Ditangani,SN-0004,6.5,-0.975916,100.788532
+22,2024-01-09,1,2024,Tanah Longsor,Jawa Tengah,Kota Semarang,DC Jawa-Bali,29,40,33,1323,759,AWAS,Belum Ditangani,SN-0045,2.4,-7.222313,109.64997
+23,2024-12-27,12,2024,Gempa Bumi,Maluku,Kab. Kepulauan Aru,DC Maluku,3,16,21,10101,2987,AWAS,Selesai,SN-0036,6.9,-3.528423,129.89483
+24,2024-12-20,12,2024,Erupsi Gunung Api,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,12,25,45,13510,50,AWAS,Selesai,SN-0048,6.0,1.898885,99.505816
+25,2024-11-26,11,2024,Kebakaran Hutan dan Lahan,Sumatera Barat,Kab. Pesisir Selatan,DC Sumatra,23,1,6,836,117,WASPADA,Selesai,SN-0002,3.1,-0.934709,101.095345
+26,2024-10-09,10,2024,Kekeringan,Jawa Timur,Kab. Jember,DC Jawa-Bali,12,2,0,59,0,AMAN,Selesai,SN-0039,2.2,-7.90331,113.104951
+27,2025-05-11,5,2025,Banjir,Papua,Kab. Nabire,DC Papua,46,36,48,4173,181,AWAS,Dalam Proses,SN-0048,12.2,-4.24998,138.386911
+28,2024-11-14,11,2024,Cuaca Ekstrem,Jawa Timur,Kab. Jember,DC Jawa-Bali,33,3,46,1843,153,WASPADA,Selesai,SN-0019,4.0,-8.174615,112.529793
+29,2024-08-22,8,2024,Banjir,Maluku Utara,Kab. Halmahera Utara,DC Maluku,14,35,0,4978,1175,AWAS,Dalam Proses,SN-0029,10.2,0.863285,127.521406
+30,2024-10-26,10,2024,Tsunami,Sulawesi Tengah,Kab. Palu,DC Sulawesi,49,85,47,26818,7798,AWAS,Dalam Proses,SN-0003,2.7,-1.081281,120.177263
+31,2024-02-28,2,2024,Tanah Longsor,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,10,24,63,3273,249,SIAGA,Selesai,SN-0007,5.9,-8.478355,112.872364
+32,2024-11-26,11,2024,Tanah Longsor,DI Yogyakarta,Kab. Kulon Progo,DC Jawa-Bali,43,7,58,1092,475,WASPADA,Selesai,SN-0049,3.6,-7.764468,110.428425
+33,2025-12-24,12,2025,Tanah Longsor,DI Yogyakarta,Kab. Kulon Progo,DC Jawa-Bali,17,10,95,3888,460,SIAGA,Selesai,SN-0032,5.9,-7.455737,110.146811
+34,2024-10-03,10,2024,Cuaca Ekstrem,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,25,2,8,308,118,AMAN,Selesai,SN-0027,4.4,-8.46335,121.285819
+35,2024-03-02,3,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,37,0,54,1803,391,WASPADA,Selesai,SN-0049,3.8,-5.267319,118.938596
+36,2025-04-27,4,2025,Tanah Longsor,Papua,Kab. Nabire,DC Papua,18,38,28,3999,224,AWAS,Dalam Proses,SN-0026,12.1,-4.740875,137.91653
+37,2025-11-30,11,2025,Erupsi Gunung Api,Sumatera Utara,Kab. Karo,DC Sumatra,6,18,144,21725,55,AWAS,Belum Ditangani,SN-0025,2.3,1.702399,99.036698
+38,2024-03-11,3,2024,Kebakaran Hutan dan Lahan,Maluku Utara,Kab. Halmahera Barat,DC Maluku,2,2,26,83,120,AMAN,Selesai,SN-0015,14.6,1.032324,126.918786
+39,2025-10-21,10,2025,Banjir,Jawa Tengah,Kota Semarang,DC Jawa-Bali,9,1,159,2496,977,WASPADA,Selesai,SN-0030,6.7,-7.176439,109.754689
+40,2025-11-06,11,2025,Banjir,Sumatera Barat,Kab. Padang Pariaman,DC Sumatra,25,1,79,9433,2774,SIAGA,Dalam Proses,SN-0041,5.5,-0.524885,100.375996
+41,2025-02-10,2,2025,Banjir,Sumatera Barat,Kab. Tanah Datar,DC Sumatra,33,27,169,6071,282,SIAGA,Selesai,SN-0028,4.5,-1.227248,100.720059
+42,2025-12-27,12,2025,Cuaca Ekstrem,Aceh,Kab. Pidie,DC Sumatra,47,15,29,892,422,SIAGA,Selesai,SN-0018,6.7,4.517405,96.494895
+43,2024-12-15,12,2024,Cuaca Ekstrem,Maluku Utara,Kab. Halmahera Barat,DC Maluku,17,5,31,434,181,WASPADA,Selesai,SN-0018,12.3,0.623639,127.74702
+44,2024-08-07,8,2024,Tanah Longsor,Jawa Timur,Kab. Lumajang,DC Jawa-Bali,46,15,88,3900,661,SIAGA,Selesai,SN-0045,3.1,-7.690967,112.214453
+45,2025-02-12,2,2025,Kebakaran Hutan dan Lahan,Riau,Kab. Bengkalis,DC Sumatra,45,5,17,338,90,WASPADA,Selesai,SN-0047,3.2,0.487045,101.256623
+46,2024-02-18,2,2024,Gempa Bumi,Sulawesi Tengah,Kab. Donggala,DC Sulawesi,7,35,268,19555,2318,AWAS,Selesai,SN-0046,3.5,-1.095454,119.731581
+47,2024-08-02,8,2024,Banjir,Bali,Kab. Bangli,DC Jawa-Bali,37,48,125,1680,50,AWAS,Dalam Proses,SN-0017,6.8,-8.361786,114.932706
+48,2024-12-27,12,2024,Banjir,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,20,9,38,13289,2305,AWAS,Dalam Proses,SN-0039,4.1,-8.235709,112.679473
+49,2024-11-17,11,2024,Banjir,Maluku Utara,Kab. Tidore,DC Maluku,40,37,109,5003,2329,AWAS,Dalam Proses,SN-0041,12.9,1.243409,126.965934
+50,2025-02-06,2,2025,Tanah Longsor,Kalimantan Tengah,Kab. Kotawaringin Barat,DC Kalimantan,39,0,52,3690,705,SIAGA,Selesai,SN-0030,3.4,-2.68346,113.701605
+51,2024-01-09,1,2024,Banjir,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,10,41,38,14883,1088,AWAS,Dalam Proses,SN-0037,5.7,-5.481777,119.240312
+52,2024-12-15,12,2024,Tanah Longsor,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,3,31,56,658,612,AWAS,Selesai,SN-0015,4.2,-8.422766,121.183114
+53,2025-12-19,12,2025,Tanah Longsor,Jawa Barat,Kab. Sukabumi,DC Jawa-Bali,12,30,66,3622,284,SIAGA,Selesai,SN-0031,6.8,-6.981615,107.933345
+54,2024-04-22,4,2024,Cuaca Ekstrem,Sumatera Barat,Kab. Padang Pariaman,DC Sumatra,26,15,18,1356,483,SIAGA,Selesai,SN-0021,3.6,-0.689803,100.754826
+55,2025-01-28,1,2025,Tanah Longsor,DI Yogyakarta,Kab. Sleman,DC Jawa-Bali,24,26,6,1536,530,SIAGA,Selesai,SN-0018,2.3,-7.797107,110.311541
+56,2025-08-15,8,2025,Tanah Longsor,Riau,Kab. Pelalawan,DC Sumatra,36,10,39,4512,14,SIAGA,Selesai,SN-0008,2.6,0.258001,101.791406
+57,2024-10-30,10,2024,Tanah Longsor,Nusa Tenggara Timur,Kab. Manggarai,DC Nusa Tenggara,36,30,60,1996,467,SIAGA,Dalam Proses,SN-0009,8.5,-8.96669,121.178778
+58,2024-12-26,12,2024,Tanah Longsor,Papua,Kab. Merauke,DC Papua,38,0,36,2445,601,WASPADA,Selesai,SN-0035,7.3,-3.770998,138.07004
+59,2024-06-25,6,2024,Tanah Longsor,Bali,Kab. Tabanan,DC Jawa-Bali,25,12,89,1956,585,SIAGA,Dalam Proses,SN-0046,5.7,-8.064956,114.635647
+60,2024-12-22,12,2024,Banjir,Sumatera Utara,Kota Medan,DC Sumatra,29,37,84,14249,411,AWAS,Dalam Proses,SN-0042,2.7,2.477142,98.590348
+61,2024-12-26,12,2024,Tanah Longsor,Kalimantan Selatan,Kab. Hulu Sungai,DC Kalimantan,21,5,42,4371,389,SIAGA,Selesai,SN-0040,4.7,-2.705161,115.271747
+62,2025-01-30,1,2025,Tanah Longsor,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,11,6,97,823,454,WASPADA,Selesai,SN-0004,4.3,-8.463299,121.482824
+63,2024-03-05,3,2024,Tanah Longsor,Kalimantan Tengah,Kab. Seruyan,DC Kalimantan,25,10,22,646,624,WASPADA,Selesai,SN-0010,6.6,-2.09639,113.65433
+64,2025-02-15,2,2025,Tanah Longsor,Kalimantan Selatan,Kota Banjarmasin,DC Kalimantan,5,18,86,4477,161,SIAGA,Selesai,SN-0028,5.2,-3.247034,115.371372
+65,2024-11-10,11,2024,Banjir,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,19,24,146,5881,2354,SIAGA,Selesai,SN-0018,5.3,-5.352469,119.910644
+66,2025-01-25,1,2025,Kebakaran Hutan dan Lahan,Jawa Tengah,Kab. Purworejo,DC Jawa-Bali,39,2,24,818,58,WASPADA,Selesai,SN-0017,3.0,-6.848068,109.859305
+67,2025-10-22,10,2025,Cuaca Ekstrem,Sumatera Utara,Kab. Tapanuli Utara,DC Sumatra,38,9,50,902,17,WASPADA,Selesai,SN-0021,6.5,1.931561,98.706412
+68,2024-11-05,11,2024,Tanah Longsor,Bali,Kab. Bangli,DC Jawa-Bali,48,10,32,3947,302,SIAGA,Selesai,SN-0049,2.4,-8.036267,115.060331
+69,2025-12-24,12,2025,Tsunami,Maluku Utara,Kab. Morotai,DC Maluku,30,3,135,17582,1012,AWAS,Dalam Proses,SN-0041,9.4,1.032312,127.128861
+70,2024-12-08,12,2024,Erupsi Gunung Api,Riau,Kab. Pelalawan,DC Sumatra,41,10,56,21222,129,AWAS,Selesai,SN-0009,4.0,0.942688,101.25219
+71,2024-01-16,1,2024,Cuaca Ekstrem,Sumatera Barat,Kab. Agam,DC Sumatra,43,4,24,929,189,WASPADA,Selesai,SN-0038,4.7,-0.290519,100.996484
+72,2024-11-14,11,2024,Tsunami,Sumatera Barat,Kab. Pesisir Selatan,DC Sumatra,14,71,16,22619,3035,AWAS,Dalam Proses,SN-0044,2.5,-0.289345,101.15545
+73,2025-04-21,4,2025,Tanah Longsor,Maluku,Kota Ambon,DC Maluku,14,7,58,750,678,WASPADA,Selesai,SN-0022,6.2,-3.096796,130.242446
+74,2024-02-19,2,2024,Cuaca Ekstrem,Sulawesi Selatan,Kota Makassar,DC Sulawesi,22,6,52,1781,119,WASPADA,Selesai,SN-0018,5.0,-4.873331,119.721344
+75,2024-12-05,12,2024,Banjir,Bali,Kab. Bangli,DC Jawa-Bali,16,1,33,243,1467,AMAN,Selesai,SN-0009,3.3,-8.251647,114.607781
+76,2024-11-24,11,2024,Cuaca Ekstrem,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,40,3,28,1031,113,WASPADA,Selesai,SN-0034,6.3,-8.440535,112.904627
+77,2025-03-01,3,2025,Tanah Longsor,Jawa Tengah,Kab. Cilacap,DC Jawa-Bali,6,6,62,3633,75,SIAGA,Dalam Proses,SN-0038,5.1,-7.501666,109.766492
+78,2024-08-20,8,2024,Erupsi Gunung Api,DI Yogyakarta,Kab. Gunung Kidul,DC Jawa-Bali,50,3,29,21453,1333,AWAS,Belum Ditangani,SN-0027,6.4,-7.430108,110.29957
+79,2024-03-14,3,2024,Cuaca Ekstrem,Sumatera Barat,Kota Padang,DC Sumatra,44,8,23,1952,78,WASPADA,Selesai,SN-0006,6.2,-0.316915,100.367133
+80,2025-05-12,5,2025,Cuaca Ekstrem,Sumatera Utara,Kab. Karo,DC Sumatra,43,3,26,724,447,WASPADA,Selesai,SN-0004,6.6,2.50783,98.997937
+81,2025-12-12,12,2025,Banjir,Sumatera Barat,Kab. Tanah Datar,DC Sumatra,23,42,123,3674,443,AWAS,Selesai,SN-0028,4.9,-0.872339,101.062606
+82,2025-12-27,12,2025,Cuaca Ekstrem,Bali,Kab. Karangasem,DC Jawa-Bali,45,8,1,369,139,WASPADA,Selesai,SN-0012,3.8,-8.07809,115.513538
+83,2025-12-13,12,2025,Erupsi Gunung Api,Jawa Timur,Kab. Lumajang,DC Jawa-Bali,27,2,135,7049,770,SIAGA,Selesai,SN-0037,3.6,-8.326491,112.433037
+84,2025-09-05,9,2025,Banjir,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,32,17,113,10845,1736,AWAS,Belum Ditangani,SN-0023,4.6,-0.977516,119.586269
+85,2024-05-22,5,2024,Banjir,Riau,Kab. Bengkalis,DC Sumatra,14,25,153,897,31,SIAGA,Dalam Proses,SN-0021,3.3,0.244534,101.087235
+86,2024-01-14,1,2024,Tanah Longsor,Sulawesi Tengah,Kab. Donggala,DC Sulawesi,26,32,71,2901,73,AWAS,Selesai,SN-0021,6.6,-1.349398,119.389442
+87,2025-09-23,9,2025,Banjir,Papua,Kab. Merauke,DC Papua,30,20,43,13128,2531,AWAS,Selesai,SN-0016,13.6,-3.85013,137.66853
+88,2024-05-03,5,2024,Banjir,Maluku Utara,Kab. Halmahera Barat,DC Maluku,41,49,43,1251,2090,AWAS,Dalam Proses,SN-0047,9.1,0.793252,127.772623
+89,2025-12-05,12,2025,Tanah Longsor,Kalimantan Tengah,Kab. Palangkaraya,DC Kalimantan,49,11,77,1252,778,SIAGA,Selesai,SN-0049,4.5,-2.538954,114.186348
+90,2025-09-22,9,2025,Banjir,Nusa Tenggara Barat,Kab. Sumbawa,DC Nusa Tenggara,18,30,113,10344,1240,AWAS,Belum Ditangani,SN-0003,6.8,-8.800958,116.935791
+91,2025-01-03,1,2025,Kekeringan,Jawa Timur,Kab. Bojonegoro,DC Jawa-Bali,29,3,18,283,0,WASPADA,Selesai,SN-0039,2.9,-7.57485,112.693057
+92,2024-06-02,6,2024,Kebakaran Hutan dan Lahan,Aceh,Kab. Aceh Besar,DC Sumatra,12,5,2,516,165,WASPADA,Selesai,SN-0034,7.0,4.234242,96.957022
+93,2024-07-12,7,2024,Cuaca Ekstrem,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,22,1,50,1292,331,WASPADA,Selesai,SN-0019,8.1,-9.091388,120.673906
+94,2025-03-31,3,2025,Tanah Longsor,Sumatera Utara,Kab. Nias,DC Sumatra,39,22,39,3210,132,SIAGA,Selesai,SN-0022,5.2,1.651419,99.133922
+95,2025-11-27,11,2025,Tanah Longsor,DI Yogyakarta,Kab. Sleman,DC Jawa-Bali,12,23,2,2970,316,SIAGA,Selesai,SN-0009,3.0,-7.953868,110.635656
+96,2024-02-26,2,2024,Kebakaran Hutan dan Lahan,Sumatera Barat,Kab. Tanah Datar,DC Sumatra,50,4,1,677,86,WASPADA,Selesai,SN-0012,2.8,-0.621869,100.897246
+97,2025-11-26,11,2025,Cuaca Ekstrem,Sulawesi Tengah,Kab. Parigi Moutong,DC Sulawesi,49,7,28,1250,145,WASPADA,Selesai,SN-0020,4.7,-0.643163,119.819628
+98,2025-12-29,12,2025,Cuaca Ekstrem,Sulawesi Selatan,Kab. Maros,DC Sulawesi,50,14,29,1575,144,SIAGA,Dalam Proses,SN-0039,6.1,-5.12024,119.898968
+99,2024-02-21,2,2024,Banjir,Riau,Kab. Rokan Hilir,DC Sumatra,19,45,132,13945,510,AWAS,Dalam Proses,SN-0028,4.6,0.193612,101.399319
+100,2025-01-27,1,2025,Tanah Longsor,Aceh,Kab. Bireuen,DC Sumatra,25,25,64,3063,241,SIAGA,Selesai,SN-0046,6.7,4.570013,96.277588
+101,2025-10-05,10,2025,Tanah Longsor,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,40,8,97,3842,459,SIAGA,Dalam Proses,SN-0036,6.2,-7.570774,109.896224
+102,2025-12-14,12,2025,Banjir,Sumatera Barat,Kota Padang,DC Sumatra,40,3,61,6878,2617,SIAGA,Selesai,SN-0002,5.0,-1.129042,101.205147
+103,2025-10-23,10,2025,Cuaca Ekstrem,Sumatera Utara,Kab. Nias,DC Sumatra,43,7,36,853,95,WASPADA,Selesai,SN-0034,3.8,2.234915,99.098485
+104,2025-08-17,8,2025,Tanah Longsor,Bali,Kab. Karangasem,DC Jawa-Bali,17,2,81,3169,382,SIAGA,Selesai,SN-0043,3.2,-8.483406,114.65956
+105,2025-10-24,10,2025,Kekeringan,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,45,2,20,89,0,AMAN,Selesai,SN-0046,4.8,-8.674369,117.043878
+106,2024-11-10,11,2024,Kebakaran Hutan dan Lahan,Sulawesi Selatan,Kota Makassar,DC Sulawesi,26,2,29,317,131,AMAN,Selesai,SN-0049,3.3,-4.658577,119.475731
+107,2024-10-28,10,2024,Cuaca Ekstrem,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,29,13,56,819,380,SIAGA,Selesai,SN-0032,4.5,-7.263355,110.614024
+108,2025-04-09,4,2025,Tanah Longsor,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,6,34,37,2631,105,AWAS,Dalam Proses,SN-0011,5.6,-8.18826,112.567316
+109,2024-11-02,11,2024,Banjir,Maluku,Kab. Kepulauan Aru,DC Maluku,41,50,14,1229,2749,AWAS,Dalam Proses,SN-0002,7.4,-3.225414,130.395198
+110,2025-02-26,2,2025,Tanah Longsor,Aceh,Kab. Aceh Besar,DC Sumatra,3,23,46,3136,580,SIAGA,Selesai,SN-0049,3.9,4.874162,97.198224
+111,2024-01-12,1,2024,Banjir,Maluku Utara,Kab. Halmahera Barat,DC Maluku,32,7,6,12053,762,AWAS,Belum Ditangani,SN-0046,13.0,1.196843,126.984461
+112,2025-05-10,5,2025,Banjir,Riau,Kab. Indragiri Hilir,DC Sumatra,29,28,44,14723,2921,AWAS,Selesai,SN-0043,6.9,0.843813,101.917561
+113,2024-04-18,4,2024,Cuaca Ekstrem,Nusa Tenggara Timur,Kab. Sikka,DC Nusa Tenggara,15,5,50,740,260,WASPADA,Selesai,SN-0032,4.8,-9.035938,120.78038
+114,2025-01-12,1,2025,Banjir,Aceh,Kab. Aceh Utara,DC Sumatra,47,4,79,6523,2936,SIAGA,Selesai,SN-0009,4.9,4.605895,96.658834
+115,2025-12-15,12,2025,Tanah Longsor,Aceh,Kab. Aceh Utara,DC Sumatra,8,8,55,4119,56,SIAGA,Selesai,SN-0015,6.7,4.499225,96.411367
+116,2025-04-29,4,2025,Kekeringan,Nusa Tenggara Timur,Kab. Flores Timur,DC Nusa Tenggara,40,2,4,320,0,AMAN,Selesai,SN-0038,5.0,-8.623822,121.081973
+117,2025-02-24,2,2025,Banjir,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,17,5,11,10509,2362,AWAS,Belum Ditangani,SN-0032,7.8,-8.385941,117.278187
+118,2024-12-21,12,2024,Kekeringan,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,45,3,9,232,0,WASPADA,Selesai,SN-0014,6.9,-9.097387,121.019005
+119,2024-03-28,3,2024,Banjir,Nusa Tenggara Barat,Kab. Sumbawa,DC Nusa Tenggara,21,23,131,9202,434,SIAGA,Dalam Proses,SN-0004,4.8,-9.030378,117.311196
+120,2024-03-20,3,2024,Kebakaran Hutan dan Lahan,Papua,Kab. Mimika,DC Papua,21,2,29,591,184,WASPADA,Selesai,SN-0030,15.0,-4.580066,137.739742
+121,2024-07-01,7,2024,Tanah Longsor,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,4,13,74,2890,49,SIAGA,Dalam Proses,SN-0019,5.4,-7.886381,112.96425
+122,2025-08-14,8,2025,Gempa Bumi,Sumatera Utara,Kab. Nias,DC Sumatra,37,46,23,13126,419,AWAS,Belum Ditangani,SN-0029,3.9,1.929224,98.863602
+123,2024-11-20,11,2024,Tanah Longsor,Sumatera Barat,Kab. Padang Pariaman,DC Sumatra,10,21,71,2995,773,SIAGA,Dalam Proses,SN-0009,2.2,-0.730777,100.800078
+124,2025-11-17,11,2025,Tanah Longsor,Aceh,Kab. Pidie,DC Sumatra,26,20,78,2609,166,SIAGA,Selesai,SN-0033,3.7,4.934419,96.548634
+125,2025-08-10,8,2025,Banjir,Riau,Kab. Pelalawan,DC Sumatra,45,26,149,5040,2970,SIAGA,Selesai,SN-0038,5.3,0.63021,101.21553
+126,2025-09-19,9,2025,Kebakaran Hutan dan Lahan,Riau,Kab. Indragiri Hilir,DC Sumatra,3,1,26,697,62,WASPADA,Selesai,SN-0029,3.0,0.60587,101.650521
+127,2024-03-23,3,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,47,15,55,1737,376,SIAGA,Dalam Proses,SN-0043,3.6,-5.509618,119.140042
+128,2024-06-06,6,2024,Cuaca Ekstrem,Aceh,Kab. Aceh Utara,DC Sumatra,16,8,39,991,98,WASPADA,Selesai,SN-0020,6.7,4.474106,96.547899
+129,2025-11-23,11,2025,Cuaca Ekstrem,Riau,Kab. Rokan Hilir,DC Sumatra,35,9,7,1174,346,WASPADA,Selesai,SN-0010,6.1,0.412994,101.930161
+130,2024-03-23,3,2024,Cuaca Ekstrem,Jawa Timur,Kab. Jember,DC Jawa-Bali,35,15,13,413,423,SIAGA,Dalam Proses,SN-0048,2.5,-7.921882,112.393021
+131,2024-09-22,9,2024,Banjir,DI Yogyakarta,Kab. Bantul,DC Jawa-Bali,7,26,84,11753,1934,AWAS,Belum Ditangani,SN-0011,6.9,-8.158133,110.834019
+132,2025-04-29,4,2025,Gempa Bumi,Riau,Kota Pekanbaru,DC Sumatra,50,36,164,9352,484,AWAS,Dalam Proses,SN-0003,5.6,0.607433,101.485152
+133,2024-12-29,12,2024,Tanah Longsor,Sulawesi Tengah,Kab. Palu,DC Sulawesi,1,31,23,2371,38,AWAS,Dalam Proses,SN-0030,3.7,-0.788917,120.299155
+134,2024-12-16,12,2024,Tanah Longsor,Sumatera Utara,Kab. Karo,DC Sumatra,30,7,42,1331,748,WASPADA,Selesai,SN-0022,2.1,2.214985,99.293598
+135,2025-11-25,11,2025,Cuaca Ekstrem,Sulawesi Selatan,Kab. Gowa,DC Sulawesi,21,12,52,875,263,SIAGA,Dalam Proses,SN-0021,2.7,-4.978444,119.117481
+136,2024-12-13,12,2024,Erupsi Gunung Api,Kalimantan Tengah,Kab. Barito Selatan,DC Kalimantan,1,9,149,23687,1173,AWAS,Dalam Proses,SN-0030,5.3,-2.356548,113.649803
+137,2024-03-17,3,2024,Erupsi Gunung Api,Nusa Tenggara Timur,Kab. Flores Timur,DC Nusa Tenggara,9,11,56,7180,1960,SIAGA,Selesai,SN-0045,6.2,-8.702321,121.568238
+138,2024-08-18,8,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Gowa,DC Sulawesi,46,2,33,914,270,WASPADA,Selesai,SN-0036,2.6,-5.285915,119.849945
+139,2024-12-18,12,2024,Erupsi Gunung Api,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,32,3,52,23491,1194,AWAS,Dalam Proses,SN-0033,4.3,2.077075,99.383692
+140,2025-05-18,5,2025,Tanah Longsor,Aceh,Kab. Bireuen,DC Sumatra,5,0,95,1785,592,WASPADA,Selesai,SN-0004,2.3,4.24039,96.593929
+141,2024-12-30,12,2024,Tanah Longsor,Riau,Kab. Pelalawan,DC Sumatra,25,8,98,3443,383,SIAGA,Selesai,SN-0043,2.4,0.950415,101.327496
+142,2024-12-28,12,2024,Erupsi Gunung Api,Maluku,Kota Ambon,DC Maluku,15,12,135,4172,1490,SIAGA,Selesai,SN-0047,10.2,-2.982321,130.623791
+143,2024-08-27,8,2024,Tanah Longsor,Kalimantan Tengah,Kab. Kotawaringin Barat,DC Kalimantan,43,17,24,924,32,SIAGA,Selesai,SN-0014,2.1,-1.950047,114.297257
+144,2025-01-15,1,2025,Tanah Longsor,Jawa Tengah,Kab. Banjarnegara,DC Jawa-Bali,50,14,69,1779,772,SIAGA,Dalam Proses,SN-0047,6.1,-7.146104,109.929563
+145,2025-09-25,9,2025,Tanah Longsor,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,18,33,28,3387,307,AWAS,Dalam Proses,SN-0041,9.5,-8.20438,117.741314
+146,2025-10-02,10,2025,Banjir,Maluku,Kab. Buru,DC Maluku,25,26,104,2444,1228,SIAGA,Dalam Proses,SN-0046,8.0,-3.200572,129.886268
+147,2024-02-02,2,2024,Cuaca Ekstrem,Bali,Kab. Tabanan,DC Jawa-Bali,14,4,24,497,130,WASPADA,Selesai,SN-0024,4.2,-8.510237,114.67107
+148,2025-01-07,1,2025,Kekeringan,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,31,0,2,96,0,AMAN,Selesai,SN-0001,3.5,-7.441111,110.547333
+149,2024-02-24,2,2024,Cuaca Ekstrem,Sumatera Barat,Kab. Pesisir Selatan,DC Sumatra,36,6,25,1874,122,WASPADA,Selesai,SN-0042,4.3,-0.918285,100.583059
+150,2024-04-17,4,2024,Kebakaran Hutan dan Lahan,Riau,Kota Pekanbaru,DC Sumatra,21,2,29,208,94,AMAN,Selesai,SN-0010,3.1,0.44723,101.512525
+151,2025-01-19,1,2025,Cuaca Ekstrem,Papua,Kab. Merauke,DC Papua,16,7,24,1166,426,WASPADA,Selesai,SN-0017,12.2,-4.270599,138.235008
+152,2024-11-24,11,2024,Cuaca Ekstrem,Riau,Kota Pekanbaru,DC Sumatra,32,5,8,1475,279,WASPADA,Selesai,SN-0004,7.0,0.217348,101.839365
+153,2025-07-03,7,2025,Tanah Longsor,Jawa Tengah,Kota Semarang,DC Jawa-Bali,14,4,90,1237,9,WASPADA,Selesai,SN-0043,5.1,-7.144267,110.013501
+154,2025-12-22,12,2025,Kebakaran Hutan dan Lahan,Riau,Kab. Pelalawan,DC Sumatra,18,0,0,542,184,WASPADA,Selesai,SN-0045,4.5,0.569038,101.236689
+155,2025-10-30,10,2025,Tanah Longsor,Sulawesi Tengah,Kab. Palu,DC Sulawesi,23,15,24,4312,258,SIAGA,Dalam Proses,SN-0037,4.0,-0.994804,119.743752
+156,2025-02-10,2,2025,Kekeringan,Jawa Timur,Kab. Malang,DC Jawa-Bali,41,3,17,243,0,WASPADA,Selesai,SN-0028,4.5,-8.47445,112.292784
+157,2024-10-28,10,2024,Banjir,Sumatera Barat,Kab. Tanah Datar,DC Sumatra,3,44,145,7790,1110,AWAS,Selesai,SN-0043,4.7,-0.555471,100.580373
+158,2025-01-11,1,2025,Gempa Bumi,Jawa Barat,Kab. Bogor,DC Jawa-Bali,16,9,153,5323,4619,SIAGA,Selesai,SN-0025,4.7,-6.568058,107.796135
+159,2024-11-23,11,2024,Banjir,Jawa Timur,Kab. Bojonegoro,DC Jawa-Bali,22,6,111,3803,311,SIAGA,Selesai,SN-0021,6.8,-7.870035,112.717009
+160,2024-01-15,1,2024,Kebakaran Hutan dan Lahan,Riau,Kab. Indragiri Hilir,DC Sumatra,43,3,5,696,149,WASPADA,Selesai,SN-0016,3.5,0.413373,101.722167
+161,2024-11-05,11,2024,Banjir,Maluku Utara,Kab. Halmahera Utara,DC Maluku,29,6,23,85,1262,WASPADA,Selesai,SN-0012,7.2,0.643217,127.136466
+162,2025-05-17,5,2025,Cuaca Ekstrem,Papua,Kab. Jayapura,DC Papua,21,2,38,1224,401,WASPADA,Selesai,SN-0006,9.7,-3.906182,137.592741
+163,2025-11-08,11,2025,Banjir,DI Yogyakarta,Kab. Bantul,DC Jawa-Bali,10,17,77,4397,2019,SIAGA,Dalam Proses,SN-0005,4.4,-7.860924,110.290602
+164,2025-04-24,4,2025,Tanah Longsor,Riau,Kab. Bengkalis,DC Sumatra,22,8,38,55,405,WASPADA,Selesai,SN-0029,6.3,0.874913,101.32989
+165,2025-03-28,3,2025,Tanah Longsor,Sumatera Utara,Kab. Nias,DC Sumatra,21,30,40,1455,407,SIAGA,Dalam Proses,SN-0016,4.9,2.261658,99.066007
+166,2024-03-26,3,2024,Tanah Longsor,Maluku Utara,Kab. Halmahera Barat,DC Maluku,50,37,69,1473,698,AWAS,Belum Ditangani,SN-0029,12.4,1.236305,127.328322
+167,2025-11-03,11,2025,Cuaca Ekstrem,Papua,Kab. Biak Numfor,DC Papua,46,7,16,1348,78,WASPADA,Selesai,SN-0039,10.0,-4.346772,137.957391
+168,2024-06-17,6,2024,Cuaca Ekstrem,Papua,Kab. Nabire,DC Papua,43,2,6,1574,127,WASPADA,Selesai,SN-0037,11.5,-4.105206,137.746738
+169,2025-12-13,12,2025,Banjir,Nusa Tenggara Barat,Kota Mataram,DC Nusa Tenggara,36,16,56,8366,2124,SIAGA,Selesai,SN-0044,6.3,-8.577665,117.307379
+170,2024-09-12,9,2024,Gempa Bumi,Jawa Barat,Kab. Cianjur,DC Jawa-Bali,20,10,59,4642,2853,SIAGA,Dalam Proses,SN-0007,3.7,-6.63323,107.640215
+171,2025-05-11,5,2025,Banjir,Jawa Timur,Kab. Jember,DC Jawa-Bali,44,1,87,10616,447,AWAS,Selesai,SN-0036,4.6,-7.553978,112.861889
+172,2025-02-15,2,2025,Banjir,Kalimantan Tengah,Kab. Barito Selatan,DC Kalimantan,48,42,110,6481,119,AWAS,Belum Ditangani,SN-0046,3.9,-2.518776,114.005703
+173,2024-02-23,2,2024,Tanah Longsor,Jawa Timur,Kab. Bojonegoro,DC Jawa-Bali,8,23,41,1614,468,SIAGA,Dalam Proses,SN-0039,5.2,-7.621263,112.649115
+174,2024-04-04,4,2024,Cuaca Ekstrem,Maluku,Kab. Seram Bagian Barat,DC Maluku,6,9,58,1258,302,WASPADA,Selesai,SN-0008,8.1,-3.06639,129.958486
+175,2025-02-17,2,2025,Tsunami,Maluku Utara,Kab. Tidore,DC Maluku,35,108,95,15947,5206,AWAS,Belum Ditangani,SN-0032,11.0,0.92856,127.8666
+176,2024-03-27,3,2024,Cuaca Ekstrem,Aceh,Kab. Aceh Utara,DC Sumatra,25,0,31,279,99,AMAN,Selesai,SN-0044,4.5,5.158929,96.754838
+177,2025-06-15,6,2025,Banjir,Riau,Kab. Indragiri Hilir,DC Sumatra,3,50,194,3613,1196,AWAS,Dalam Proses,SN-0048,4.3,0.570909,101.118209
+178,2024-11-17,11,2024,Cuaca Ekstrem,Sumatera Barat,Kab. Tanah Datar,DC Sumatra,3,11,34,1684,387,SIAGA,Selesai,SN-0048,4.1,-0.798533,100.518542
+179,2025-11-10,11,2025,Banjir,Jawa Tengah,Kab. Cilacap,DC Jawa-Bali,14,28,30,12707,970,AWAS,Selesai,SN-0041,5.6,-7.062076,109.990931
+180,2025-05-26,5,2025,Cuaca Ekstrem,Sulawesi Selatan,Kab. Gowa,DC Sulawesi,21,8,38,1103,86,WASPADA,Selesai,SN-0033,4.9,-4.6687,119.225335
+181,2025-12-04,12,2025,Kekeringan,Sumatera Utara,Kota Medan,DC Sumatra,46,1,4,127,0,AMAN,Selesai,SN-0026,6.2,1.888797,98.822555
+182,2025-06-09,6,2025,Banjir,Papua,Kab. Biak Numfor,DC Papua,45,25,131,12284,1139,AWAS,Selesai,SN-0001,8.9,-4.400829,138.530654
+183,2025-12-03,12,2025,Gempa Bumi,Aceh,Kab. Bireuen,DC Sumatra,32,50,111,14078,1735,AWAS,Dalam Proses,SN-0037,4.9,5.023444,96.587155
+184,2025-12-29,12,2025,Erupsi Gunung Api,Jawa Tengah,Kota Semarang,DC Jawa-Bali,30,0,31,5176,903,SIAGA,Dalam Proses,SN-0009,5.4,-6.691968,109.842618
+185,2024-12-28,12,2024,Banjir,Kalimantan Selatan,Kota Banjarmasin,DC Kalimantan,11,23,170,14807,2657,AWAS,Dalam Proses,SN-0028,5.8,-2.966996,115.509788
+186,2025-10-01,10,2025,Cuaca Ekstrem,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,1,7,33,1392,227,WASPADA,Selesai,SN-0028,2.6,-5.639637,119.276274
+187,2024-11-08,11,2024,Banjir,Maluku Utara,Kota Ternate,DC Maluku,9,20,94,14434,1225,AWAS,Dalam Proses,SN-0044,11.8,1.096668,127.741197
+188,2024-02-01,2,2024,Tanah Longsor,Sulawesi Tengah,Kab. Parigi Moutong,DC Sulawesi,40,40,95,1240,421,AWAS,Belum Ditangani,SN-0049,2.5,-0.531737,119.457388
+189,2025-01-12,1,2025,Banjir,Papua,Kab. Merauke,DC Papua,39,41,21,4065,2266,AWAS,Belum Ditangani,SN-0043,12.2,-4.162307,138.35937
+190,2024-12-20,12,2024,Banjir,DI Yogyakarta,Kab. Bantul,DC Jawa-Bali,32,3,200,14711,980,AWAS,Dalam Proses,SN-0001,2.4,-8.054518,110.507582
+191,2025-12-05,12,2025,Tanah Longsor,Maluku Utara,Kab. Morotai,DC Maluku,38,30,98,597,17,SIAGA,Dalam Proses,SN-0026,6.5,0.545485,126.906527
+192,2025-07-17,7,2025,Banjir,Papua,Kab. Biak Numfor,DC Papua,18,34,137,10093,625,AWAS,Dalam Proses,SN-0010,14.8,-4.690878,138.501325
+193,2024-08-21,8,2024,Cuaca Ekstrem,Jawa Timur,Kab. Jember,DC Jawa-Bali,28,7,3,500,44,WASPADA,Selesai,SN-0043,2.3,-8.367913,112.733697
+194,2025-11-04,11,2025,Banjir,Jawa Barat,Kab. Bogor,DC Jawa-Bali,17,22,133,8474,2952,SIAGA,Dalam Proses,SN-0008,3.3,-7.290569,107.900224
+195,2024-11-26,11,2024,Cuaca Ekstrem,Papua,Kab. Merauke,DC Papua,24,2,31,932,261,WASPADA,Selesai,SN-0011,7.5,-4.714461,138.43976
+196,2024-03-19,3,2024,Banjir,Sumatera Barat,Kab. Padang Pariaman,DC Sumatra,24,0,62,753,1932,WASPADA,Selesai,SN-0003,6.7,-0.856921,100.450085
+197,2025-08-24,8,2025,Gempa Bumi,Papua,Kab. Mimika,DC Papua,24,40,138,2552,4682,AWAS,Dalam Proses,SN-0034,8.0,-4.096574,137.633072
+198,2025-12-03,12,2025,Banjir,Aceh,Kab. Bireuen,DC Sumatra,24,5,141,7483,32,SIAGA,Dalam Proses,SN-0030,5.1,4.758907,96.553309
+199,2025-04-25,4,2025,Banjir,Sulawesi Selatan,Kab. Bone,DC Sulawesi,35,0,104,391,954,AMAN,Selesai,SN-0022,6.4,-5.301276,119.772274
+200,2025-01-28,1,2025,Tanah Longsor,Nusa Tenggara Timur,Kab. Flores Timur,DC Nusa Tenggara,46,26,62,490,145,SIAGA,Dalam Proses,SN-0027,9.1,-9.1134,120.810873
+201,2024-11-24,11,2024,Tanah Longsor,Jawa Timur,Kab. Bojonegoro,DC Jawa-Bali,37,40,50,613,606,AWAS,Dalam Proses,SN-0021,3.5,-7.821456,112.252108
+202,2024-12-27,12,2024,Tanah Longsor,Nusa Tenggara Barat,Kab. Sumbawa,DC Nusa Tenggara,50,4,25,1115,798,WASPADA,Selesai,SN-0030,5.0,-8.568192,117.017011
+203,2024-03-12,3,2024,Tanah Longsor,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,20,7,11,1291,702,WASPADA,Selesai,SN-0021,2.2,-4.821313,119.629578
+204,2025-02-12,2,2025,Cuaca Ekstrem,Maluku Utara,Kab. Morotai,DC Maluku,26,8,52,356,15,WASPADA,Selesai,SN-0007,11.0,1.137901,127.422654
+205,2025-06-05,6,2025,Banjir,Sumatera Barat,Kab. Agam,DC Sumatra,24,8,50,13495,1640,AWAS,Belum Ditangani,SN-0005,4.9,-0.302325,100.384039
+206,2024-01-29,1,2024,Cuaca Ekstrem,Aceh,Kab. Pidie,DC Sumatra,4,3,2,1929,236,WASPADA,Selesai,SN-0026,6.1,4.363089,96.823284
+207,2024-07-14,7,2024,Tanah Longsor,Sulawesi Tengah,Kab. Sigi,DC Sulawesi,3,17,35,3653,152,SIAGA,Selesai,SN-0036,4.5,-0.774723,120.017978
+208,2024-06-13,6,2024,Tanah Longsor,Sumatera Utara,Kota Medan,DC Sumatra,46,40,69,159,391,AWAS,Dalam Proses,SN-0033,6.6,2.111218,99.059679
+209,2024-03-01,3,2024,Cuaca Ekstrem,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,23,1,51,966,271,WASPADA,Selesai,SN-0007,9.8,-8.386058,117.861206
+210,2024-03-18,3,2024,Erupsi Gunung Api,Jawa Tengah,Kab. Banjarnegara,DC Jawa-Bali,38,11,44,5770,484,SIAGA,Dalam Proses,SN-0046,5.0,-6.911895,109.999083
+211,2025-11-19,11,2025,Kebakaran Hutan dan Lahan,Sumatera Utara,Kab. Karo,DC Sumatra,32,3,17,316,44,WASPADA,Selesai,SN-0002,5.0,1.604664,98.631168
+212,2024-08-30,8,2024,Banjir,Sulawesi Selatan,Kab. Gowa,DC Sulawesi,38,20,15,359,605,SIAGA,Selesai,SN-0024,4.6,-5.506047,119.043621
+213,2024-12-31,12,2024,Cuaca Ekstrem,Maluku Utara,Kab. Morotai,DC Maluku,47,10,8,1998,80,WASPADA,Selesai,SN-0042,14.6,1.231994,127.658543
+214,2025-03-18,3,2025,Gempa Bumi,Maluku,Kab. Maluku Tengah,DC Maluku,12,48,157,9650,1043,AWAS,Selesai,SN-0037,9.5,-2.789712,130.593998
+215,2025-01-30,1,2025,Kebakaran Hutan dan Lahan,Kalimantan Tengah,Kab. Seruyan,DC Kalimantan,16,1,10,763,19,WASPADA,Selesai,SN-0006,5.2,-2.36929,113.733019
+216,2025-11-24,11,2025,Tanah Longsor,Nusa Tenggara Barat,Kota Mataram,DC Nusa Tenggara,17,15,88,555,358,SIAGA,Selesai,SN-0027,6.6,-8.432486,116.909747
+217,2025-12-16,12,2025,Banjir,Maluku Utara,Kab. Halmahera Barat,DC Maluku,15,30,147,10665,2814,AWAS,Dalam Proses,SN-0021,8.7,0.357009,127.712462
+218,2024-03-11,3,2024,Banjir,Sulawesi Tengah,Kab. Parigi Moutong,DC Sulawesi,40,35,23,5536,2433,AWAS,Selesai,SN-0039,5.3,-0.687195,119.802023
+219,2024-12-04,12,2024,Tanah Longsor,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,43,35,92,4424,271,AWAS,Dalam Proses,SN-0032,7.4,-8.915352,116.911235
+220,2024-02-14,2,2024,Cuaca Ekstrem,Jawa Timur,Kab. Jember,DC Jawa-Bali,14,15,12,198,13,SIAGA,Dalam Proses,SN-0020,6.2,-8.192089,112.203336
+221,2024-11-29,11,2024,Tanah Longsor,Kalimantan Selatan,Kota Banjarmasin,DC Kalimantan,29,23,48,3026,191,SIAGA,Dalam Proses,SN-0037,6.2,-3.15286,115.047201
+222,2025-01-22,1,2025,Gempa Bumi,Sumatera Barat,Kab. Agam,DC Sumatra,25,52,116,18140,499,AWAS,Selesai,SN-0031,6.3,-0.821268,100.835514
+223,2024-09-10,9,2024,Cuaca Ekstrem,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,29,4,7,1944,387,WASPADA,Selesai,SN-0013,6.9,-8.311021,113.105768
+224,2024-01-22,1,2024,Cuaca Ekstrem,Papua,Kab. Mimika,DC Papua,5,8,20,1865,372,WASPADA,Selesai,SN-0018,11.0,-4.682873,138.136764
+225,2025-07-01,7,2025,Tanah Longsor,DI Yogyakarta,Kab. Kulon Progo,DC Jawa-Bali,49,9,72,4816,596,SIAGA,Selesai,SN-0019,5.9,-8.195396,109.975135
+226,2025-12-29,12,2025,Gempa Bumi,Papua,Kab. Merauke,DC Papua,18,73,242,1227,1410,AWAS,Dalam Proses,SN-0026,9.6,-4.151656,138.261213
+227,2024-12-08,12,2024,Kebakaran Hutan dan Lahan,Jawa Tengah,Kab. Cilacap,DC Jawa-Bali,20,0,10,837,77,WASPADA,Selesai,SN-0007,5.5,-7.369653,110.131919
+228,2024-12-10,12,2024,Tsunami,Aceh,Kab. Bireuen,DC Sumatra,27,22,96,14474,1731,AWAS,Selesai,SN-0033,6.1,4.954593,97.116589
+229,2024-11-23,11,2024,Banjir,DI Yogyakarta,Kab. Kulon Progo,DC Jawa-Bali,4,11,49,14338,822,AWAS,Dalam Proses,SN-0018,5.5,-7.839151,110.787531
+230,2024-04-13,4,2024,Tanah Longsor,Sumatera Barat,Kab. Agam,DC Sumatra,38,38,57,1454,485,AWAS,Belum Ditangani,SN-0045,3.3,-0.895651,101.137654
+231,2024-01-02,1,2024,Banjir,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,14,14,165,3688,2775,SIAGA,Dalam Proses,SN-0044,5.9,-0.982193,119.390752
+232,2025-01-21,1,2025,Banjir,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,42,38,78,11677,2905,AWAS,Dalam Proses,SN-0014,4.3,-0.496217,120.222286
+233,2025-06-27,6,2025,Cuaca Ekstrem,Maluku Utara,Kab. Morotai,DC Maluku,31,9,19,1401,55,WASPADA,Selesai,SN-0018,11.8,0.347137,127.855061
+234,2025-03-29,3,2025,Tanah Longsor,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,21,3,76,3310,676,SIAGA,Selesai,SN-0017,10.0,-8.436017,121.234801
+235,2024-12-24,12,2024,Cuaca Ekstrem,Jawa Tengah,Kab. Purworejo,DC Jawa-Bali,15,6,21,1487,365,WASPADA,Selesai,SN-0043,4.4,-6.963682,110.278614
+236,2024-04-06,4,2024,Tanah Longsor,Bali,Kab. Buleleng,DC Jawa-Bali,36,8,94,2118,742,WASPADA,Selesai,SN-0022,5.4,-8.077582,114.775068
+237,2024-10-08,10,2024,Banjir,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,8,16,149,4817,1899,SIAGA,Selesai,SN-0005,9.7,-8.290907,121.162975
+238,2024-06-04,6,2024,Banjir,Maluku Utara,Kab. Morotai,DC Maluku,27,9,35,3281,1403,SIAGA,Selesai,SN-0046,7.3,1.176145,127.853349
+239,2024-02-11,2,2024,Banjir,Sulawesi Tengah,Kab. Sigi,DC Sulawesi,37,17,53,12471,690,AWAS,Selesai,SN-0040,2.4,-0.902123,120.134269
+240,2024-05-14,5,2024,Tanah Longsor,Riau,Kota Pekanbaru,DC Sumatra,34,23,1,2639,775,SIAGA,Dalam Proses,SN-0045,3.2,0.710048,101.576687
+241,2024-12-04,12,2024,Tanah Longsor,Maluku Utara,Kab. Morotai,DC Maluku,30,4,5,2442,297,WASPADA,Selesai,SN-0044,9.0,1.011132,127.46307
+242,2024-12-29,12,2024,Banjir,Riau,Kab. Rokan Hilir,DC Sumatra,47,25,4,3742,918,SIAGA,Selesai,SN-0008,4.5,0.24449,100.971913
+243,2025-04-02,4,2025,Cuaca Ekstrem,Maluku Utara,Kab. Halmahera Barat,DC Maluku,2,1,42,221,334,AMAN,Selesai,SN-0008,10.0,0.331535,126.98249
+244,2024-08-05,8,2024,Cuaca Ekstrem,Sulawesi Selatan,Kota Makassar,DC Sulawesi,40,3,42,1065,138,WASPADA,Selesai,SN-0007,6.2,-5.042066,119.069864
+245,2025-07-10,7,2025,Cuaca Ekstrem,Sumatera Barat,Kab. Agam,DC Sumatra,34,6,49,538,425,WASPADA,Selesai,SN-0011,4.0,-0.26678,100.657922
+246,2024-01-07,1,2024,Banjir,Riau,Kab. Rokan Hilir,DC Sumatra,37,42,22,14858,452,AWAS,Belum Ditangani,SN-0047,4.6,0.182444,101.040083
+247,2025-11-21,11,2025,Banjir,Kalimantan Tengah,Kab. Barito Selatan,DC Kalimantan,3,29,12,1635,715,SIAGA,Selesai,SN-0008,4.1,-2.355885,114.090267
+248,2025-01-02,1,2025,Banjir,Jawa Barat,Kab. Bogor,DC Jawa-Bali,47,22,112,10187,1098,AWAS,Dalam Proses,SN-0030,4.0,-6.602536,107.301969
+249,2024-03-28,3,2024,Gempa Bumi,Riau,Kota Pekanbaru,DC Sumatra,7,14,67,1921,1305,SIAGA,Selesai,SN-0012,5.4,0.62405,101.752265
+250,2025-10-20,10,2025,Gempa Bumi,Jawa Barat,Kab. Bogor,DC Jawa-Bali,5,14,210,14440,376,AWAS,Dalam Proses,SN-0048,5.4,-7.103262,107.823668
+251,2025-09-22,9,2025,Kekeringan,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,31,0,13,338,0,AMAN,Selesai,SN-0036,6.3,-8.807151,117.537896
+252,2025-12-01,12,2025,Kebakaran Hutan dan Lahan,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,21,1,2,769,125,WASPADA,Selesai,SN-0015,2.3,-1.150808,120.340845
+253,2024-08-27,8,2024,Kebakaran Hutan dan Lahan,Kalimantan Tengah,Kab. Palangkaraya,DC Kalimantan,21,0,27,510,114,WASPADA,Selesai,SN-0007,5.3,-2.597393,113.910873
+254,2024-04-18,4,2024,Erupsi Gunung Api,Jawa Barat,Kab. Bandung,DC Jawa-Bali,14,20,77,16657,1151,AWAS,Belum Ditangani,SN-0015,6.1,-6.961292,107.459954
+255,2024-12-25,12,2024,Banjir,Riau,Kab. Rokan Hilir,DC Sumatra,22,48,168,3633,8,AWAS,Dalam Proses,SN-0024,4.7,0.666961,101.749913
+256,2024-11-06,11,2024,Gempa Bumi,Riau,Kab. Indragiri Hilir,DC Sumatra,13,52,54,8332,1604,AWAS,Dalam Proses,SN-0013,6.1,0.885494,101.16559
+257,2024-11-14,11,2024,Erupsi Gunung Api,Jawa Tengah,Kab. Purworejo,DC Jawa-Bali,32,14,150,16521,275,AWAS,Dalam Proses,SN-0038,4.2,-6.913786,110.193526
+258,2024-06-30,6,2024,Tanah Longsor,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,21,6,49,4919,620,SIAGA,Selesai,SN-0049,6.6,-1.007037,120.350201
+259,2024-03-11,3,2024,Banjir,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,20,38,179,14523,2098,AWAS,Selesai,SN-0036,8.4,-8.609494,120.893311
+260,2024-10-20,10,2024,Banjir,Nusa Tenggara Timur,Kab. Sikka,DC Nusa Tenggara,35,45,166,2913,2063,AWAS,Belum Ditangani,SN-0031,6.1,-8.834919,120.694805
+261,2025-09-23,9,2025,Gempa Bumi,Papua,Kab. Nabire,DC Papua,25,1,267,3488,207,SIAGA,Dalam Proses,SN-0011,12.8,-4.099646,137.780302
+262,2025-12-05,12,2025,Kekeringan,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,7,0,11,416,0,AMAN,Selesai,SN-0015,4.8,-7.033891,110.315826
+263,2025-11-08,11,2025,Banjir,DI Yogyakarta,Kab. Gunung Kidul,DC Jawa-Bali,21,24,99,6825,2806,SIAGA,Selesai,SN-0029,3.0,-8.241798,110.61317
+264,2025-11-23,11,2025,Erupsi Gunung Api,Maluku,Kab. Kepulauan Aru,DC Maluku,12,6,49,9639,919,SIAGA,Selesai,SN-0008,12.6,-3.664031,130.607775
+265,2024-04-18,4,2024,Cuaca Ekstrem,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,10,0,21,955,363,WASPADA,Selesai,SN-0041,5.0,-3.552659,115.712428
+266,2025-10-16,10,2025,Cuaca Ekstrem,Bali,Kab. Bangli,DC Jawa-Bali,12,10,33,450,489,WASPADA,Selesai,SN-0035,2.8,-8.319894,115.378258
+267,2024-08-08,8,2024,Tanah Longsor,Sulawesi Selatan,Kab. Maros,DC Sulawesi,36,13,96,4345,486,SIAGA,Selesai,SN-0029,5.3,-4.666567,118.941504
+268,2025-02-20,2,2025,Banjir,Kalimantan Tengah,Kab. Palangkaraya,DC Kalimantan,35,50,29,6322,1050,AWAS,Selesai,SN-0033,5.9,-2.691394,113.930368
+269,2024-11-02,11,2024,Banjir,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,35,6,42,12670,2203,AWAS,Dalam Proses,SN-0044,8.6,-9.091828,121.249735
+270,2024-05-18,5,2024,Banjir,Papua,Kab. Jayapura,DC Papua,6,29,183,5434,155,SIAGA,Dalam Proses,SN-0015,6.6,-4.591908,137.832308
+271,2024-12-15,12,2024,Tsunami,Maluku Utara,Kab. Tidore,DC Maluku,47,30,273,193,5254,AWAS,Belum Ditangani,SN-0005,12.3,1.039261,127.452308
+272,2024-04-10,4,2024,Tsunami,Nusa Tenggara Timur,Kab. Manggarai,DC Nusa Tenggara,2,97,202,26939,5412,AWAS,Dalam Proses,SN-0035,6.3,-8.623832,120.715781
+273,2025-03-10,3,2025,Erupsi Gunung Api,Maluku,Kota Ambon,DC Maluku,37,4,31,1368,10,WASPADA,Selesai,SN-0020,14.5,-3.141845,130.182452
+274,2025-02-24,2,2025,Erupsi Gunung Api,Maluku,Kab. Maluku Tengah,DC Maluku,40,4,41,6029,452,SIAGA,Selesai,SN-0004,13.2,-3.544174,129.826658
+275,2025-12-18,12,2025,Banjir,Aceh,Kab. Aceh Utara,DC Sumatra,38,16,25,3234,2972,SIAGA,Selesai,SN-0007,5.3,4.525951,96.377615
+276,2024-03-07,3,2024,Kekeringan,Nusa Tenggara Barat,Kota Mataram,DC Nusa Tenggara,21,2,18,78,0,AMAN,Selesai,SN-0015,5.9,-8.194241,117.03024
+277,2025-11-09,11,2025,Banjir,Maluku,Kab. Maluku Tengah,DC Maluku,50,30,118,7296,1469,SIAGA,Dalam Proses,SN-0018,11.5,-3.186828,129.82107
+278,2024-12-18,12,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Maros,DC Sulawesi,33,2,57,38,434,AMAN,Selesai,SN-0038,4.9,-5.016074,119.745342
+279,2024-02-09,2,2024,Banjir,Bali,Kota Denpasar,DC Jawa-Bali,47,23,100,3658,2415,SIAGA,Selesai,SN-0024,2.5,-8.706619,115.093123
+280,2025-07-28,7,2025,Tanah Longsor,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,10,11,72,4635,675,SIAGA,Selesai,SN-0032,3.1,-0.908197,119.729496
+281,2024-02-08,2,2024,Cuaca Ekstrem,Jawa Tengah,Kab. Banjarnegara,DC Jawa-Bali,3,12,30,1879,232,SIAGA,Dalam Proses,SN-0041,6.8,-7.001475,109.743525
+282,2025-11-09,11,2025,Cuaca Ekstrem,Bali,Kota Denpasar,DC Jawa-Bali,5,12,23,1203,334,SIAGA,Selesai,SN-0023,4.6,-8.464171,115.499242
+283,2024-11-26,11,2024,Tanah Longsor,Riau,Kab. Bengkalis,DC Sumatra,33,28,21,1884,78,SIAGA,Selesai,SN-0046,3.8,0.244817,101.136906
+284,2025-11-14,11,2025,Gempa Bumi,Nusa Tenggara Barat,Kab. Lombok Utara,DC Nusa Tenggara,42,61,107,19359,1320,AWAS,Selesai,SN-0011,7.4,-9.130454,116.904744
+285,2024-02-19,2,2024,Tanah Longsor,Sumatera Utara,Kab. Tapanuli Utara,DC Sumatra,41,33,51,4909,577,AWAS,Dalam Proses,SN-0006,3.4,2.286247,99.236745
+286,2025-02-16,2,2025,Kebakaran Hutan dan Lahan,Riau,Kab. Indragiri Hilir,DC Sumatra,50,4,4,813,149,WASPADA,Selesai,SN-0047,3.3,0.215184,101.609649
+287,2025-10-20,10,2025,Tanah Longsor,Jawa Timur,Kab. Lumajang,DC Jawa-Bali,33,6,2,1657,535,WASPADA,Selesai,SN-0012,5.0,-7.799532,112.947914
+288,2025-06-02,6,2025,Banjir,Bali,Kota Denpasar,DC Jawa-Bali,35,42,33,14778,2471,AWAS,Selesai,SN-0034,5.2,-7.943531,115.36687
+289,2025-05-23,5,2025,Erupsi Gunung Api,DI Yogyakarta,Kab. Kulon Progo,DC Jawa-Bali,48,25,97,11485,1206,AWAS,Selesai,SN-0017,4.1,-7.458409,110.445621
+290,2024-06-28,6,2024,Kekeringan,Jawa Timur,Kab. Jember,DC Jawa-Bali,37,2,6,2,0,AMAN,Selesai,SN-0014,3.9,-7.961359,112.641162
+291,2024-10-12,10,2024,Cuaca Ekstrem,Sumatera Barat,Kab. Padang Pariaman,DC Sumatra,28,8,16,1750,274,WASPADA,Selesai,SN-0026,7.0,-0.67523,100.911881
+292,2024-11-26,11,2024,Cuaca Ekstrem,Bali,Kab. Tabanan,DC Jawa-Bali,23,15,16,628,295,SIAGA,Selesai,SN-0008,6.3,-8.44237,114.730069
+293,2024-11-23,11,2024,Gempa Bumi,Sulawesi Tengah,Kab. Palu,DC Sulawesi,25,43,281,1705,1316,AWAS,Selesai,SN-0039,2.7,-1.386409,119.461789
+294,2024-05-08,5,2024,Cuaca Ekstrem,Maluku,Kota Ambon,DC Maluku,19,12,39,1343,266,SIAGA,Selesai,SN-0041,13.4,-3.141027,130.591016
+295,2024-07-28,7,2024,Tanah Longsor,DI Yogyakarta,Kab. Gunung Kidul,DC Jawa-Bali,16,39,21,295,368,AWAS,Belum Ditangani,SN-0026,3.4,-7.319954,109.956343
+296,2024-04-19,4,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Bone,DC Sulawesi,19,2,58,184,281,AMAN,Selesai,SN-0023,4.9,-4.921561,119.491814
+297,2024-12-20,12,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,7,8,11,833,259,WASPADA,Selesai,SN-0008,3.7,-5.089069,119.435869
+298,2025-11-29,11,2025,Tanah Longsor,Bali,Kota Denpasar,DC Jawa-Bali,16,24,72,3961,788,SIAGA,Selesai,SN-0038,4.3,-7.879261,115.050848
+299,2024-12-09,12,2024,Kekeringan,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,34,1,10,211,0,AMAN,Selesai,SN-0019,3.3,-7.948248,112.822219
+300,2025-01-27,1,2025,Tanah Longsor,Nusa Tenggara Barat,Kab. Lombok Utara,DC Nusa Tenggara,37,30,40,2896,223,SIAGA,Dalam Proses,SN-0032,9.5,-8.205782,117.544707
+301,2024-11-08,11,2024,Tanah Longsor,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,7,39,45,1277,797,AWAS,Dalam Proses,SN-0001,4.5,-3.514112,115.73958
+302,2024-11-02,11,2024,Tanah Longsor,Riau,Kab. Rokan Hilir,DC Sumatra,49,36,35,4020,187,AWAS,Selesai,SN-0004,4.9,0.313567,101.172093
+303,2024-08-31,8,2024,Tanah Longsor,Bali,Kab. Karangasem,DC Jawa-Bali,34,11,58,986,715,SIAGA,Selesai,SN-0038,3.1,-8.151289,114.60382
+304,2024-01-28,1,2024,Tanah Longsor,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,12,17,60,2810,374,SIAGA,Selesai,SN-0026,3.9,-3.382068,115.484513
+305,2024-03-05,3,2024,Gempa Bumi,Kalimantan Tengah,Kab. Palangkaraya,DC Kalimantan,10,71,221,12480,1606,AWAS,Selesai,SN-0027,2.0,-1.977558,113.886487
+306,2025-07-28,7,2025,Gempa Bumi,DI Yogyakarta,Kota Yogyakarta,DC Jawa-Bali,4,38,128,18420,4651,AWAS,Dalam Proses,SN-0031,6.1,-7.605057,109.929536
+307,2024-12-24,12,2024,Kekeringan,Nusa Tenggara Barat,Kab. Sumbawa,DC Nusa Tenggara,8,2,11,10,0,AMAN,Selesai,SN-0037,7.6,-8.80181,117.541186
+308,2025-09-06,9,2025,Erupsi Gunung Api,Nusa Tenggara Timur,Kab. Sikka,DC Nusa Tenggara,40,15,114,2569,780,SIAGA,Dalam Proses,SN-0022,5.0,-8.525588,120.724248
+309,2025-05-13,5,2025,Tanah Longsor,Jawa Timur,Kab. Malang,DC Jawa-Bali,18,20,40,2386,727,SIAGA,Selesai,SN-0024,5.9,-8.088445,113.009092
+310,2024-11-15,11,2024,Banjir,Papua,Kab. Mimika,DC Papua,17,8,186,3844,2711,SIAGA,Selesai,SN-0007,7.5,-4.069203,137.660465
+311,2025-01-16,1,2025,Tanah Longsor,Bali,Kab. Karangasem,DC Jawa-Bali,17,33,97,681,106,AWAS,Belum Ditangani,SN-0015,3.9,-8.756189,115.52359
+312,2024-03-21,3,2024,Tanah Longsor,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,31,1,4,2923,333,WASPADA,Selesai,SN-0036,6.7,2.033893,99.445898
+313,2025-05-23,5,2025,Tanah Longsor,Bali,Kab. Buleleng,DC Jawa-Bali,34,40,95,4620,445,AWAS,Belum Ditangani,SN-0015,4.4,-8.306716,115.500923
+314,2024-11-12,11,2024,Banjir,Papua,Kab. Merauke,DC Papua,23,0,133,13359,558,AWAS,Dalam Proses,SN-0049,10.4,-4.234801,138.26817
+315,2024-06-14,6,2024,Banjir,Nusa Tenggara Timur,Kab. Manggarai,DC Nusa Tenggara,36,35,95,3089,1686,AWAS,Dalam Proses,SN-0025,7.9,-8.907404,121.294338
+316,2024-02-21,2,2024,Kebakaran Hutan dan Lahan,Kalimantan Tengah,Kab. Seruyan,DC Kalimantan,42,5,21,278,72,WASPADA,Selesai,SN-0005,4.1,-1.973173,114.222309
+317,2024-02-21,2,2024,Tsunami,Aceh,Kab. Aceh Utara,DC Sumatra,4,48,164,635,1246,AWAS,Selesai,SN-0009,3.4,4.217231,97.221733
+318,2025-11-08,11,2025,Tanah Longsor,Jawa Timur,Kab. Lumajang,DC Jawa-Bali,24,21,53,2552,510,SIAGA,Selesai,SN-0010,6.2,-7.692475,112.451649
+319,2025-01-03,1,2025,Tanah Longsor,Bali,Kab. Tabanan,DC Jawa-Bali,46,24,1,999,786,SIAGA,Dalam Proses,SN-0003,5.7,-8.069275,115.034961
+320,2025-02-04,2,2025,Cuaca Ekstrem,DI Yogyakarta,Kab. Bantul,DC Jawa-Bali,3,10,10,1288,372,WASPADA,Selesai,SN-0031,2.6,-7.550875,110.41908
+321,2024-10-29,10,2024,Banjir,Jawa Tengah,Kab. Banjarnegara,DC Jawa-Bali,18,27,83,246,685,SIAGA,Selesai,SN-0038,6.8,-7.254192,109.883389
+322,2024-11-20,11,2024,Banjir,Sumatera Utara,Kab. Nias,DC Sumatra,22,31,23,11238,2533,AWAS,Selesai,SN-0042,2.3,2.563673,99.200132
+323,2024-02-04,2,2024,Cuaca Ekstrem,Sumatera Utara,Kota Medan,DC Sumatra,45,14,46,395,10,SIAGA,Dalam Proses,SN-0046,2.2,2.291099,98.825696
+324,2024-05-23,5,2024,Cuaca Ekstrem,Riau,Kab. Indragiri Hilir,DC Sumatra,39,10,46,959,140,WASPADA,Selesai,SN-0010,2.3,0.947774,101.50452
+325,2025-05-18,5,2025,Erupsi Gunung Api,Maluku,Kab. Buru,DC Maluku,24,12,47,613,1269,SIAGA,Selesai,SN-0035,11.9,-3.499713,130.366304
+326,2024-11-22,11,2024,Cuaca Ekstrem,Riau,Kab. Bengkalis,DC Sumatra,8,10,26,1312,164,WASPADA,Selesai,SN-0009,2.2,0.129556,101.608891
+327,2024-02-04,2,2024,Kebakaran Hutan dan Lahan,Riau,Kab. Indragiri Hilir,DC Sumatra,45,5,15,538,159,WASPADA,Selesai,SN-0046,3.1,0.623601,100.999086
+328,2025-01-07,1,2025,Banjir,Riau,Kab. Pelalawan,DC Sumatra,24,23,142,12181,1703,AWAS,Selesai,SN-0047,4.6,0.0916,101.566933
+329,2024-01-31,1,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Bone,DC Sulawesi,13,7,34,789,97,WASPADA,Selesai,SN-0012,5.1,-5.121508,119.181463
+330,2025-09-24,9,2025,Tanah Longsor,Sumatera Barat,Kab. Tanah Datar,DC Sumatra,36,27,13,1366,184,SIAGA,Selesai,SN-0029,7.0,-0.902387,100.458176
+331,2025-12-18,12,2025,Gempa Bumi,Nusa Tenggara Barat,Kab. Sumbawa,DC Nusa Tenggara,14,41,123,18453,4469,AWAS,Dalam Proses,SN-0029,6.2,-8.602661,117.606178
+332,2024-05-24,5,2024,Kekeringan,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,15,1,9,3,0,AMAN,Selesai,SN-0045,5.9,-7.435177,109.955205
+333,2025-11-17,11,2025,Banjir,Bali,Kota Denpasar,DC Jawa-Bali,9,2,117,5827,639,SIAGA,Dalam Proses,SN-0020,3.3,-7.950875,114.841857
+334,2024-01-30,1,2024,Gempa Bumi,Sulawesi Selatan,Kota Makassar,DC Sulawesi,39,22,249,18881,781,AWAS,Belum Ditangani,SN-0004,3.9,-5.610328,119.741041
+335,2024-12-29,12,2024,Banjir,Papua,Kab. Biak Numfor,DC Papua,39,49,58,12249,2673,AWAS,Selesai,SN-0034,6.5,-4.136013,138.212594
+336,2024-01-05,1,2024,Banjir,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,49,43,187,6436,1825,AWAS,Belum Ditangani,SN-0026,5.7,-8.648171,117.083686
+337,2024-02-16,2,2024,Banjir,Jawa Tengah,Kab. Purworejo,DC Jawa-Bali,9,25,128,7118,2858,SIAGA,Selesai,SN-0037,4.0,-7.169077,109.838409
+338,2025-02-24,2,2025,Cuaca Ekstrem,DI Yogyakarta,Kab. Bantul,DC Jawa-Bali,37,13,20,1402,473,SIAGA,Dalam Proses,SN-0021,3.7,-7.623852,110.293041
+339,2025-04-25,4,2025,Cuaca Ekstrem,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,3,14,39,298,225,SIAGA,Selesai,SN-0047,4.9,-8.92381,121.264759
+340,2024-12-02,12,2024,Kebakaran Hutan dan Lahan,Kalimantan Tengah,Kab. Seruyan,DC Kalimantan,8,2,0,351,177,AMAN,Selesai,SN-0048,3.7,-2.410982,113.88469
+341,2024-08-17,8,2024,Tanah Longsor,Kalimantan Selatan,Kab. Balangan,DC Kalimantan,34,1,48,4775,679,SIAGA,Dalam Proses,SN-0040,5.9,-3.42228,115.067814
+342,2024-03-31,3,2024,Cuaca Ekstrem,Jawa Barat,Kab. Bandung,DC Jawa-Bali,19,11,55,220,9,SIAGA,Selesai,SN-0046,3.9,-6.768089,107.350269
+343,2024-01-28,1,2024,Cuaca Ekstrem,Bali,Kab. Karangasem,DC Jawa-Bali,2,14,35,1897,364,SIAGA,Dalam Proses,SN-0048,4.4,-7.91823,114.896928
+344,2024-02-12,2,2024,Erupsi Gunung Api,Maluku,Kab. Seram Bagian Barat,DC Maluku,25,8,15,20505,527,AWAS,Selesai,SN-0018,11.0,-2.923641,129.674766
+345,2024-02-13,2,2024,Tanah Longsor,Sumatera Utara,Kab. Tapanuli Utara,DC Sumatra,16,39,80,1863,427,AWAS,Belum Ditangani,SN-0029,5.0,1.993165,98.887383
+346,2024-08-05,8,2024,Banjir,Bali,Kab. Buleleng,DC Jawa-Bali,28,45,134,14902,553,AWAS,Selesai,SN-0011,6.7,-7.864723,114.737152
+347,2025-03-31,3,2025,Banjir,Sumatera Barat,Kab. Padang Pariaman,DC Sumatra,27,46,7,12540,1305,AWAS,Selesai,SN-0041,6.1,-0.936552,101.04561
+348,2024-12-25,12,2024,Banjir,Sulawesi Selatan,Kota Makassar,DC Sulawesi,39,48,156,10108,1093,AWAS,Belum Ditangani,SN-0023,5.4,-5.416789,119.164883
+349,2025-01-05,1,2025,Cuaca Ekstrem,DI Yogyakarta,Kota Yogyakarta,DC Jawa-Bali,31,5,54,793,251,WASPADA,Selesai,SN-0049,2.2,-8.158087,110.06276
+350,2025-12-31,12,2025,Kekeringan,Papua,Kab. Mimika,DC Papua,40,1,2,90,0,AMAN,Selesai,SN-0016,10.1,-4.279957,137.905296
+351,2025-05-20,5,2025,Banjir,Maluku Utara,Kab. Halmahera Barat,DC Maluku,3,33,27,7399,1871,AWAS,Selesai,SN-0003,14.9,0.529022,127.404569
+352,2024-09-21,9,2024,Erupsi Gunung Api,Jawa Tengah,Kab. Banjarnegara,DC Jawa-Bali,11,28,77,9368,944,SIAGA,Selesai,SN-0010,4.6,-7.036866,109.694847
+353,2025-06-03,6,2025,Tanah Longsor,DI Yogyakarta,Kab. Sleman,DC Jawa-Bali,2,25,52,2649,461,SIAGA,Dalam Proses,SN-0030,3.0,-7.705285,110.582134
+354,2024-01-21,1,2024,Gempa Bumi,Sulawesi Tengah,Kab. Palu,DC Sulawesi,47,46,43,17164,3146,AWAS,Selesai,SN-0025,3.9,-0.880034,120.320454
+355,2024-01-11,1,2024,Banjir,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,20,45,13,6874,1261,AWAS,Selesai,SN-0009,2.9,2.527666,98.863781
+356,2024-12-25,12,2024,Kebakaran Hutan dan Lahan,Kalimantan Selatan,Kota Banjarmasin,DC Kalimantan,32,4,25,5,155,WASPADA,Selesai,SN-0027,4.4,-3.354722,115.372662
+357,2025-05-01,5,2025,Tanah Longsor,Kalimantan Tengah,Kab. Seruyan,DC Kalimantan,42,3,23,1214,56,WASPADA,Selesai,SN-0037,2.2,-2.36708,113.558874
+358,2024-12-30,12,2024,Tanah Longsor,Jawa Timur,Kab. Malang,DC Jawa-Bali,43,10,86,2329,625,WASPADA,Selesai,SN-0012,5.9,-7.792386,112.716369
+359,2025-12-12,12,2025,Banjir,Jawa Tengah,Kota Semarang,DC Jawa-Bali,36,24,17,12426,1750,AWAS,Dalam Proses,SN-0022,6.3,-7.179183,109.762323
+360,2024-08-23,8,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Bone,DC Sulawesi,39,2,30,1482,352,WASPADA,Selesai,SN-0039,3.4,-4.713808,119.918978
+361,2024-12-19,12,2024,Tanah Longsor,Maluku,Kab. Maluku Tengah,DC Maluku,40,40,63,4034,184,AWAS,Dalam Proses,SN-0030,7.1,-3.448012,129.838855
+362,2024-10-28,10,2024,Tanah Longsor,Sulawesi Selatan,Kab. Bone,DC Sulawesi,14,21,44,4590,652,SIAGA,Dalam Proses,SN-0020,6.0,-5.446513,119.214327
+363,2024-03-25,3,2024,Banjir,Jawa Barat,Kab. Bandung,DC Jawa-Bali,12,46,145,10092,119,AWAS,Dalam Proses,SN-0031,4.4,-6.583675,108.04138
+364,2025-11-16,11,2025,Tanah Longsor,Sumatera Utara,Kota Medan,DC Sumatra,4,21,59,3391,760,SIAGA,Selesai,SN-0035,3.6,1.866044,99.299964
+365,2025-01-11,1,2025,Banjir,Maluku,Kota Ambon,DC Maluku,35,1,86,6147,2566,SIAGA,Selesai,SN-0049,11.4,-3.167518,130.034866
+366,2025-03-23,3,2025,Erupsi Gunung Api,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,20,28,60,12176,925,AWAS,Dalam Proses,SN-0013,5.9,-7.347682,109.752531
+367,2024-12-01,12,2024,Cuaca Ekstrem,Riau,Kab. Bengkalis,DC Sumatra,20,15,46,1789,268,SIAGA,Selesai,SN-0034,6.1,0.176595,101.821799
+368,2024-10-24,10,2024,Kekeringan,Jawa Tengah,Kab. Cilacap,DC Jawa-Bali,44,0,0,159,0,AMAN,Selesai,SN-0003,3.7,-6.801876,110.512175
+369,2025-01-24,1,2025,Cuaca Ekstrem,Nusa Tenggara Timur,Kab. Flores Timur,DC Nusa Tenggara,19,6,20,410,98,WASPADA,Selesai,SN-0008,6.6,-8.88065,120.89855
+370,2024-03-04,3,2024,Banjir,Jawa Barat,Kab. Garut,DC Jawa-Bali,21,13,138,5739,2250,SIAGA,Dalam Proses,SN-0011,4.9,-6.474222,107.923103
+371,2025-01-11,1,2025,Banjir,Bali,Kab. Tabanan,DC Jawa-Bali,25,30,172,826,433,SIAGA,Dalam Proses,SN-0038,5.0,-8.414034,114.770983
+372,2025-10-15,10,2025,Tanah Longsor,Maluku,Kab. Seram Bagian Barat,DC Maluku,9,34,10,3814,581,AWAS,Dalam Proses,SN-0020,6.9,-2.93615,130.343899
+373,2025-10-15,10,2025,Banjir,Riau,Kab. Indragiri Hilir,DC Sumatra,26,39,66,14956,1488,AWAS,Dalam Proses,SN-0021,6.3,0.950564,101.280328
+374,2024-05-16,5,2024,Banjir,Sumatera Barat,Kota Padang,DC Sumatra,37,18,196,5711,2475,SIAGA,Dalam Proses,SN-0021,6.0,-1.136968,101.117553
+375,2024-08-10,8,2024,Tanah Longsor,Bali,Kab. Tabanan,DC Jawa-Bali,11,15,79,1996,561,SIAGA,Selesai,SN-0038,6.1,-8.456684,114.932714
+376,2025-05-19,5,2025,Banjir,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,37,42,19,12113,2915,AWAS,Selesai,SN-0007,6.0,-9.038577,117.457675
+377,2024-11-13,11,2024,Kekeringan,Jawa Timur,Kab. Bojonegoro,DC Jawa-Bali,6,2,15,330,0,AMAN,Selesai,SN-0049,4.9,-8.266288,112.260317
+378,2024-10-05,10,2024,Erupsi Gunung Api,Sumatera Utara,Kota Medan,DC Sumatra,14,19,147,14652,400,AWAS,Belum Ditangani,SN-0020,6.6,1.883298,99.145276
+379,2025-12-23,12,2025,Erupsi Gunung Api,Maluku,Kota Ambon,DC Maluku,19,16,103,4179,1745,SIAGA,Dalam Proses,SN-0036,6.0,-2.837424,130.6132
+380,2024-11-28,11,2024,Kekeringan,Nusa Tenggara Timur,Kab. Flores Timur,DC Nusa Tenggara,26,3,20,162,0,WASPADA,Selesai,SN-0031,8.0,-8.775735,121.124519
+381,2025-02-27,2,2025,Tanah Longsor,Maluku,Kab. Buru,DC Maluku,2,8,1,587,663,WASPADA,Selesai,SN-0009,11.9,-3.594504,130.530189
+382,2025-01-14,1,2025,Cuaca Ekstrem,Aceh,Kab. Aceh Utara,DC Sumatra,29,14,32,868,282,SIAGA,Dalam Proses,SN-0032,2.0,4.420841,96.674172
+383,2024-12-17,12,2024,Cuaca Ekstrem,Kalimantan Selatan,Kab. Tapin,DC Kalimantan,46,1,2,1163,247,WASPADA,Selesai,SN-0006,6.8,-3.224021,115.364069
+384,2025-02-28,2,2025,Banjir,Kalimantan Selatan,Kab. Tapin,DC Kalimantan,43,15,120,10332,2718,AWAS,Dalam Proses,SN-0004,3.6,-2.958912,115.581898
+385,2024-12-01,12,2024,Kebakaran Hutan dan Lahan,Riau,Kota Pekanbaru,DC Sumatra,23,4,23,339,107,WASPADA,Selesai,SN-0003,3.4,0.993881,101.748223
+386,2025-11-10,11,2025,Cuaca Ekstrem,Kalimantan Selatan,Kota Banjarmasin,DC Kalimantan,48,1,42,597,414,WASPADA,Selesai,SN-0033,2.4,-2.968283,115.070616
+387,2025-01-09,1,2025,Cuaca Ekstrem,Sumatera Utara,Kab. Karo,DC Sumatra,12,0,47,228,309,AMAN,Selesai,SN-0024,5.3,2.476831,99.313967
+388,2024-11-23,11,2024,Banjir,Kalimantan Tengah,Kab. Barito Selatan,DC Kalimantan,10,21,21,2376,2439,SIAGA,Selesai,SN-0043,3.9,-1.963339,113.826448
+389,2025-05-07,5,2025,Gempa Bumi,Maluku,Kota Ambon,DC Maluku,26,14,26,5491,3801,SIAGA,Selesai,SN-0015,14.3,-3.262234,130.593552
+390,2025-04-16,4,2025,Kebakaran Hutan dan Lahan,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,25,0,9,949,114,WASPADA,Selesai,SN-0003,5.4,-2.914107,115.745563
+391,2024-01-12,1,2024,Kebakaran Hutan dan Lahan,Papua,Kab. Nabire,DC Papua,17,2,8,273,25,AMAN,Selesai,SN-0048,13.0,-4.115557,137.971554
+392,2025-02-25,2,2025,Cuaca Ekstrem,Sulawesi Selatan,Kab. Bone,DC Sulawesi,44,5,20,1121,5,WASPADA,Selesai,SN-0034,4.1,-5.639224,119.000652
+393,2024-01-08,1,2024,Banjir,Nusa Tenggara Timur,Kab. Sikka,DC Nusa Tenggara,43,39,23,931,2433,AWAS,Selesai,SN-0008,4.7,-8.940475,121.178785
+394,2025-01-13,1,2025,Banjir,Sulawesi Tengah,Kab. Palu,DC Sulawesi,30,29,169,1240,2616,SIAGA,Selesai,SN-0021,6.5,-1.115316,119.797683
+395,2025-03-09,3,2025,Banjir,Jawa Tengah,Kab. Cilacap,DC Jawa-Bali,5,16,67,2915,1804,SIAGA,Selesai,SN-0032,2.9,-6.721414,110.250602
+396,2024-01-14,1,2024,Tsunami,Sulawesi Selatan,Kab. Bone,DC Sulawesi,5,66,52,1142,597,AWAS,Belum Ditangani,SN-0010,6.5,-5.397104,119.378582
+397,2024-10-02,10,2024,Cuaca Ekstrem,Maluku Utara,Kab. Halmahera Barat,DC Maluku,46,12,36,7,263,SIAGA,Selesai,SN-0005,13.6,0.773979,127.302758
+398,2024-08-31,8,2024,Cuaca Ekstrem,Riau,Kab. Pelalawan,DC Sumatra,4,10,43,620,205,WASPADA,Selesai,SN-0035,2.5,0.665573,101.908824
+399,2024-12-27,12,2024,Banjir,Aceh,Kab. Bireuen,DC Sumatra,20,2,98,10825,782,AWAS,Belum Ditangani,SN-0006,3.8,5.091561,96.880017
+400,2024-12-07,12,2024,Tanah Longsor,Sumatera Utara,Kab. Tapanuli Utara,DC Sumatra,42,31,49,516,553,AWAS,Dalam Proses,SN-0002,4.2,2.10064,99.40925
+401,2024-01-26,1,2024,Kekeringan,Jawa Tengah,Kab. Cilacap,DC Jawa-Bali,5,3,17,76,0,WASPADA,Selesai,SN-0031,5.3,-7.613122,109.78189
+402,2025-12-08,12,2025,Banjir,Sumatera Utara,Kab. Tapanuli Utara,DC Sumatra,11,19,24,7474,2503,SIAGA,Selesai,SN-0039,2.6,1.630658,99.39247
+403,2024-11-26,11,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,44,12,20,247,499,SIAGA,Selesai,SN-0049,6.0,-5.510371,119.769127
+404,2024-01-03,1,2024,Tanah Longsor,Sumatera Barat,Kota Padang,DC Sumatra,11,10,89,3030,566,SIAGA,Selesai,SN-0041,2.5,-0.314224,100.340699
+405,2025-10-01,10,2025,Tanah Longsor,Riau,Kab. Pelalawan,DC Sumatra,27,5,90,4863,290,SIAGA,Selesai,SN-0010,2.6,0.825541,101.426012
+406,2024-10-14,10,2024,Banjir,Kalimantan Tengah,Kab. Kotawaringin Barat,DC Kalimantan,6,11,183,8190,2506,SIAGA,Selesai,SN-0016,2.0,-1.933517,113.761354
+407,2025-02-04,2,2025,Gempa Bumi,Maluku,Kab. Kepulauan Aru,DC Maluku,13,80,106,9057,434,AWAS,Dalam Proses,SN-0032,14.2,-3.589283,130.489082
+408,2025-02-02,2,2025,Erupsi Gunung Api,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,49,8,85,20211,1648,AWAS,Dalam Proses,SN-0011,4.7,-7.545579,109.692757
+409,2024-11-04,11,2024,Cuaca Ekstrem,Jawa Timur,Kab. Lumajang,DC Jawa-Bali,44,10,26,407,382,WASPADA,Selesai,SN-0015,2.6,-7.585527,112.351463
+410,2025-01-28,1,2025,Banjir,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,10,37,124,890,1785,AWAS,Dalam Proses,SN-0030,3.9,-5.038266,119.110761
+411,2025-11-09,11,2025,Cuaca Ekstrem,Sulawesi Selatan,Kab. Maros,DC Sulawesi,30,1,17,279,56,AMAN,Selesai,SN-0019,3.7,-5.189121,119.103901
+412,2025-09-21,9,2025,Kebakaran Hutan dan Lahan,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,32,0,13,877,133,WASPADA,Selesai,SN-0030,4.4,-0.529501,119.587143
+413,2025-03-24,3,2025,Tanah Longsor,Kalimantan Tengah,Kab. Kotawaringin Barat,DC Kalimantan,27,37,19,4699,5,AWAS,Selesai,SN-0003,5.8,-2.676041,113.884153
+414,2024-05-26,5,2024,Banjir,Sumatera Barat,Kab. Pesisir Selatan,DC Sumatra,47,35,192,203,2839,AWAS,Dalam Proses,SN-0006,3.2,-1.021894,100.658406
+415,2025-01-06,1,2025,Banjir,Aceh,Kab. Aceh Utara,DC Sumatra,46,29,118,12645,567,AWAS,Dalam Proses,SN-0041,4.3,4.984959,96.61982
+416,2025-01-13,1,2025,Gempa Bumi,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,44,34,277,18849,1696,AWAS,Dalam Proses,SN-0044,4.3,-8.272053,117.597361
+417,2024-04-13,4,2024,Tanah Longsor,Maluku,Kab. Buru,DC Maluku,5,11,82,4577,721,SIAGA,Selesai,SN-0035,9.0,-2.964924,129.783706
+418,2024-01-31,1,2024,Tanah Longsor,Sulawesi Selatan,Kab. Gowa,DC Sulawesi,4,32,87,3464,283,AWAS,Dalam Proses,SN-0008,4.6,-5.302473,119.418927
+419,2024-06-27,6,2024,Tanah Longsor,Bali,Kab. Bangli,DC Jawa-Bali,6,4,24,3750,89,SIAGA,Dalam Proses,SN-0011,2.4,-8.661688,115.550257
+420,2025-03-16,3,2025,Banjir,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,9,18,106,11180,2217,AWAS,Dalam Proses,SN-0013,2.1,1.98683,99.312709
+421,2025-01-08,1,2025,Cuaca Ekstrem,DI Yogyakarta,Kab. Gunung Kidul,DC Jawa-Bali,45,10,31,1215,340,WASPADA,Selesai,SN-0037,4.3,-7.765434,110.417969
+422,2025-02-06,2,2025,Cuaca Ekstrem,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,30,1,9,723,145,WASPADA,Selesai,SN-0035,2.8,-2.636386,115.40243
+423,2025-03-27,3,2025,Banjir,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,17,20,147,2072,1805,SIAGA,Dalam Proses,SN-0023,5.3,1.771855,99.282134
+424,2024-02-06,2,2024,Banjir,Bali,Kab. Bangli,DC Jawa-Bali,30,25,127,12591,595,AWAS,Selesai,SN-0033,4.7,-8.684447,115.56215
+425,2025-03-16,3,2025,Gempa Bumi,Nusa Tenggara Timur,Kab. Manggarai,DC Nusa Tenggara,3,56,173,3680,3923,AWAS,Dalam Proses,SN-0015,6.4,-8.60634,120.887482
+426,2024-05-02,5,2024,Tanah Longsor,Sulawesi Selatan,Kab. Bone,DC Sulawesi,29,12,2,684,551,SIAGA,Selesai,SN-0032,4.0,-4.690076,119.90854
+427,2025-03-31,3,2025,Erupsi Gunung Api,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,19,11,98,12216,24,AWAS,Dalam Proses,SN-0014,4.8,-7.341915,110.085876
+428,2024-11-14,11,2024,Tsunami,Aceh,Kab. Bireuen,DC Sumatra,39,106,71,27378,4810,AWAS,Dalam Proses,SN-0022,6.3,4.402884,96.724013
+429,2025-01-25,1,2025,Cuaca Ekstrem,Maluku Utara,Kota Ternate,DC Maluku,46,13,11,1138,236,SIAGA,Selesai,SN-0019,13.5,1.198172,127.065958
+430,2024-08-27,8,2024,Erupsi Gunung Api,Nusa Tenggara Timur,Kab. Manggarai,DC Nusa Tenggara,1,23,118,7357,54,SIAGA,Dalam Proses,SN-0008,7.8,-8.857131,121.219955
+431,2025-10-14,10,2025,Cuaca Ekstrem,Sulawesi Tengah,Kab. Parigi Moutong,DC Sulawesi,32,0,7,1566,141,WASPADA,Selesai,SN-0038,5.7,-0.397367,119.437425
+432,2024-06-09,6,2024,Banjir,Riau,Kab. Pelalawan,DC Sumatra,10,16,41,9529,239,SIAGA,Dalam Proses,SN-0018,2.8,0.911617,101.085497
+433,2025-04-12,4,2025,Banjir,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,12,32,49,12557,2572,AWAS,Selesai,SN-0021,3.6,-7.051238,109.807436
+434,2025-11-10,11,2025,Cuaca Ekstrem,Kalimantan Selatan,Kab. Hulu Sungai,DC Kalimantan,19,4,0,280,265,WASPADA,Selesai,SN-0011,3.7,-3.219586,115.268699
+435,2024-01-08,1,2024,Kebakaran Hutan dan Lahan,Sulawesi Selatan,Kab. Bone,DC Sulawesi,36,4,27,544,182,WASPADA,Selesai,SN-0005,4.1,-4.945435,119.73528
+436,2024-01-01,1,2024,Cuaca Ekstrem,Riau,Kab. Rokan Hilir,DC Sumatra,39,4,52,905,455,WASPADA,Selesai,SN-0020,2.9,0.556421,101.920111
+437,2025-01-08,1,2025,Banjir,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,45,13,33,1287,1740,SIAGA,Selesai,SN-0028,4.4,1.678422,98.593806
+438,2024-01-26,1,2024,Banjir,DI Yogyakarta,Kota Yogyakarta,DC Jawa-Bali,43,16,11,1085,1235,SIAGA,Dalam Proses,SN-0038,5.0,-8.199096,109.993294
+439,2024-12-12,12,2024,Cuaca Ekstrem,Jawa Barat,Kab. Bandung,DC Jawa-Bali,33,11,22,328,437,SIAGA,Selesai,SN-0038,2.3,-6.804544,107.624009
+440,2024-11-23,11,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Maros,DC Sulawesi,14,0,46,202,473,AMAN,Selesai,SN-0045,4.4,-4.727223,119.783997
+441,2024-09-04,9,2024,Tanah Longsor,Sulawesi Tengah,Kab. Sigi,DC Sulawesi,49,32,29,3338,115,AWAS,Selesai,SN-0049,2.7,-1.268085,119.481016
+442,2024-04-24,4,2024,Banjir,Jawa Tengah,Kota Semarang,DC Jawa-Bali,48,24,72,7486,2459,SIAGA,Dalam Proses,SN-0019,4.8,-6.673821,110.084256
+443,2024-12-28,12,2024,Tanah Longsor,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,7,0,86,4027,688,SIAGA,Dalam Proses,SN-0026,2.6,-7.961238,112.797919
+444,2025-04-04,4,2025,Tanah Longsor,Sulawesi Tengah,Kab. Palu,DC Sulawesi,8,21,25,4873,413,SIAGA,Dalam Proses,SN-0038,5.8,-0.966996,119.86981
+445,2025-09-26,9,2025,Tsunami,Maluku Utara,Kab. Halmahera Barat,DC Maluku,50,124,261,9138,1207,AWAS,Dalam Proses,SN-0009,8.1,0.40549,127.356041
+446,2025-01-27,1,2025,Erupsi Gunung Api,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,40,12,83,5004,620,SIAGA,Selesai,SN-0032,4.6,-7.723729,112.782481
+447,2024-11-22,11,2024,Cuaca Ekstrem,Riau,Kota Pekanbaru,DC Sumatra,28,0,60,1564,16,WASPADA,Selesai,SN-0025,4.3,0.913426,101.069134
+448,2024-05-06,5,2024,Banjir,Bali,Kab. Bangli,DC Jawa-Bali,25,27,34,5119,2931,SIAGA,Selesai,SN-0044,5.3,-8.731118,115.267025
+449,2024-08-18,8,2024,Cuaca Ekstrem,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,40,15,37,1988,193,SIAGA,Selesai,SN-0038,2.3,-0.625229,119.655138
+450,2025-01-12,1,2025,Gempa Bumi,Jawa Barat,Kab. Sukabumi,DC Jawa-Bali,4,44,182,13498,2877,AWAS,Belum Ditangani,SN-0045,5.0,-7.169886,107.767183
+451,2024-01-11,1,2024,Banjir,Sulawesi Tengah,Kab. Palu,DC Sulawesi,37,29,168,14145,1730,AWAS,Belum Ditangani,SN-0002,4.3,-0.970527,119.391102
+452,2024-12-13,12,2024,Gempa Bumi,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,33,12,105,11008,4069,AWAS,Selesai,SN-0028,5.8,-8.485512,117.028227
+453,2025-02-26,2,2025,Cuaca Ekstrem,Jawa Timur,Kab. Bojonegoro,DC Jawa-Bali,15,1,19,1174,205,WASPADA,Selesai,SN-0038,5.6,-7.859328,113.079341
+454,2024-01-03,1,2024,Cuaca Ekstrem,DI Yogyakarta,Kab. Kulon Progo,DC Jawa-Bali,33,2,41,1687,154,WASPADA,Selesai,SN-0013,4.7,-7.491473,110.30241
+455,2024-05-17,5,2024,Banjir,Aceh,Kab. Aceh Utara,DC Sumatra,37,40,180,8457,764,AWAS,Dalam Proses,SN-0018,6.7,4.855906,97.073308
+456,2024-12-20,12,2024,Banjir,Papua,Kab. Nabire,DC Papua,16,12,93,7577,605,SIAGA,Dalam Proses,SN-0021,9.9,-4.084593,137.880676
+457,2025-12-21,12,2025,Tanah Longsor,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,26,10,32,4925,241,SIAGA,Dalam Proses,SN-0020,6.0,-5.497738,118.960404
+458,2025-06-14,6,2025,Cuaca Ekstrem,Papua,Kab. Jayapura,DC Papua,18,4,1,529,404,WASPADA,Selesai,SN-0047,13.7,-4.111229,137.756385
+459,2024-06-28,6,2024,Kebakaran Hutan dan Lahan,Jawa Timur,Kab. Jember,DC Jawa-Bali,43,3,28,372,171,WASPADA,Selesai,SN-0009,6.2,-7.598181,112.518295
+460,2025-02-17,2,2025,Cuaca Ekstrem,Sumatera Barat,Kab. Tanah Datar,DC Sumatra,16,8,31,1811,46,WASPADA,Selesai,SN-0038,3.6,-0.640079,101.073191
+461,2025-11-24,11,2025,Banjir,Kalimantan Tengah,Kab. Barito Selatan,DC Kalimantan,27,11,54,4498,1800,SIAGA,Dalam Proses,SN-0008,3.9,-2.126619,113.903859
+462,2024-03-22,3,2024,Tsunami,Kalimantan Tengah,Kab. Kapuas,DC Kalimantan,20,92,243,23451,3012,AWAS,Dalam Proses,SN-0043,6.2,-1.749295,114.019315
+463,2024-11-30,11,2024,Cuaca Ekstrem,Kalimantan Tengah,Kab. Kapuas,DC Kalimantan,8,11,57,1663,350,SIAGA,Selesai,SN-0026,2.0,-2.479718,113.855903
+464,2025-12-10,12,2025,Tanah Longsor,Jawa Timur,Kab. Lumajang,DC Jawa-Bali,42,28,80,2598,785,SIAGA,Selesai,SN-0032,6.1,-8.450018,112.987845
+465,2024-06-27,6,2024,Gempa Bumi,Nusa Tenggara Barat,Kota Mataram,DC Nusa Tenggara,23,20,133,16591,543,AWAS,Dalam Proses,SN-0045,6.0,-8.423668,117.409328
+466,2024-01-21,1,2024,Banjir,Sulawesi Tengah,Kab. Parigi Moutong,DC Sulawesi,21,25,51,10294,1251,AWAS,Belum Ditangani,SN-0042,5.6,-1.280872,119.620304
+467,2025-11-22,11,2025,Tanah Longsor,Papua,Kab. Merauke,DC Papua,19,16,22,4858,335,SIAGA,Dalam Proses,SN-0037,13.9,-4.355404,137.762289
+468,2025-02-18,2,2025,Banjir,Kalimantan Tengah,Kab. Palangkaraya,DC Kalimantan,40,44,43,815,1642,AWAS,Dalam Proses,SN-0037,3.8,-2.455942,113.502561
+469,2025-01-14,1,2025,Tanah Longsor,Aceh,Kota Banda Aceh,DC Sumatra,48,12,100,2180,294,SIAGA,Selesai,SN-0019,5.0,4.325299,97.105738
+470,2024-11-06,11,2024,Cuaca Ekstrem,Papua,Kab. Mimika,DC Papua,16,7,39,923,464,WASPADA,Selesai,SN-0001,10.1,-4.400262,138.264667
+471,2025-06-23,6,2025,Cuaca Ekstrem,Maluku Utara,Kab. Halmahera Utara,DC Maluku,4,8,4,195,285,WASPADA,Selesai,SN-0023,10.2,0.335413,127.797765
+472,2025-12-31,12,2025,Kekeringan,Jawa Tengah,Kota Semarang,DC Jawa-Bali,43,3,9,500,0,WASPADA,Selesai,SN-0038,4.8,-7.279099,110.608358
+473,2024-02-16,2,2024,Cuaca Ekstrem,Nusa Tenggara Barat,Kota Mataram,DC Nusa Tenggara,21,13,9,533,59,SIAGA,Dalam Proses,SN-0048,9.0,-9.025029,117.73328
+474,2024-04-29,4,2024,Tsunami,Kalimantan Selatan,Kab. Balangan,DC Kalimantan,11,132,160,14279,7312,AWAS,Dalam Proses,SN-0043,2.8,-2.598035,115.547475
+475,2024-10-07,10,2024,Banjir,Sumatera Utara,Kab. Tapanuli Utara,DC Sumatra,30,30,66,2679,2891,SIAGA,Selesai,SN-0023,2.2,2.561902,99.502206
+476,2025-12-15,12,2025,Kebakaran Hutan dan Lahan,Riau,Kab. Pelalawan,DC Sumatra,19,0,11,95,52,AMAN,Selesai,SN-0018,4.5,0.213955,101.118295
+477,2025-09-07,9,2025,Banjir,Jawa Barat,Kab. Garut,DC Jawa-Bali,44,4,63,12587,2040,AWAS,Dalam Proses,SN-0008,6.9,-7.088842,107.403381
+478,2025-04-04,4,2025,Gempa Bumi,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,43,61,232,8825,4867,AWAS,Dalam Proses,SN-0021,9.7,-8.183129,117.517773
+479,2025-12-30,12,2025,Gempa Bumi,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,36,36,165,1819,579,AWAS,Selesai,SN-0026,2.9,1.948091,98.973858
+480,2025-01-06,1,2025,Tanah Longsor,Maluku Utara,Kab. Tidore,DC Maluku,48,7,38,4021,442,SIAGA,Selesai,SN-0043,7.2,0.593401,127.551662
+481,2024-01-07,1,2024,Tanah Longsor,Riau,Kota Pekanbaru,DC Sumatra,49,36,76,3465,92,AWAS,Dalam Proses,SN-0006,5.2,0.401536,101.136356
+482,2024-01-15,1,2024,Tanah Longsor,Kalimantan Tengah,Kab. Kotawaringin Barat,DC Kalimantan,28,33,10,2381,479,AWAS,Dalam Proses,SN-0044,6.9,-1.914555,113.713893
+483,2025-12-17,12,2025,Tsunami,Papua,Kab. Merauke,DC Papua,7,19,469,1477,4205,SIAGA,Selesai,SN-0017,12.5,-4.356881,138.045056
+484,2025-04-25,4,2025,Erupsi Gunung Api,DI Yogyakarta,Kab. Sleman,DC Jawa-Bali,6,5,46,12876,92,AWAS,Dalam Proses,SN-0049,5.6,-7.591221,110.183446
+485,2025-10-09,10,2025,Banjir,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,7,47,154,4248,2758,AWAS,Dalam Proses,SN-0042,4.1,-9.134985,117.256534
+486,2025-06-28,6,2025,Erupsi Gunung Api,Riau,Kab. Rokan Hilir,DC Sumatra,9,11,101,9917,179,SIAGA,Dalam Proses,SN-0013,5.5,0.224102,101.765968
+487,2024-12-21,12,2024,Tanah Longsor,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,31,5,38,3796,151,SIAGA,Selesai,SN-0029,5.7,1.683159,99.477415
+488,2024-12-28,12,2024,Cuaca Ekstrem,Aceh,Kab. Aceh Utara,DC Sumatra,7,12,3,683,4,SIAGA,Selesai,SN-0048,6.2,4.908193,97.228887
+489,2025-09-10,9,2025,Kekeringan,Jawa Tengah,Kab. Cilacap,DC Jawa-Bali,34,3,7,365,0,WASPADA,Selesai,SN-0018,4.8,-7.63098,110.216703
+490,2024-12-16,12,2024,Cuaca Ekstrem,Sumatera Barat,Kab. Pesisir Selatan,DC Sumatra,11,14,44,893,10,SIAGA,Dalam Proses,SN-0015,3.2,-1.047699,100.643847
+491,2025-09-30,9,2025,Cuaca Ekstrem,Aceh,Kab. Pidie,DC Sumatra,44,12,26,1706,481,SIAGA,Selesai,SN-0011,6.9,4.555356,96.721725
+492,2024-10-24,10,2024,Tanah Longsor,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,27,10,77,4031,103,SIAGA,Selesai,SN-0002,4.8,-7.990175,112.356119
+493,2024-04-22,4,2024,Kebakaran Hutan dan Lahan,Sulawesi Tengah,Kab. Donggala,DC Sulawesi,28,0,25,65,86,AMAN,Selesai,SN-0032,4.8,-1.277731,119.59739
+494,2024-03-12,3,2024,Tanah Longsor,Jawa Tengah,Kab. Purworejo,DC Jawa-Bali,4,32,77,853,723,AWAS,Selesai,SN-0008,6.2,-7.212173,110.097436
+495,2025-12-20,12,2025,Banjir,Sumatera Barat,Kab. Tanah Datar,DC Sumatra,24,10,161,1934,841,WASPADA,Selesai,SN-0033,4.2,-1.082867,100.592123
+496,2025-07-05,7,2025,Banjir,Maluku,Kab. Seram Bagian Barat,DC Maluku,16,12,112,6811,26,SIAGA,Selesai,SN-0018,7.5,-3.264837,129.932058
+497,2025-04-12,4,2025,Tanah Longsor,Kalimantan Tengah,Kab. Kotawaringin Barat,DC Kalimantan,27,14,17,3512,423,SIAGA,Selesai,SN-0002,5.4,-1.764259,113.929655
+498,2025-05-23,5,2025,Cuaca Ekstrem,DI Yogyakarta,Kab. Sleman,DC Jawa-Bali,4,12,49,336,222,SIAGA,Dalam Proses,SN-0037,2.8,-8.258506,110.792019
+499,2025-01-23,1,2025,Cuaca Ekstrem,DI Yogyakarta,Kab. Gunung Kidul,DC Jawa-Bali,18,10,58,704,4,WASPADA,Selesai,SN-0026,2.7,-7.395391,110.479901
+500,2024-05-18,5,2024,Gempa Bumi,Aceh,Kab. Bireuen,DC Sumatra,3,51,101,9880,690,AWAS,Belum Ditangani,SN-0034,6.4,4.585094,96.968281
+501,2024-12-03,12,2024,Cuaca Ekstrem,DI Yogyakarta,Kota Yogyakarta,DC Jawa-Bali,35,5,1,57,455,WASPADA,Selesai,SN-0047,5.9,-7.703096,110.11084
+502,2024-05-24,5,2024,Kekeringan,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,29,2,3,24,0,AMAN,Selesai,SN-0016,4.3,-7.352039,110.377159
+503,2025-11-19,11,2025,Tanah Longsor,Bali,Kota Denpasar,DC Jawa-Bali,9,18,85,4692,688,SIAGA,Selesai,SN-0038,3.6,-8.320833,114.839633
+504,2025-02-15,2,2025,Gempa Bumi,Sumatera Barat,Kab. Padang Pariaman,DC Sumatra,9,10,47,2037,3480,WASPADA,Selesai,SN-0034,3.8,-0.763647,100.746164
+505,2025-04-25,4,2025,Tsunami,Maluku Utara,Kab. Halmahera Barat,DC Maluku,27,112,352,16041,5994,AWAS,Selesai,SN-0009,12.4,0.427646,126.993824
+506,2024-12-17,12,2024,Banjir,Sumatera Barat,Kab. Padang Pariaman,DC Sumatra,8,47,40,9159,1512,AWAS,Belum Ditangani,SN-0003,4.9,-0.83128,100.420866
+507,2024-07-10,7,2024,Banjir,Maluku,Kab. Seram Bagian Barat,DC Maluku,27,50,36,2328,2415,AWAS,Dalam Proses,SN-0048,7.9,-2.844247,130.534357
+508,2024-06-12,6,2024,Cuaca Ekstrem,Jawa Timur,Kab. Malang,DC Jawa-Bali,25,14,57,691,400,SIAGA,Selesai,SN-0033,5.8,-7.763867,112.72711
+509,2025-10-22,10,2025,Banjir,Aceh,Kab. Pidie,DC Sumatra,25,39,170,10216,1677,AWAS,Dalam Proses,SN-0029,6.8,4.590497,96.790394
+510,2025-11-28,11,2025,Cuaca Ekstrem,Sulawesi Tengah,Kab. Palu,DC Sulawesi,13,3,41,1145,43,WASPADA,Selesai,SN-0037,5.8,-0.436532,119.912534
+511,2025-07-17,7,2025,Tanah Longsor,Jawa Barat,Kab. Bandung,DC Jawa-Bali,46,1,35,1685,251,WASPADA,Selesai,SN-0035,2.4,-6.578583,107.698653
+512,2024-10-02,10,2024,Tanah Longsor,Riau,Kab. Pelalawan,DC Sumatra,25,26,3,4324,324,SIAGA,Dalam Proses,SN-0010,2.8,0.147945,101.049334
+513,2025-02-05,2,2025,Banjir,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,4,20,46,445,2921,SIAGA,Dalam Proses,SN-0017,9.4,-9.058556,120.721861
+514,2025-04-04,4,2025,Kekeringan,Jawa Tengah,Kab. Banjarnegara,DC Jawa-Bali,8,1,15,260,0,AMAN,Selesai,SN-0005,4.8,-7.380712,109.958636
+515,2024-06-08,6,2024,Banjir,Jawa Barat,Kab. Sukabumi,DC Jawa-Bali,9,15,195,9088,2668,SIAGA,Dalam Proses,SN-0014,5.2,-7.010754,107.203008
+516,2024-11-18,11,2024,Gempa Bumi,Sulawesi Tengah,Kab. Donggala,DC Sulawesi,30,71,231,1369,8,AWAS,Selesai,SN-0004,2.8,-0.77097,120.023759
+517,2024-12-20,12,2024,Kebakaran Hutan dan Lahan,Kalimantan Selatan,Kab. Tapin,DC Kalimantan,19,1,18,860,130,WASPADA,Selesai,SN-0020,4.8,-3.547115,115.522983
+518,2025-01-27,1,2025,Kebakaran Hutan dan Lahan,Sumatera Utara,Kab. Karo,DC Sumatra,44,1,19,516,81,WASPADA,Selesai,SN-0046,6.9,2.512108,99.21017
+519,2024-05-11,5,2024,Kekeringan,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,42,2,0,467,0,AMAN,Selesai,SN-0001,4.0,-8.230642,117.470387
+520,2024-10-29,10,2024,Banjir,Riau,Kota Pekanbaru,DC Sumatra,29,34,7,14623,2750,AWAS,Belum Ditangani,SN-0023,6.1,0.386295,101.762781
+521,2025-04-26,4,2025,Tanah Longsor,Jawa Barat,Kab. Bandung,DC Jawa-Bali,2,28,1,1814,760,SIAGA,Selesai,SN-0040,3.0,-6.736946,107.828298
+522,2025-10-08,10,2025,Banjir,Kalimantan Tengah,Kab. Barito Selatan,DC Kalimantan,14,31,180,11582,2482,AWAS,Dalam Proses,SN-0018,2.6,-1.731836,114.051936
+523,2024-09-18,9,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Bone,DC Sulawesi,48,5,4,1204,65,WASPADA,Selesai,SN-0015,4.8,-5.582651,119.192324
+524,2025-12-09,12,2025,Cuaca Ekstrem,Sulawesi Selatan,Kota Makassar,DC Sulawesi,30,8,43,1147,452,WASPADA,Selesai,SN-0042,5.4,-5.645745,119.359814
+525,2025-01-14,1,2025,Tsunami,Papua,Kab. Merauke,DC Papua,49,119,253,11844,4237,AWAS,Dalam Proses,SN-0035,14.3,-4.04868,137.627365
+526,2024-05-07,5,2024,Gempa Bumi,Nusa Tenggara Barat,Kab. Lombok Utara,DC Nusa Tenggara,13,28,216,2439,2047,AWAS,Dalam Proses,SN-0031,4.6,-8.842094,117.487595
+527,2024-05-26,5,2024,Gempa Bumi,Nusa Tenggara Barat,Kab. Sumbawa,DC Nusa Tenggara,34,30,174,1783,2732,AWAS,Selesai,SN-0049,7.7,-8.209352,117.637349
+528,2024-01-04,1,2024,Tanah Longsor,Jawa Timur,Kab. Malang,DC Jawa-Bali,29,4,100,1044,63,WASPADA,Selesai,SN-0007,4.2,-8.429111,112.732139
+529,2025-10-10,10,2025,Tsunami,Maluku Utara,Kab. Tidore,DC Maluku,43,59,442,19646,6450,AWAS,Belum Ditangani,SN-0040,9.9,0.736711,127.330909
+530,2024-10-31,10,2024,Tanah Longsor,Jawa Barat,Kab. Cianjur,DC Jawa-Bali,46,6,13,100,609,WASPADA,Selesai,SN-0037,3.0,-7.349956,107.908516
+531,2024-01-12,1,2024,Tanah Longsor,Papua,Kab. Biak Numfor,DC Papua,9,15,17,361,61,SIAGA,Dalam Proses,SN-0020,12.8,-4.334052,138.540141
+532,2024-09-05,9,2024,Cuaca Ekstrem,Sumatera Utara,Kota Medan,DC Sumatra,34,9,23,1987,4,WASPADA,Selesai,SN-0033,2.3,2.15314,99.2533
+533,2025-11-02,11,2025,Tanah Longsor,Papua,Kab. Merauke,DC Papua,13,40,25,560,349,AWAS,Belum Ditangani,SN-0022,11.4,-4.075118,138.562323
+534,2025-12-11,12,2025,Banjir,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,1,29,10,8125,898,SIAGA,Selesai,SN-0031,5.3,-8.464079,121.045937
+535,2025-11-11,11,2025,Banjir,Maluku Utara,Kab. Halmahera Utara,DC Maluku,2,23,2,1208,1465,SIAGA,Selesai,SN-0049,11.7,0.425702,127.307108
+536,2025-04-07,4,2025,Tanah Longsor,Sulawesi Selatan,Kab. Maros,DC Sulawesi,12,11,43,4542,251,SIAGA,Dalam Proses,SN-0044,2.5,-5.471623,119.194489
+537,2025-02-04,2,2025,Tanah Longsor,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,40,23,47,1403,539,SIAGA,Selesai,SN-0009,4.9,-8.274512,116.926978
+538,2024-11-13,11,2024,Tanah Longsor,Maluku,Kab. Seram Bagian Barat,DC Maluku,35,2,97,4811,193,SIAGA,Dalam Proses,SN-0018,11.7,-3.589933,129.892472
+539,2025-12-31,12,2025,Gempa Bumi,Riau,Kab. Indragiri Hilir,DC Sumatra,25,78,33,5486,4166,AWAS,Selesai,SN-0030,4.5,0.678372,101.459159
+540,2025-02-17,2,2025,Kebakaran Hutan dan Lahan,Riau,Kota Pekanbaru,DC Sumatra,42,5,29,809,149,WASPADA,Selesai,SN-0016,3.0,0.069904,101.169526
+541,2024-04-29,4,2024,Cuaca Ekstrem,Maluku Utara,Kab. Morotai,DC Maluku,49,8,35,173,68,WASPADA,Selesai,SN-0038,9.2,0.367328,127.311205
+542,2024-01-11,1,2024,Gempa Bumi,Papua,Kab. Biak Numfor,DC Papua,25,47,254,10388,2236,AWAS,Dalam Proses,SN-0006,6.7,-4.328212,137.846025
+543,2024-03-18,3,2024,Banjir,Jawa Timur,Kab. Jember,DC Jawa-Bali,13,4,92,627,2236,WASPADA,Selesai,SN-0048,3.3,-8.150142,112.796507
+544,2025-11-09,11,2025,Kekeringan,Sulawesi Selatan,Kab. Bone,DC Sulawesi,19,2,0,394,0,AMAN,Selesai,SN-0026,4.0,-4.825391,119.715828
+545,2025-11-01,11,2025,Erupsi Gunung Api,Riau,Kab. Bengkalis,DC Sumatra,47,27,101,7457,464,SIAGA,Selesai,SN-0049,5.9,0.507738,101.465825
+546,2025-06-11,6,2025,Tanah Longsor,Jawa Timur,Kab. Jember,DC Jawa-Bali,36,26,26,3593,460,SIAGA,Dalam Proses,SN-0048,3.5,-8.34495,112.99515
+547,2025-01-27,1,2025,Gempa Bumi,Maluku,Kab. Seram Bagian Barat,DC Maluku,38,51,275,9818,2671,AWAS,Dalam Proses,SN-0022,7.4,-2.953142,130.567444
+548,2025-09-30,9,2025,Tsunami,Maluku Utara,Kab. Tidore,DC Maluku,31,16,273,12662,1542,AWAS,Dalam Proses,SN-0006,14.1,0.852815,127.318235
+549,2025-02-06,2,2025,Tanah Longsor,Jawa Tengah,Kab. Purworejo,DC Jawa-Bali,14,12,8,3161,290,SIAGA,Dalam Proses,SN-0034,2.3,-6.99043,109.710279
+550,2024-01-30,1,2024,Banjir,Papua,Kab. Biak Numfor,DC Papua,48,8,137,6855,1958,SIAGA,Dalam Proses,SN-0014,7.2,-3.814803,138.446099
+551,2025-03-22,3,2025,Tsunami,Riau,Kab. Indragiri Hilir,DC Sumatra,44,150,103,16465,5871,AWAS,Dalam Proses,SN-0026,4.2,0.235003,101.941085
+552,2024-09-11,9,2024,Banjir,Riau,Kota Pekanbaru,DC Sumatra,30,47,23,4717,2647,AWAS,Dalam Proses,SN-0012,4.0,0.875939,101.742347
+553,2024-05-20,5,2024,Tanah Longsor,Papua,Kab. Biak Numfor,DC Papua,3,36,12,3223,715,AWAS,Dalam Proses,SN-0019,11.7,-3.89936,137.854176
+554,2024-10-24,10,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,7,3,23,156,386,WASPADA,Selesai,SN-0011,4.1,-5.143305,119.712211
+555,2024-03-15,3,2024,Cuaca Ekstrem,Jawa Barat,Kab. Bandung,DC Jawa-Bali,26,14,24,703,381,SIAGA,Selesai,SN-0009,2.6,-7.020826,107.129837
+556,2025-03-16,3,2025,Tanah Longsor,Aceh,Kab. Aceh Besar,DC Sumatra,11,28,17,3856,285,SIAGA,Dalam Proses,SN-0035,3.5,4.213166,96.349915
+557,2024-11-22,11,2024,Cuaca Ekstrem,Jawa Barat,Kab. Sukabumi,DC Jawa-Bali,44,5,13,1463,17,WASPADA,Selesai,SN-0041,2.2,-6.885201,107.561158
+558,2025-11-23,11,2025,Tanah Longsor,Sumatera Barat,Kab. Pesisir Selatan,DC Sumatra,25,38,0,398,790,AWAS,Selesai,SN-0006,3.2,-0.311079,100.674645
+559,2024-01-01,1,2024,Banjir,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,11,6,170,2750,2965,WASPADA,Selesai,SN-0021,8.9,-9.108887,117.3741
+560,2024-09-07,9,2024,Banjir,Bali,Kab. Tabanan,DC Jawa-Bali,12,13,27,5842,1324,SIAGA,Dalam Proses,SN-0015,3.1,-8.186507,114.603981
+561,2025-01-21,1,2025,Tanah Longsor,Maluku,Kota Ambon,DC Maluku,7,26,38,4905,511,SIAGA,Selesai,SN-0017,11.1,-2.94724,130.567524
+562,2025-12-21,12,2025,Cuaca Ekstrem,Maluku Utara,Kab. Halmahera Utara,DC Maluku,39,15,4,686,9,SIAGA,Selesai,SN-0033,12.7,0.732212,127.377726
+563,2025-09-08,9,2025,Banjir,Jawa Barat,Kab. Garut,DC Jawa-Bali,40,15,188,7020,997,SIAGA,Dalam Proses,SN-0025,3.0,-7.279945,107.617826
+564,2024-02-24,2,2024,Cuaca Ekstrem,Aceh,Kab. Bireuen,DC Sumatra,27,1,33,1621,500,WASPADA,Selesai,SN-0047,2.1,4.843146,96.537855
+565,2024-03-18,3,2024,Cuaca Ekstrem,Jawa Tengah,Kab. Banjarnegara,DC Jawa-Bali,34,7,38,1787,195,WASPADA,Selesai,SN-0032,2.0,-7.328363,110.082661
+566,2024-01-21,1,2024,Tanah Longsor,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,33,37,70,1674,241,AWAS,Dalam Proses,SN-0016,5.6,2.291689,98.886463
+567,2025-05-10,5,2025,Kekeringan,Nusa Tenggara Timur,Kab. Manggarai,DC Nusa Tenggara,6,1,8,441,0,AMAN,Selesai,SN-0031,6.3,-8.206287,120.938982
+568,2024-05-24,5,2024,Gempa Bumi,Papua,Kab. Mimika,DC Papua,49,2,195,14004,681,AWAS,Selesai,SN-0012,11.0,-4.469668,138.117598
+569,2024-03-15,3,2024,Tsunami,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,31,18,170,4477,5856,SIAGA,Dalam Proses,SN-0047,9.2,-8.241168,120.583581
+570,2024-11-30,11,2024,Tanah Longsor,Papua,Kab. Biak Numfor,DC Papua,27,31,39,4819,72,AWAS,Selesai,SN-0011,14.4,-3.777428,137.704878
+571,2024-02-09,2,2024,Cuaca Ekstrem,Maluku,Kab. Kepulauan Aru,DC Maluku,25,11,44,118,333,SIAGA,Selesai,SN-0024,6.3,-3.002836,129.887653
+572,2025-10-23,10,2025,Erupsi Gunung Api,Sumatera Utara,Kab. Nias,DC Sumatra,38,4,65,8107,1233,SIAGA,Selesai,SN-0042,5.9,2.408216,98.587337
+573,2024-11-23,11,2024,Kebakaran Hutan dan Lahan,Jawa Timur,Kab. Bojonegoro,DC Jawa-Bali,45,1,26,437,64,AMAN,Selesai,SN-0025,5.3,-8.18168,113.089083
+574,2025-09-25,9,2025,Gempa Bumi,Jawa Timur,Kab. Malang,DC Jawa-Bali,48,44,73,8815,1716,AWAS,Dalam Proses,SN-0001,6.1,-8.1758,113.108425
+575,2025-01-14,1,2025,Gempa Bumi,DI Yogyakarta,Kab. Kulon Progo,DC Jawa-Bali,46,21,90,12276,1526,AWAS,Dalam Proses,SN-0037,2.6,-7.809129,110.372114
+576,2024-11-02,11,2024,Gempa Bumi,Sulawesi Tengah,Kab. Donggala,DC Sulawesi,19,56,55,5443,653,AWAS,Dalam Proses,SN-0016,2.1,-1.267018,119.434962
+577,2025-06-04,6,2025,Banjir,Jawa Barat,Kab. Bandung,DC Jawa-Bali,7,42,149,12930,171,AWAS,Dalam Proses,SN-0049,4.6,-6.625713,107.494766
+578,2024-03-25,3,2024,Cuaca Ekstrem,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,24,10,20,1672,122,WASPADA,Selesai,SN-0023,4.3,-8.487822,117.240036
+579,2025-12-01,12,2025,Kebakaran Hutan dan Lahan,Aceh,Kota Banda Aceh,DC Sumatra,34,1,0,616,31,WASPADA,Selesai,SN-0024,6.1,4.474568,96.948665
+580,2025-05-28,5,2025,Tanah Longsor,Riau,Kab. Bengkalis,DC Sumatra,41,0,81,2639,17,WASPADA,Selesai,SN-0021,6.0,0.393506,100.995754
+581,2024-10-16,10,2024,Banjir,Maluku Utara,Kab. Morotai,DC Maluku,7,30,168,14042,2865,AWAS,Selesai,SN-0034,7.3,0.577163,127.061777
+582,2025-12-23,12,2025,Banjir,DI Yogyakarta,Kab. Sleman,DC Jawa-Bali,11,19,172,8990,1912,SIAGA,Selesai,SN-0016,4.7,-7.340549,110.351669
+583,2025-02-22,2,2025,Banjir,Jawa Timur,Kab. Malang,DC Jawa-Bali,50,10,83,14788,1570,AWAS,Dalam Proses,SN-0043,6.8,-7.764725,112.787333
+584,2024-01-18,1,2024,Banjir,Riau,Kab. Pelalawan,DC Sumatra,5,14,147,12555,2460,AWAS,Belum Ditangani,SN-0025,5.7,0.41031,101.667443
+585,2025-10-31,10,2025,Banjir,Papua,Kab. Mimika,DC Papua,22,18,22,1824,365,SIAGA,Selesai,SN-0024,7.0,-3.832689,138.325018
+586,2024-01-13,1,2024,Tanah Longsor,Jawa Barat,Kab. Sukabumi,DC Jawa-Bali,24,24,54,2618,789,SIAGA,Selesai,SN-0038,5.3,-6.483575,107.245407
+587,2024-02-18,2,2024,Cuaca Ekstrem,Aceh,Kab. Bireuen,DC Sumatra,10,7,31,1392,233,WASPADA,Selesai,SN-0045,5.3,4.796565,96.395271
+588,2024-01-17,1,2024,Cuaca Ekstrem,Sumatera Barat,Kota Padang,DC Sumatra,32,15,40,1697,110,SIAGA,Dalam Proses,SN-0010,6.1,-0.273404,100.358813
+589,2024-11-24,11,2024,Gempa Bumi,Kalimantan Tengah,Kab. Palangkaraya,DC Kalimantan,2,62,200,9800,1304,AWAS,Belum Ditangani,SN-0049,7.0,-2.37869,114.091399
+590,2024-04-24,4,2024,Banjir,Nusa Tenggara Timur,Kab. Sikka,DC Nusa Tenggara,21,35,100,1594,536,AWAS,Selesai,SN-0046,9.1,-8.576916,121.384472
+591,2025-03-19,3,2025,Banjir,Sumatera Utara,Kota Medan,DC Sumatra,48,9,53,3573,801,SIAGA,Selesai,SN-0010,2.5,1.928926,99.431141
+592,2025-04-22,4,2025,Gempa Bumi,Sulawesi Tengah,Kab. Palu,DC Sulawesi,42,22,26,3845,4222,AWAS,Dalam Proses,SN-0016,5.6,-0.957879,119.519268
+593,2024-01-16,1,2024,Cuaca Ekstrem,Nusa Tenggara Timur,Kab. Manggarai,DC Nusa Tenggara,43,12,49,1416,407,SIAGA,Selesai,SN-0018,7.9,-8.379569,121.444296
+594,2024-10-01,10,2024,Tanah Longsor,Sumatera Barat,Kab. Agam,DC Sumatra,37,32,28,188,600,AWAS,Selesai,SN-0038,2.5,-0.760402,100.993726
+595,2024-02-21,2,2024,Banjir,Papua,Kab. Merauke,DC Papua,12,20,16,11694,2201,AWAS,Dalam Proses,SN-0034,13.4,-4.069158,137.974197
+596,2024-06-19,6,2024,Banjir,Bali,Kab. Karangasem,DC Jawa-Bali,45,42,30,2960,2453,AWAS,Dalam Proses,SN-0009,2.6,-8.285778,115.392513
+597,2025-09-03,9,2025,Banjir,Bali,Kab. Bangli,DC Jawa-Bali,35,7,129,4891,1489,SIAGA,Dalam Proses,SN-0003,3.2,-7.863397,115.250159
+598,2024-12-26,12,2024,Erupsi Gunung Api,Nusa Tenggara Timur,Kab. Manggarai,DC Nusa Tenggara,23,15,80,17126,1865,AWAS,Belum Ditangani,SN-0003,8.0,-8.64671,121.26733
+599,2024-02-10,2,2024,Banjir,Sulawesi Selatan,Kab. Gowa,DC Sulawesi,40,22,71,2105,2986,SIAGA,Selesai,SN-0011,5.2,-5.097851,119.193374
+600,2024-04-09,4,2024,Banjir,Papua,Kab. Mimika,DC Papua,45,40,187,4413,2593,AWAS,Belum Ditangani,SN-0033,11.8,-4.055455,138.144042
+601,2024-09-05,9,2024,Kekeringan,Nusa Tenggara Barat,Kota Mataram,DC Nusa Tenggara,35,1,2,138,0,AMAN,Selesai,SN-0041,4.4,-9.04291,117.409969
+602,2025-01-25,1,2025,Banjir,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,25,0,25,6179,910,SIAGA,Selesai,SN-0020,4.6,-2.809866,114.907303
+603,2025-09-04,9,2025,Kebakaran Hutan dan Lahan,DI Yogyakarta,Kab. Gunung Kidul,DC Jawa-Bali,4,4,8,622,25,WASPADA,Selesai,SN-0023,3.9,-8.124853,110.81601
+604,2025-11-26,11,2025,Tanah Longsor,Bali,Kota Denpasar,DC Jawa-Bali,1,30,75,1045,265,SIAGA,Selesai,SN-0037,2.7,-8.127277,115.249563
+605,2024-11-24,11,2024,Tanah Longsor,Maluku,Kab. Maluku Tengah,DC Maluku,30,29,23,3595,362,SIAGA,Selesai,SN-0015,14.5,-3.462677,130.073065
+606,2025-03-31,3,2025,Kebakaran Hutan dan Lahan,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,16,5,2,78,186,WASPADA,Selesai,SN-0048,4.3,-8.212433,120.744513
+607,2025-03-26,3,2025,Tsunami,Jawa Barat,Kab. Cianjur,DC Jawa-Bali,44,34,245,16312,4218,AWAS,Selesai,SN-0040,4.0,-6.529419,107.816982
+608,2025-02-01,2,2025,Banjir,Papua,Kab. Nabire,DC Papua,44,47,169,13489,2163,AWAS,Belum Ditangani,SN-0049,12.1,-4.162526,138.545047
+609,2024-07-03,7,2024,Banjir,Maluku,Kab. Maluku Tengah,DC Maluku,24,27,126,6211,698,SIAGA,Selesai,SN-0008,13.5,-3.400541,130.324363
+610,2024-03-09,3,2024,Cuaca Ekstrem,Sulawesi Selatan,Kota Makassar,DC Sulawesi,42,6,59,624,475,WASPADA,Selesai,SN-0040,6.7,-5.132171,119.826118
+611,2024-12-01,12,2024,Banjir,Aceh,Kab. Bireuen,DC Sumatra,12,0,89,14584,2959,AWAS,Dalam Proses,SN-0034,3.0,4.203964,96.680204
+612,2024-07-04,7,2024,Cuaca Ekstrem,Riau,Kab. Pelalawan,DC Sumatra,20,7,30,809,191,WASPADA,Selesai,SN-0018,4.7,0.397796,101.842193
+613,2024-01-27,1,2024,Tsunami,Aceh,Kab. Pidie,DC Sumatra,46,1,183,28953,7131,AWAS,Dalam Proses,SN-0048,4.0,4.384667,96.289656
+614,2024-03-22,3,2024,Kekeringan,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,44,0,13,250,0,AMAN,Selesai,SN-0026,5.8,-4.933379,119.257588
+615,2025-07-27,7,2025,Banjir,Maluku Utara,Kab. Halmahera Utara,DC Maluku,23,50,5,2066,637,AWAS,Belum Ditangani,SN-0022,12.1,1.050685,127.103205
+616,2025-05-01,5,2025,Gempa Bumi,Papua,Kab. Biak Numfor,DC Papua,47,10,219,8118,1249,SIAGA,Selesai,SN-0045,13.8,-4.520433,138.347128
+617,2025-03-07,3,2025,Tanah Longsor,Riau,Kab. Pelalawan,DC Sumatra,41,11,24,4843,644,SIAGA,Dalam Proses,SN-0013,3.4,0.153761,101.351283
+618,2024-12-20,12,2024,Tanah Longsor,Sulawesi Selatan,Kota Makassar,DC Sulawesi,22,33,39,1895,227,AWAS,Dalam Proses,SN-0008,2.3,-5.58635,119.359773
+619,2024-03-12,3,2024,Banjir,Papua,Kab. Mimika,DC Papua,43,11,10,8,213,SIAGA,Selesai,SN-0007,14.2,-4.557922,138.052458
+620,2024-05-16,5,2024,Banjir,Maluku,Kab. Seram Bagian Barat,DC Maluku,50,42,3,11189,2260,AWAS,Selesai,SN-0038,9.3,-3.407288,130.386592
+621,2024-08-21,8,2024,Banjir,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,8,6,33,10314,2465,AWAS,Dalam Proses,SN-0013,6.1,-2.62427,115.667841
+622,2025-11-03,11,2025,Cuaca Ekstrem,Bali,Kota Denpasar,DC Jawa-Bali,47,15,48,413,273,SIAGA,Dalam Proses,SN-0049,5.6,-8.712668,115.010213
+623,2025-12-12,12,2025,Banjir,Maluku,Kab. Buru,DC Maluku,34,27,17,7910,1716,SIAGA,Selesai,SN-0045,11.4,-3.234631,129.667175
+624,2024-12-31,12,2024,Tanah Longsor,Jawa Tengah,Kab. Banjarnegara,DC Jawa-Bali,29,34,65,614,169,AWAS,Selesai,SN-0018,4.0,-7.26585,110.419672
+625,2024-02-19,2,2024,Kebakaran Hutan dan Lahan,Sulawesi Selatan,Kab. Bone,DC Sulawesi,47,4,14,515,181,WASPADA,Selesai,SN-0046,3.1,-5.122627,119.23611
+626,2024-03-08,3,2024,Banjir,Jawa Tengah,Kab. Purworejo,DC Jawa-Bali,9,40,37,14476,1137,AWAS,Dalam Proses,SN-0014,3.2,-6.859379,110.282713
+627,2024-08-12,8,2024,Erupsi Gunung Api,Maluku,Kab. Seram Bagian Barat,DC Maluku,40,8,34,13380,1839,AWAS,Dalam Proses,SN-0023,6.1,-2.753239,130.271255
+628,2025-02-06,2,2025,Banjir,Kalimantan Selatan,Kota Banjarmasin,DC Kalimantan,42,46,190,11274,1564,AWAS,Dalam Proses,SN-0029,3.0,-2.96637,115.388142
+629,2024-02-19,2,2024,Tsunami,Maluku Utara,Kab. Halmahera Utara,DC Maluku,6,94,75,29562,3924,AWAS,Dalam Proses,SN-0037,7.6,0.74269,127.682298
+630,2025-06-21,6,2025,Tanah Longsor,Nusa Tenggara Timur,Kab. Flores Timur,DC Nusa Tenggara,5,25,87,4979,192,SIAGA,Dalam Proses,SN-0026,7.9,-8.730905,121.034424
+631,2024-01-24,1,2024,Gempa Bumi,Jawa Barat,Kab. Garut,DC Jawa-Bali,9,2,56,444,358,AMAN,Selesai,SN-0041,2.7,-7.169157,107.202696
+632,2025-09-01,9,2025,Banjir,Sumatera Barat,Kab. Tanah Datar,DC Sumatra,31,45,21,3314,570,AWAS,Selesai,SN-0031,3.5,-0.34751,101.115465
+633,2024-02-23,2,2024,Banjir,Kalimantan Selatan,Kab. Balangan,DC Kalimantan,33,6,139,4861,420,SIAGA,Selesai,SN-0015,3.1,-3.177315,114.78501
+634,2024-05-21,5,2024,Cuaca Ekstrem,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,15,3,31,347,56,WASPADA,Selesai,SN-0040,6.1,-9.055564,121.535249
+635,2024-03-30,3,2024,Banjir,Jawa Timur,Kab. Malang,DC Jawa-Bali,44,33,85,9824,742,AWAS,Dalam Proses,SN-0019,5.1,-7.590782,112.808561
+636,2024-04-30,4,2024,Gempa Bumi,Riau,Kab. Rokan Hilir,DC Sumatra,21,9,1,4870,1200,SIAGA,Dalam Proses,SN-0005,6.9,0.479995,101.746851
+637,2024-01-24,1,2024,Tanah Longsor,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,21,11,98,3154,361,SIAGA,Selesai,SN-0041,5.0,-3.111311,115.756649
+638,2025-03-21,3,2025,Kebakaran Hutan dan Lahan,Kalimantan Tengah,Kab. Barito Selatan,DC Kalimantan,35,4,17,504,136,WASPADA,Selesai,SN-0027,4.9,-1.894696,113.798127
+639,2025-08-26,8,2025,Banjir,Kalimantan Tengah,Kab. Palangkaraya,DC Kalimantan,31,13,4,5937,2287,SIAGA,Selesai,SN-0009,3.7,-1.795196,113.473077
+640,2024-03-28,3,2024,Banjir,Bali,Kab. Tabanan,DC Jawa-Bali,45,3,191,2257,480,WASPADA,Selesai,SN-0028,2.1,-8.136537,114.969461
+641,2025-04-22,4,2025,Kebakaran Hutan dan Lahan,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,6,0,4,374,36,AMAN,Selesai,SN-0027,6.2,-8.238854,112.133878
+642,2024-02-24,2,2024,Banjir,Sumatera Utara,Kab. Karo,DC Sumatra,42,26,184,5526,1818,SIAGA,Selesai,SN-0003,6.4,1.853469,98.730887
+643,2024-09-06,9,2024,Cuaca Ekstrem,Jawa Barat,Kab. Cianjur,DC Jawa-Bali,17,14,35,1456,424,SIAGA,Selesai,SN-0011,4.1,-6.915628,107.828453
+644,2024-03-13,3,2024,Banjir,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,39,14,100,3009,2290,SIAGA,Selesai,SN-0042,3.6,2.383259,99.043436
+645,2024-04-02,4,2024,Banjir,Maluku,Kab. Buru,DC Maluku,50,6,19,5942,2470,SIAGA,Selesai,SN-0005,10.9,-3.710451,129.927507
+646,2024-02-10,2,2024,Banjir,Sulawesi Selatan,Kab. Bone,DC Sulawesi,37,15,68,1393,2335,SIAGA,Dalam Proses,SN-0006,2.2,-4.661206,119.416507
+647,2024-12-12,12,2024,Cuaca Ekstrem,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,9,12,46,728,498,SIAGA,Selesai,SN-0007,8.4,-9.05992,120.986687
+648,2025-07-01,7,2025,Banjir,Maluku Utara,Kab. Tidore,DC Maluku,30,18,41,2482,2795,SIAGA,Dalam Proses,SN-0014,8.1,0.909253,127.819518
+649,2025-11-25,11,2025,Tsunami,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,29,133,476,25186,2796,AWAS,Selesai,SN-0028,6.3,-1.052679,119.731016
+650,2025-01-22,1,2025,Banjir,Maluku Utara,Kab. Halmahera Utara,DC Maluku,7,9,145,10285,2037,AWAS,Selesai,SN-0006,10.9,0.425923,127.737157
+651,2024-07-06,7,2024,Erupsi Gunung Api,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,12,11,90,2923,145,SIAGA,Selesai,SN-0049,9.9,-8.696559,121.565543
+652,2025-12-05,12,2025,Tanah Longsor,Sumatera Barat,Kab. Tanah Datar,DC Sumatra,44,18,51,3350,634,SIAGA,Dalam Proses,SN-0024,6.8,-0.873168,101.144836
+653,2024-01-15,1,2024,Cuaca Ekstrem,Kalimantan Selatan,Kota Banjarmasin,DC Kalimantan,1,7,44,1681,287,WASPADA,Selesai,SN-0037,3.9,-3.438038,114.889098
+654,2024-04-13,4,2024,Tsunami,Aceh,Kab. Aceh Besar,DC Sumatra,7,136,460,26813,3808,AWAS,Dalam Proses,SN-0028,6.6,4.926878,97.16686
+655,2024-02-11,2,2024,Gempa Bumi,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,35,14,142,14895,313,AWAS,Dalam Proses,SN-0003,5.9,-8.682932,117.501816
+656,2025-12-02,12,2025,Banjir,Maluku,Kab. Buru,DC Maluku,28,13,5,12429,2800,AWAS,Dalam Proses,SN-0026,6.6,-3.102813,129.728891
+657,2025-01-15,1,2025,Cuaca Ekstrem,Papua,Kab. Nabire,DC Papua,28,5,53,110,47,WASPADA,Selesai,SN-0023,7.5,-4.427881,138.333576
+658,2024-12-18,12,2024,Tsunami,Sulawesi Tengah,Kab. Parigi Moutong,DC Sulawesi,39,99,421,325,4594,AWAS,Dalam Proses,SN-0043,2.7,-0.668976,119.949189
+659,2025-12-24,12,2025,Gempa Bumi,Nusa Tenggara Barat,Kab. Lombok Utara,DC Nusa Tenggara,44,18,255,10368,930,AWAS,Dalam Proses,SN-0009,6.7,-8.632208,116.865277
+660,2025-10-19,10,2025,Banjir,Sumatera Barat,Kab. Agam,DC Sumatra,39,26,178,8947,680,SIAGA,Dalam Proses,SN-0037,6.9,-0.891814,101.252377
+661,2024-12-12,12,2024,Tanah Longsor,Jawa Barat,Kab. Sukabumi,DC Jawa-Bali,30,7,89,4088,664,SIAGA,Selesai,SN-0049,4.1,-7.065771,107.947286
+662,2025-03-15,3,2025,Tsunami,Papua,Kab. Merauke,DC Papua,19,41,277,14282,3125,AWAS,Selesai,SN-0040,8.5,-4.081349,138.017894
+663,2025-12-04,12,2025,Banjir,Jawa Timur,Kab. Malang,DC Jawa-Bali,48,39,105,1698,2033,AWAS,Selesai,SN-0038,4.2,-7.556671,112.221102
+664,2025-11-28,11,2025,Gempa Bumi,Papua,Kab. Mimika,DC Papua,31,70,195,3751,1602,AWAS,Selesai,SN-0042,10.2,-4.419286,138.374151
+665,2025-11-01,11,2025,Cuaca Ekstrem,Maluku,Kab. Maluku Tengah,DC Maluku,27,8,19,1717,462,WASPADA,Selesai,SN-0003,14.2,-3.065199,129.649458
+666,2024-01-12,1,2024,Tanah Longsor,DI Yogyakarta,Kota Yogyakarta,DC Jawa-Bali,26,36,55,1981,569,AWAS,Dalam Proses,SN-0037,6.0,-7.651166,110.69805
+667,2025-05-13,5,2025,Tanah Longsor,Sulawesi Tengah,Kab. Parigi Moutong,DC Sulawesi,9,27,29,815,727,SIAGA,Selesai,SN-0041,6.2,-0.760259,120.154981
+668,2025-12-06,12,2025,Banjir,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,10,27,2,10303,2430,AWAS,Dalam Proses,SN-0025,4.5,-8.445324,117.782194
+669,2025-01-15,1,2025,Tanah Longsor,Maluku,Kab. Maluku Tengah,DC Maluku,47,19,24,4386,251,SIAGA,Selesai,SN-0018,11.9,-2.952452,130.415692
+670,2024-01-01,1,2024,Cuaca Ekstrem,Sumatera Barat,Kab. Agam,DC Sumatra,17,3,6,290,144,WASPADA,Selesai,SN-0024,4.5,-0.345295,100.392777
+671,2024-12-04,12,2024,Kebakaran Hutan dan Lahan,Riau,Kab. Pelalawan,DC Sumatra,27,5,2,215,175,WASPADA,Selesai,SN-0011,6.5,0.408554,101.263585
+672,2024-02-06,2,2024,Kekeringan,Jawa Tengah,Kota Semarang,DC Jawa-Bali,11,3,19,307,0,WASPADA,Selesai,SN-0039,2.6,-7.128251,109.894801
+673,2024-01-17,1,2024,Banjir,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,15,13,7,5366,567,SIAGA,Dalam Proses,SN-0013,3.4,2.258302,98.70158
+674,2024-12-18,12,2024,Tanah Longsor,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,12,32,51,1581,256,AWAS,Dalam Proses,SN-0007,9.8,-8.311264,121.296796
+675,2025-09-10,9,2025,Tanah Longsor,Sulawesi Tengah,Kab. Donggala,DC Sulawesi,18,28,54,4885,765,SIAGA,Selesai,SN-0037,4.1,-0.768789,119.977996
+676,2025-04-27,4,2025,Banjir,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,19,32,64,9615,1678,AWAS,Belum Ditangani,SN-0026,4.7,-7.606648,113.071778
+677,2024-01-11,1,2024,Banjir,Papua,Kab. Mimika,DC Papua,10,13,168,6089,1523,SIAGA,Selesai,SN-0022,6.1,-4.647596,137.898989
+678,2025-02-11,2,2025,Cuaca Ekstrem,Kalimantan Tengah,Kab. Seruyan,DC Kalimantan,36,6,33,445,52,WASPADA,Selesai,SN-0043,6.4,-2.438052,114.021404
+679,2025-01-14,1,2025,Banjir,Papua,Kab. Merauke,DC Papua,18,3,126,8169,191,SIAGA,Selesai,SN-0025,8.9,-4.645807,137.75154
+680,2024-02-01,2,2024,Gempa Bumi,Jawa Barat,Kab. Cianjur,DC Jawa-Bali,22,4,273,17285,320,AWAS,Belum Ditangani,SN-0047,6.0,-7.348046,107.21422
+681,2024-03-12,3,2024,Cuaca Ekstrem,Maluku Utara,Kota Ternate,DC Maluku,20,15,39,96,201,SIAGA,Selesai,SN-0008,14.7,0.737882,127.715372
+682,2025-12-04,12,2025,Banjir,Jawa Barat,Kab. Bogor,DC Jawa-Bali,47,8,26,5289,2816,SIAGA,Selesai,SN-0024,6.5,-7.247309,107.31026
+683,2024-11-01,11,2024,Banjir,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,22,3,77,1229,1080,WASPADA,Selesai,SN-0045,3.9,-6.962078,110.431928
+684,2024-02-15,2,2024,Banjir,Sumatera Barat,Kab. Padang Pariaman,DC Sumatra,41,48,149,14545,1692,AWAS,Dalam Proses,SN-0043,4.9,-1.117527,100.827589
+685,2024-06-25,6,2024,Cuaca Ekstrem,Riau,Kab. Indragiri Hilir,DC Sumatra,16,2,22,1143,427,WASPADA,Selesai,SN-0005,3.0,0.692781,101.685268
+686,2024-01-07,1,2024,Gempa Bumi,Jawa Barat,Kab. Bogor,DC Jawa-Bali,14,24,249,3425,2788,AWAS,Selesai,SN-0020,3.6,-6.655897,107.633027
+687,2025-11-28,11,2025,Banjir,DI Yogyakarta,Kab. Sleman,DC Jawa-Bali,33,23,98,7412,2541,SIAGA,Dalam Proses,SN-0044,4.1,-7.895395,109.938139
+688,2025-03-21,3,2025,Banjir,Sumatera Barat,Kab. Padang Pariaman,DC Sumatra,30,47,28,3941,67,AWAS,Dalam Proses,SN-0017,4.3,-1.211314,100.961886
+689,2025-01-12,1,2025,Tsunami,Papua,Kab. Mimika,DC Papua,29,110,260,10935,435,AWAS,Dalam Proses,SN-0028,12.6,-4.672087,138.229022
+690,2024-02-06,2,2024,Tanah Longsor,Kalimantan Selatan,Kab. Balangan,DC Kalimantan,16,6,87,408,661,WASPADA,Selesai,SN-0003,2.3,-2.633628,115.00338
+691,2024-09-18,9,2024,Cuaca Ekstrem,Sumatera Barat,Kota Padang,DC Sumatra,15,12,25,804,51,SIAGA,Selesai,SN-0014,3.0,-0.360372,100.568267
+692,2024-04-20,4,2024,Erupsi Gunung Api,Nusa Tenggara Timur,Kab. Flores Timur,DC Nusa Tenggara,45,29,122,24218,625,AWAS,Dalam Proses,SN-0030,5.1,-8.842188,120.648855
+693,2024-02-16,2,2024,Cuaca Ekstrem,Papua,Kab. Merauke,DC Papua,1,2,10,1391,389,WASPADA,Selesai,SN-0032,11.2,-4.175895,138.549942
+694,2024-12-02,12,2024,Banjir,Jawa Barat,Kab. Garut,DC Jawa-Bali,49,14,134,8243,685,SIAGA,Dalam Proses,SN-0029,5.7,-7.32359,107.423702
+695,2024-06-18,6,2024,Kebakaran Hutan dan Lahan,Kalimantan Selatan,Kab. Tapin,DC Kalimantan,46,0,26,361,77,AMAN,Selesai,SN-0039,5.3,-3.258861,115.301631
+696,2024-06-17,6,2024,Kebakaran Hutan dan Lahan,Jawa Barat,Kab. Bogor,DC Jawa-Bali,2,5,4,365,127,WASPADA,Selesai,SN-0024,6.9,-7.173132,107.860112
+697,2024-02-13,2,2024,Cuaca Ekstrem,Sumatera Barat,Kota Padang,DC Sumatra,17,14,56,1079,89,SIAGA,Selesai,SN-0018,4.9,-0.891055,100.631196
+698,2024-03-17,3,2024,Gempa Bumi,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,1,72,177,9450,902,AWAS,Dalam Proses,SN-0019,4.9,-8.467373,117.327917
+699,2025-10-10,10,2025,Cuaca Ekstrem,Riau,Kab. Rokan Hilir,DC Sumatra,19,0,29,83,111,AMAN,Selesai,SN-0001,4.4,0.858771,101.073436
+700,2025-05-01,5,2025,Cuaca Ekstrem,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,10,4,5,1460,138,WASPADA,Selesai,SN-0006,4.9,-6.654086,109.837027
+701,2024-03-30,3,2024,Cuaca Ekstrem,Maluku,Kab. Maluku Tengah,DC Maluku,7,13,25,1980,462,SIAGA,Selesai,SN-0028,7.6,-2.818306,130.242339
+702,2024-10-19,10,2024,Erupsi Gunung Api,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,6,17,51,9865,624,SIAGA,Dalam Proses,SN-0028,2.9,2.493819,99.036154
+703,2024-01-23,1,2024,Cuaca Ekstrem,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,27,14,22,875,238,SIAGA,Selesai,SN-0027,4.2,-8.691616,117.774158
+704,2024-01-30,1,2024,Cuaca Ekstrem,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,37,4,39,1112,460,WASPADA,Selesai,SN-0009,9.1,-8.279495,120.632936
+705,2024-04-26,4,2024,Banjir,DI Yogyakarta,Kab. Kulon Progo,DC Jawa-Bali,39,17,166,1753,1365,SIAGA,Dalam Proses,SN-0004,3.7,-8.005023,110.350968
+706,2025-01-17,1,2025,Kekeringan,Jawa Tengah,Kab. Banjarnegara,DC Jawa-Bali,20,3,4,114,0,WASPADA,Selesai,SN-0032,6.7,-7.021761,110.359442
+707,2024-10-03,10,2024,Banjir,Jawa Barat,Kab. Bogor,DC Jawa-Bali,31,6,63,3347,424,SIAGA,Dalam Proses,SN-0020,6.6,-6.911695,107.509814
+708,2025-04-27,4,2025,Kebakaran Hutan dan Lahan,Kalimantan Tengah,Kab. Seruyan,DC Kalimantan,10,5,19,126,110,WASPADA,Selesai,SN-0043,6.1,-2.079903,113.598308
+709,2024-02-23,2,2024,Tanah Longsor,Bali,Kab. Buleleng,DC Jawa-Bali,32,18,85,819,602,SIAGA,Dalam Proses,SN-0030,6.0,-8.565319,114.977821
+710,2024-05-01,5,2024,Tsunami,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,42,2,297,9920,279,SIAGA,Selesai,SN-0023,9.4,-8.500109,121.023879
+711,2024-12-24,12,2024,Tanah Longsor,Aceh,Kab. Bireuen,DC Sumatra,23,22,64,4122,215,SIAGA,Selesai,SN-0010,2.9,4.720156,96.762445
+712,2025-04-11,4,2025,Cuaca Ekstrem,Aceh,Kab. Pidie,DC Sumatra,42,12,4,1876,429,SIAGA,Selesai,SN-0046,2.9,5.157655,96.855242
+713,2025-12-17,12,2025,Cuaca Ekstrem,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,26,11,37,1264,424,SIAGA,Dalam Proses,SN-0043,3.2,-3.563078,115.516678
+714,2025-01-16,1,2025,Gempa Bumi,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,49,30,53,5701,3146,AWAS,Selesai,SN-0003,5.5,-8.230524,116.923527
+715,2024-12-25,12,2024,Banjir,Maluku,Kab. Kepulauan Aru,DC Maluku,29,11,82,1763,2861,SIAGA,Dalam Proses,SN-0017,7.8,-2.749629,130.21908
+716,2025-06-08,6,2025,Cuaca Ekstrem,Sulawesi Selatan,Kab. Gowa,DC Sulawesi,41,6,5,1192,12,WASPADA,Selesai,SN-0009,2.2,-4.687868,119.028906
+717,2024-12-14,12,2024,Cuaca Ekstrem,Bali,Kab. Karangasem,DC Jawa-Bali,37,15,12,1704,106,SIAGA,Selesai,SN-0009,6.5,-8.33965,114.948485
+718,2024-11-21,11,2024,Tanah Longsor,Maluku Utara,Kota Ternate,DC Maluku,32,33,38,826,120,AWAS,Dalam Proses,SN-0019,8.0,0.88479,127.19762
+719,2024-12-23,12,2024,Banjir,Maluku,Kota Ambon,DC Maluku,16,18,19,8755,2356,SIAGA,Selesai,SN-0004,9.6,-2.806691,130.145347
+720,2025-08-19,8,2025,Banjir,Riau,Kab. Rokan Hilir,DC Sumatra,49,26,66,3285,1370,SIAGA,Dalam Proses,SN-0049,3.6,0.237533,101.766762
+721,2025-10-08,10,2025,Cuaca Ekstrem,Riau,Kab. Pelalawan,DC Sumatra,27,1,22,144,486,AMAN,Selesai,SN-0036,2.4,0.631448,101.562433
+722,2024-06-24,6,2024,Kekeringan,Jawa Tengah,Kota Semarang,DC Jawa-Bali,31,1,20,179,0,AMAN,Selesai,SN-0002,6.9,-7.346582,110.490134
+723,2024-12-26,12,2024,Tanah Longsor,Sulawesi Selatan,Kab. Bone,DC Sulawesi,25,1,70,3949,53,SIAGA,Selesai,SN-0009,4.1,-4.952259,119.362419
+724,2024-01-20,1,2024,Gempa Bumi,Maluku,Kab. Seram Bagian Barat,DC Maluku,38,7,121,7603,753,SIAGA,Dalam Proses,SN-0035,13.3,-3.325435,130.397869
+725,2025-09-01,9,2025,Tanah Longsor,Kalimantan Tengah,Kab. Palangkaraya,DC Kalimantan,21,28,23,2315,44,SIAGA,Dalam Proses,SN-0039,3.5,-2.060891,113.657744
+726,2025-04-22,4,2025,Tanah Longsor,Jawa Timur,Kab. Malang,DC Jawa-Bali,29,31,90,2924,225,AWAS,Selesai,SN-0042,3.5,-7.542473,112.901608
+727,2025-02-11,2,2025,Tanah Longsor,Bali,Kota Denpasar,DC Jawa-Bali,6,26,90,3983,286,SIAGA,Dalam Proses,SN-0048,3.2,-8.703369,115.567938
+728,2024-08-24,8,2024,Cuaca Ekstrem,Sumatera Utara,Kab. Tapanuli Utara,DC Sumatra,32,14,60,233,10,SIAGA,Selesai,SN-0006,3.5,1.836999,99.16324
+729,2025-01-13,1,2025,Tanah Longsor,Riau,Kab. Pelalawan,DC Sumatra,12,2,28,1685,388,WASPADA,Selesai,SN-0003,5.3,0.693226,101.482492
+730,2024-08-01,8,2024,Cuaca Ekstrem,Nusa Tenggara Barat,Kab. Sumbawa,DC Nusa Tenggara,40,0,21,1486,424,WASPADA,Selesai,SN-0048,8.4,-8.718824,117.289149
+731,2025-11-18,11,2025,Tsunami,Maluku Utara,Kab. Halmahera Barat,DC Maluku,37,118,217,18763,5891,AWAS,Selesai,SN-0016,10.2,0.543401,127.827005
+732,2024-02-26,2,2024,Gempa Bumi,Kalimantan Selatan,Kota Banjarmasin,DC Kalimantan,3,37,172,18713,3232,AWAS,Belum Ditangani,SN-0039,5.9,-3.230905,115.44303
+733,2024-01-22,1,2024,Tanah Longsor,Nusa Tenggara Barat,Kab. Sumbawa,DC Nusa Tenggara,3,1,56,72,477,AMAN,Selesai,SN-0014,9.1,-8.187015,117.341808
+734,2025-04-03,4,2025,Banjir,Kalimantan Selatan,Kab. Balangan,DC Kalimantan,17,28,46,4227,1131,SIAGA,Selesai,SN-0040,2.7,-3.465378,115.414138
+735,2024-10-21,10,2024,Kebakaran Hutan dan Lahan,Jawa Tengah,Kab. Banjarnegara,DC Jawa-Bali,46,4,10,42,141,WASPADA,Selesai,SN-0017,7.0,-7.422048,110.592004
+736,2025-01-28,1,2025,Cuaca Ekstrem,Maluku,Kab. Kepulauan Aru,DC Maluku,29,11,6,158,259,SIAGA,Dalam Proses,SN-0044,11.1,-3.66105,129.849342
+737,2025-05-29,5,2025,Erupsi Gunung Api,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,27,25,92,10976,1997,AWAS,Selesai,SN-0002,5.8,-8.782584,121.52188
+738,2024-02-05,2,2024,Gempa Bumi,Jawa Barat,Kab. Bandung,DC Jawa-Bali,14,65,260,19054,2818,AWAS,Dalam Proses,SN-0049,2.8,-6.834814,107.776159
+739,2024-12-03,12,2024,Kebakaran Hutan dan Lahan,Kalimantan Tengah,Kab. Seruyan,DC Kalimantan,4,4,23,124,135,WASPADA,Selesai,SN-0021,4.6,-2.108998,114.072698
+740,2025-03-10,3,2025,Cuaca Ekstrem,Kalimantan Tengah,Kab. Kapuas,DC Kalimantan,8,7,29,644,383,WASPADA,Selesai,SN-0027,6.8,-2.023027,113.858507
+741,2024-04-17,4,2024,Cuaca Ekstrem,Jawa Timur,Kab. Jember,DC Jawa-Bali,37,14,50,857,117,SIAGA,Selesai,SN-0027,3.2,-7.497155,113.047117
+742,2025-10-20,10,2025,Banjir,Kalimantan Selatan,Kab. Hulu Sungai,DC Kalimantan,10,5,104,6898,2068,SIAGA,Selesai,SN-0030,6.5,-2.95997,115.556445
+743,2024-01-09,1,2024,Banjir,Bali,Kab. Tabanan,DC Jawa-Bali,11,2,110,392,2826,AMAN,Selesai,SN-0025,6.3,-7.850567,114.724378
+744,2024-12-13,12,2024,Banjir,Bali,Kab. Buleleng,DC Jawa-Bali,7,21,151,9973,2525,SIAGA,Selesai,SN-0029,3.8,-8.795262,115.330748
+745,2025-12-24,12,2025,Cuaca Ekstrem,Papua,Kab. Merauke,DC Papua,33,5,46,1568,301,WASPADA,Selesai,SN-0024,11.3,-4.686111,138.475999
+746,2024-10-11,10,2024,Cuaca Ekstrem,Aceh,Kab. Pidie,DC Sumatra,22,3,14,608,252,WASPADA,Selesai,SN-0033,4.6,4.243388,96.767078
+747,2024-12-11,12,2024,Erupsi Gunung Api,Maluku Utara,Kab. Halmahera Barat,DC Maluku,18,1,53,14107,1063,AWAS,Belum Ditangani,SN-0008,8.6,0.898777,126.966167
+748,2024-03-08,3,2024,Banjir,Sulawesi Tengah,Kab. Sigi,DC Sulawesi,43,38,192,1738,948,AWAS,Dalam Proses,SN-0011,4.5,-1.295724,119.922863
+749,2025-01-31,1,2025,Banjir,Bali,Kota Denpasar,DC Jawa-Bali,37,1,94,3328,1154,SIAGA,Selesai,SN-0008,4.3,-8.395675,114.718179
+750,2025-11-04,11,2025,Banjir,Aceh,Kota Banda Aceh,DC Sumatra,8,8,71,11987,2739,AWAS,Selesai,SN-0005,3.1,4.998741,96.993678
+751,2024-03-09,3,2024,Banjir,Aceh,Kab. Aceh Utara,DC Sumatra,28,44,80,14618,157,AWAS,Dalam Proses,SN-0036,3.0,4.900204,96.770697
+752,2025-10-02,10,2025,Gempa Bumi,Jawa Barat,Kab. Bogor,DC Jawa-Bali,10,28,100,8692,3851,AWAS,Dalam Proses,SN-0041,2.7,-7.230395,107.615826
+753,2025-12-28,12,2025,Tanah Longsor,Sulawesi Selatan,Kota Makassar,DC Sulawesi,12,35,78,1708,727,AWAS,Dalam Proses,SN-0016,5.2,-4.959718,119.546078
+754,2024-10-22,10,2024,Kebakaran Hutan dan Lahan,Sulawesi Tengah,Kab. Sigi,DC Sulawesi,26,5,15,501,161,WASPADA,Selesai,SN-0015,3.5,-0.793858,119.914113
+755,2025-01-25,1,2025,Banjir,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,30,42,108,1897,721,AWAS,Selesai,SN-0009,6.4,-8.496687,120.926979
+756,2024-11-26,11,2024,Tanah Longsor,Riau,Kab. Bengkalis,DC Sumatra,14,1,37,2194,519,WASPADA,Selesai,SN-0021,2.3,0.923111,101.732828
+757,2024-03-13,3,2024,Banjir,Aceh,Kota Banda Aceh,DC Sumatra,22,17,124,11930,896,AWAS,Belum Ditangani,SN-0011,3.1,4.240729,96.697036
+758,2025-08-04,8,2025,Banjir,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,6,46,5,13146,1553,AWAS,Selesai,SN-0005,8.6,-8.819612,117.214301
+759,2024-10-12,10,2024,Kebakaran Hutan dan Lahan,Bali,Kab. Buleleng,DC Jawa-Bali,19,3,27,735,58,WASPADA,Selesai,SN-0014,3.7,-8.039215,115.502654
+760,2024-08-01,8,2024,Tanah Longsor,Jawa Tengah,Kota Semarang,DC Jawa-Bali,11,32,50,3972,43,AWAS,Dalam Proses,SN-0003,5.4,-7.625756,110.271856
+761,2024-03-26,3,2024,Cuaca Ekstrem,Maluku Utara,Kab. Tidore,DC Maluku,47,2,4,151,258,AMAN,Selesai,SN-0048,6.2,0.986789,127.599339
+762,2025-11-05,11,2025,Banjir,Sumatera Barat,Kab. Tanah Datar,DC Sumatra,28,38,79,12857,1325,AWAS,Belum Ditangani,SN-0017,3.0,-1.216468,100.57405
+763,2025-12-13,12,2025,Tsunami,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,45,143,142,15838,2329,AWAS,Belum Ditangani,SN-0026,7.0,-8.912686,120.596613
+764,2025-12-23,12,2025,Banjir,Sumatera Barat,Kab. Pesisir Selatan,DC Sumatra,24,25,197,3802,1831,SIAGA,Selesai,SN-0041,2.7,-1.130952,100.61061
+765,2024-12-06,12,2024,Banjir,Sulawesi Selatan,Kab. Luwu,DC Sulawesi,34,9,103,10100,1939,AWAS,Selesai,SN-0017,5.8,-5.081061,119.16513
+766,2025-05-27,5,2025,Erupsi Gunung Api,Sumatera Utara,Kab. Tapanuli Utara,DC Sumatra,14,27,1,8786,1413,SIAGA,Selesai,SN-0042,3.6,2.361396,99.120589
+767,2024-02-16,2,2024,Kekeringan,DI Yogyakarta,Kota Yogyakarta,DC Jawa-Bali,25,0,3,217,0,AMAN,Selesai,SN-0008,4.6,-8.168318,109.883125
+768,2024-02-04,2,2024,Kekeringan,Jawa Tengah,Kab. Cilacap,DC Jawa-Bali,26,3,4,383,0,WASPADA,Selesai,SN-0047,7.0,-7.640741,109.757883
+769,2025-12-17,12,2025,Cuaca Ekstrem,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,44,5,9,594,267,WASPADA,Selesai,SN-0034,8.3,-8.948438,117.4756
+770,2024-09-07,9,2024,Gempa Bumi,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,10,1,162,13641,1468,AWAS,Dalam Proses,SN-0013,8.2,-8.15959,116.867202
+771,2024-11-11,11,2024,Cuaca Ekstrem,Sumatera Barat,Kab. Agam,DC Sumatra,15,2,22,1303,286,WASPADA,Selesai,SN-0019,3.0,-0.894943,100.314129
+772,2025-11-19,11,2025,Tanah Longsor,Nusa Tenggara Timur,Kab. Sikka,DC Nusa Tenggara,43,16,71,4432,656,SIAGA,Dalam Proses,SN-0012,5.3,-8.564661,120.682376
+773,2024-03-26,3,2024,Tanah Longsor,DI Yogyakarta,Kota Yogyakarta,DC Jawa-Bali,18,36,98,4851,619,AWAS,Selesai,SN-0014,6.5,-7.558334,110.485387
+774,2025-02-07,2,2025,Tanah Longsor,Jawa Timur,Kab. Bojonegoro,DC Jawa-Bali,4,30,0,2648,79,SIAGA,Dalam Proses,SN-0020,4.4,-7.676666,112.546806
+775,2024-07-18,7,2024,Cuaca Ekstrem,Maluku Utara,Kab. Tidore,DC Maluku,21,11,19,1717,267,SIAGA,Selesai,SN-0041,14.6,1.166586,127.708891
+776,2025-11-27,11,2025,Cuaca Ekstrem,Papua,Kab. Nabire,DC Papua,42,3,35,1842,222,WASPADA,Selesai,SN-0030,9.3,-4.42172,137.605696
+777,2024-11-14,11,2024,Banjir,Sulawesi Selatan,Kab. Bone,DC Sulawesi,13,24,95,2932,43,SIAGA,Selesai,SN-0007,3.6,-5.121697,118.938315
+778,2025-12-17,12,2025,Cuaca Ekstrem,Jawa Barat,Kab. Garut,DC Jawa-Bali,46,15,25,89,356,SIAGA,Dalam Proses,SN-0046,6.1,-6.79223,108.090241
+779,2025-12-21,12,2025,Banjir,Aceh,Kota Banda Aceh,DC Sumatra,46,2,94,472,2510,AMAN,Selesai,SN-0009,6.4,4.348292,96.985596
+780,2025-01-04,1,2025,Banjir,Jawa Tengah,Kab. Cilacap,DC Jawa-Bali,42,6,139,4546,795,SIAGA,Selesai,SN-0021,6.2,-7.633326,110.477574
+781,2024-12-19,12,2024,Gempa Bumi,Maluku,Kab. Kepulauan Aru,DC Maluku,49,53,31,2128,1580,AWAS,Belum Ditangani,SN-0018,10.0,-3.009543,129.729269
+782,2025-10-14,10,2025,Tsunami,Sulawesi Tengah,Kab. Palu,DC Sulawesi,37,89,60,11188,3819,AWAS,Selesai,SN-0006,2.4,-1.305605,120.300973
+783,2024-02-11,2,2024,Banjir,Jawa Barat,Kab. Bogor,DC Jawa-Bali,16,23,117,1331,2966,SIAGA,Dalam Proses,SN-0048,6.3,-6.736609,108.061757
+784,2024-11-02,11,2024,Tanah Longsor,Maluku Utara,Kab. Halmahera Barat,DC Maluku,13,36,40,3391,231,AWAS,Dalam Proses,SN-0029,8.3,0.482525,127.845978
+785,2024-03-19,3,2024,Tanah Longsor,Maluku,Kab. Seram Bagian Barat,DC Maluku,38,40,87,1396,37,AWAS,Dalam Proses,SN-0023,12.3,-3.200551,129.855963
+786,2025-10-10,10,2025,Tanah Longsor,Sulawesi Selatan,Kab. Maros,DC Sulawesi,14,17,11,4204,791,SIAGA,Dalam Proses,SN-0043,2.6,-5.180012,118.964148
+787,2024-10-15,10,2024,Kekeringan,Nusa Tenggara Barat,Kab. Sumbawa,DC Nusa Tenggara,41,0,10,359,0,AMAN,Selesai,SN-0031,5.0,-8.794016,117.762624
+788,2025-03-04,3,2025,Gempa Bumi,Sulawesi Tengah,Kab. Sigi,DC Sulawesi,40,69,95,712,3596,AWAS,Dalam Proses,SN-0016,4.0,-0.815735,119.805668
+789,2024-03-11,3,2024,Tanah Longsor,Riau,Kota Pekanbaru,DC Sumatra,50,32,13,3448,436,AWAS,Dalam Proses,SN-0011,2.8,0.610788,101.543076
+790,2025-12-31,12,2025,Cuaca Ekstrem,DI Yogyakarta,Kab. Bantul,DC Jawa-Bali,4,4,8,1358,170,WASPADA,Selesai,SN-0023,5.8,-7.325275,110.178774
+791,2024-05-01,5,2024,Banjir,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,28,5,47,3869,832,SIAGA,Dalam Proses,SN-0024,6.2,1.811433,99.259714
+792,2024-01-04,1,2024,Cuaca Ekstrem,Riau,Kab. Bengkalis,DC Sumatra,30,15,42,770,425,SIAGA,Selesai,SN-0049,2.6,0.796356,101.045825
+793,2024-12-11,12,2024,Erupsi Gunung Api,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,48,2,88,16000,1371,AWAS,Selesai,SN-0016,5.1,-9.130404,121.464988
+794,2024-04-27,4,2024,Gempa Bumi,Jawa Barat,Kab. Garut,DC Jawa-Bali,13,9,117,4524,4095,SIAGA,Dalam Proses,SN-0012,3.9,-7.115562,107.21195
+795,2024-05-13,5,2024,Kebakaran Hutan dan Lahan,Riau,Kab. Pelalawan,DC Sumatra,34,1,5,407,174,AMAN,Selesai,SN-0044,2.4,0.867532,101.414923
+796,2025-11-13,11,2025,Gempa Bumi,Jawa Barat,Kab. Bogor,DC Jawa-Bali,28,58,5,15929,3290,AWAS,Selesai,SN-0039,5.2,-7.114545,107.377749
+797,2025-11-17,11,2025,Kebakaran Hutan dan Lahan,Maluku,Kab. Buru,DC Maluku,28,2,3,804,45,WASPADA,Selesai,SN-0010,12.1,-3.206788,130.028772
+798,2025-01-23,1,2025,Kebakaran Hutan dan Lahan,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,3,3,1,475,72,WASPADA,Selesai,SN-0039,3.8,-3.471049,115.273421
+799,2024-10-11,10,2024,Tanah Longsor,Nusa Tenggara Timur,Kab. Flores Timur,DC Nusa Tenggara,29,18,45,3416,17,SIAGA,Dalam Proses,SN-0003,6.1,-8.521317,121.175179
+800,2024-08-06,8,2024,Tanah Longsor,Jawa Timur,Kab. Bojonegoro,DC Jawa-Bali,23,40,63,3531,281,AWAS,Selesai,SN-0047,6.1,-7.794908,112.365501
+801,2025-11-02,11,2025,Tanah Longsor,Jawa Timur,Kab. Jember,DC Jawa-Bali,33,38,92,828,391,AWAS,Selesai,SN-0028,5.7,-8.405135,113.048841
+802,2024-04-24,4,2024,Tanah Longsor,Kalimantan Selatan,Kota Banjarmasin,DC Kalimantan,20,7,24,4676,267,SIAGA,Selesai,SN-0004,5.5,-3.053442,115.577523
+803,2024-04-25,4,2024,Gempa Bumi,Papua,Kab. Merauke,DC Papua,26,35,256,1498,4953,AWAS,Selesai,SN-0002,9.7,-4.091692,137.853079
+804,2025-11-09,11,2025,Cuaca Ekstrem,Kalimantan Selatan,Kab. Tapin,DC Kalimantan,46,3,14,460,9,WASPADA,Selesai,SN-0046,3.4,-3.267991,114.847522
+805,2024-10-14,10,2024,Kekeringan,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,23,0,10,174,0,AMAN,Selesai,SN-0032,9.1,-8.330271,117.013379
+806,2025-02-22,2,2025,Banjir,Maluku Utara,Kab. Halmahera Barat,DC Maluku,6,40,124,9196,1414,AWAS,Dalam Proses,SN-0021,8.6,1.268169,127.235891
+807,2024-05-05,5,2024,Gempa Bumi,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,48,53,11,9302,4558,AWAS,Dalam Proses,SN-0039,2.7,-1.156981,120.291876
+808,2024-12-13,12,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Gowa,DC Sulawesi,50,5,55,325,392,WASPADA,Selesai,SN-0023,4.8,-4.663317,119.911597
+809,2024-11-20,11,2024,Cuaca Ekstrem,Kalimantan Selatan,Kab. Hulu Sungai,DC Kalimantan,26,10,32,1096,272,WASPADA,Selesai,SN-0019,5.8,-3.367501,115.187766
+810,2024-11-30,11,2024,Tsunami,Sulawesi Tengah,Kab. Parigi Moutong,DC Sulawesi,12,85,390,15205,5375,AWAS,Belum Ditangani,SN-0027,4.1,-1.293377,119.950858
+811,2025-05-20,5,2025,Tanah Longsor,Kalimantan Tengah,Kab. Kotawaringin Barat,DC Kalimantan,27,5,76,4674,749,SIAGA,Selesai,SN-0031,4.8,-2.39108,113.663441
+812,2025-10-01,10,2025,Tanah Longsor,Maluku Utara,Kab. Morotai,DC Maluku,16,10,58,3023,740,SIAGA,Dalam Proses,SN-0019,8.9,1.220441,127.788086
+813,2024-01-19,1,2024,Tsunami,Aceh,Kota Banda Aceh,DC Sumatra,30,61,407,5795,7969,AWAS,Belum Ditangani,SN-0011,3.7,4.306257,96.853407
+814,2025-02-03,2,2025,Tanah Longsor,Jawa Barat,Kab. Bandung,DC Jawa-Bali,27,33,60,3156,72,AWAS,Selesai,SN-0039,5.6,-6.534143,107.656441
+815,2024-10-01,10,2024,Banjir,Aceh,Kota Banda Aceh,DC Sumatra,24,25,185,12595,163,AWAS,Dalam Proses,SN-0008,4.2,5.12249,96.878668
+816,2025-01-25,1,2025,Cuaca Ekstrem,Sumatera Barat,Kab. Padang Pariaman,DC Sumatra,31,10,9,1869,124,WASPADA,Selesai,SN-0005,5.2,-1.029815,100.397126
+817,2025-05-25,5,2025,Kebakaran Hutan dan Lahan,Kalimantan Tengah,Kab. Kapuas,DC Kalimantan,17,2,25,461,179,AMAN,Selesai,SN-0010,5.8,-2.147869,114.007928
+818,2024-07-29,7,2024,Cuaca Ekstrem,Maluku,Kab. Kepulauan Aru,DC Maluku,37,9,60,1466,81,WASPADA,Selesai,SN-0019,10.0,-3.104605,130.120585
+819,2025-02-05,2,2025,Erupsi Gunung Api,Sumatera Utara,Kab. Karo,DC Sumatra,14,8,58,917,1742,WASPADA,Selesai,SN-0024,2.1,2.14993,98.723363
+820,2025-11-17,11,2025,Banjir,Maluku Utara,Kab. Tidore,DC Maluku,33,22,164,2553,2404,SIAGA,Dalam Proses,SN-0011,10.4,0.657663,127.732109
+821,2024-12-16,12,2024,Banjir,Maluku Utara,Kota Ternate,DC Maluku,10,14,79,3382,918,SIAGA,Dalam Proses,SN-0023,11.8,1.061314,127.655974
+822,2025-07-21,7,2025,Gempa Bumi,Jawa Barat,Kab. Garut,DC Jawa-Bali,22,46,16,13057,809,AWAS,Belum Ditangani,SN-0035,6.2,-7.146026,108.080756
+823,2025-12-02,12,2025,Tanah Longsor,Aceh,Kab. Aceh Utara,DC Sumatra,42,16,94,1496,706,SIAGA,Selesai,SN-0039,2.9,4.42344,96.96678
+824,2024-03-24,3,2024,Banjir,Sulawesi Selatan,Kota Makassar,DC Sulawesi,16,19,15,3403,932,SIAGA,Selesai,SN-0004,4.7,-5.06643,119.396971
+825,2025-03-07,3,2025,Kebakaran Hutan dan Lahan,Riau,Kab. Pelalawan,DC Sumatra,14,1,3,555,150,WASPADA,Selesai,SN-0028,2.0,0.631594,101.249961
+826,2024-12-29,12,2024,Tsunami,Aceh,Kab. Pidie,DC Sumatra,39,0,128,24725,3335,AWAS,Dalam Proses,SN-0019,4.4,4.826228,96.578039
+827,2024-12-28,12,2024,Cuaca Ekstrem,Bali,Kab. Buleleng,DC Jawa-Bali,49,9,40,901,57,WASPADA,Selesai,SN-0033,3.6,-7.894803,115.07958
+828,2024-06-03,6,2024,Gempa Bumi,Papua,Kab. Merauke,DC Papua,50,43,275,5985,1585,AWAS,Dalam Proses,SN-0034,8.7,-4.538097,137.8876
+829,2025-06-30,6,2025,Banjir,Sulawesi Selatan,Kab. Bone,DC Sulawesi,11,12,196,6491,703,SIAGA,Selesai,SN-0042,6.9,-5.490567,119.889407
+830,2024-09-24,9,2024,Tanah Longsor,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,22,19,47,1187,313,SIAGA,Selesai,SN-0037,3.5,-2.763369,115.099147
+831,2024-04-25,4,2024,Tanah Longsor,Maluku Utara,Kota Ternate,DC Maluku,46,8,58,2246,19,WASPADA,Selesai,SN-0024,8.3,0.485513,127.528755
+832,2024-01-13,1,2024,Tanah Longsor,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,18,13,79,4120,450,SIAGA,Dalam Proses,SN-0047,6.9,-8.909762,117.187083
+833,2025-09-02,9,2025,Tsunami,Maluku Utara,Kab. Tidore,DC Maluku,22,15,51,1838,5239,SIAGA,Dalam Proses,SN-0009,7.0,0.652749,127.790306
+834,2024-12-25,12,2024,Cuaca Ekstrem,Papua,Kab. Mimika,DC Papua,16,6,35,180,224,WASPADA,Selesai,SN-0036,11.9,-4.442058,138.126985
+835,2024-08-01,8,2024,Cuaca Ekstrem,Sumatera Utara,Kab. Tapanuli Utara,DC Sumatra,50,10,54,739,463,WASPADA,Selesai,SN-0030,2.9,2.01254,99.459585
+836,2024-02-07,2,2024,Tsunami,Kalimantan Selatan,Kab. Hulu Sungai,DC Kalimantan,28,35,61,21044,3365,AWAS,Dalam Proses,SN-0033,4.6,-3.106242,114.831831
+837,2025-04-02,4,2025,Tanah Longsor,DI Yogyakarta,Kab. Gunung Kidul,DC Jawa-Bali,5,36,42,549,752,AWAS,Belum Ditangani,SN-0033,4.7,-7.321372,110.650088
+838,2024-12-30,12,2024,Banjir,Aceh,Kab. Aceh Utara,DC Sumatra,18,4,196,11205,1765,AWAS,Dalam Proses,SN-0022,2.8,5.084456,97.24375
+839,2025-01-11,1,2025,Gempa Bumi,Aceh,Kab. Aceh Utara,DC Sumatra,19,55,10,13155,4708,AWAS,Dalam Proses,SN-0028,3.1,5.023323,96.268272
+840,2025-02-19,2,2025,Tanah Longsor,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,13,36,45,4725,156,AWAS,Selesai,SN-0039,4.2,-8.946756,117.043187
+841,2024-12-05,12,2024,Banjir,Bali,Kab. Bangli,DC Jawa-Bali,13,20,58,10783,855,AWAS,Dalam Proses,SN-0014,6.7,-8.416216,114.863078
+842,2024-11-29,11,2024,Tanah Longsor,Aceh,Kab. Aceh Besar,DC Sumatra,4,28,95,1708,389,SIAGA,Selesai,SN-0008,3.9,4.594278,96.455032
+843,2024-01-30,1,2024,Tanah Longsor,DI Yogyakarta,Kab. Sleman,DC Jawa-Bali,48,7,62,4954,366,SIAGA,Selesai,SN-0033,2.5,-7.880472,110.079827
+844,2024-04-04,4,2024,Tsunami,Aceh,Kab. Aceh Besar,DC Sumatra,23,102,492,28098,819,AWAS,Dalam Proses,SN-0042,6.7,4.505082,96.314706
+845,2025-03-03,3,2025,Cuaca Ekstrem,Maluku Utara,Kab. Tidore,DC Maluku,16,10,2,288,433,WASPADA,Selesai,SN-0009,10.7,0.460658,126.875974
+846,2025-11-02,11,2025,Tanah Longsor,Sulawesi Selatan,Kab. Maros,DC Sulawesi,34,10,53,1412,178,WASPADA,Selesai,SN-0012,6.1,-4.6824,119.674667
+847,2025-04-26,4,2025,Cuaca Ekstrem,Sulawesi Tengah,Kab. Palu,DC Sulawesi,17,12,40,764,465,SIAGA,Selesai,SN-0031,2.1,-1.363222,119.39653
+848,2025-01-30,1,2025,Tsunami,Papua,Kab. Jayapura,DC Papua,1,134,86,5182,820,AWAS,Dalam Proses,SN-0031,6.6,-4.5472,138.000283
+849,2024-06-29,6,2024,Cuaca Ekstrem,Bali,Kab. Tabanan,DC Jawa-Bali,17,0,19,975,240,WASPADA,Selesai,SN-0040,3.8,-8.712301,115.248374
+850,2024-10-16,10,2024,Banjir,Sulawesi Selatan,Kab. Gowa,DC Sulawesi,48,9,57,10800,336,AWAS,Dalam Proses,SN-0015,2.5,-5.243861,119.819618
+851,2025-03-10,3,2025,Tanah Longsor,Nusa Tenggara Barat,Kota Mataram,DC Nusa Tenggara,28,36,34,1078,335,AWAS,Dalam Proses,SN-0048,9.1,-9.007679,117.59801
+852,2024-12-02,12,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Gowa,DC Sulawesi,11,1,53,1627,121,WASPADA,Selesai,SN-0023,4.4,-5.250936,118.944413
+853,2025-02-19,2,2025,Tanah Longsor,Maluku Utara,Kab. Tidore,DC Maluku,48,16,69,3603,120,SIAGA,Dalam Proses,SN-0012,9.0,1.051811,127.790586
+854,2025-03-16,3,2025,Cuaca Ekstrem,Bali,Kab. Tabanan,DC Jawa-Bali,5,10,48,1063,134,WASPADA,Selesai,SN-0035,2.1,-8.058546,115.018515
+855,2024-01-15,1,2024,Tanah Longsor,Sumatera Barat,Kab. Agam,DC Sumatra,28,8,44,2515,463,WASPADA,Selesai,SN-0033,6.8,-0.686601,101.239549
+856,2025-02-17,2,2025,Banjir,Sulawesi Selatan,Kab. Gowa,DC Sulawesi,34,1,50,12016,1449,AWAS,Belum Ditangani,SN-0035,4.6,-5.495929,119.792626
+857,2024-04-17,4,2024,Tanah Longsor,Sulawesi Tengah,Kab. Sigi,DC Sulawesi,46,40,81,1853,769,AWAS,Dalam Proses,SN-0018,6.3,-0.449508,119.980366
+858,2025-01-13,1,2025,Erupsi Gunung Api,Nusa Tenggara Timur,Kab. Ende,DC Nusa Tenggara,9,28,121,15335,659,AWAS,Selesai,SN-0043,8.3,-8.857307,120.65427
+859,2025-03-20,3,2025,Banjir,Jawa Timur,Kab. Malang,DC Jawa-Bali,26,30,41,12527,993,AWAS,Selesai,SN-0023,3.0,-7.837815,112.5124
+860,2025-01-09,1,2025,Tanah Longsor,Sumatera Utara,Kota Medan,DC Sumatra,18,13,56,1166,688,SIAGA,Selesai,SN-0007,3.6,1.577469,98.692292
+861,2025-11-08,11,2025,Tanah Longsor,Aceh,Kab. Bireuen,DC Sumatra,49,39,58,1258,72,AWAS,Selesai,SN-0025,6.9,4.536477,96.521503
+862,2024-12-21,12,2024,Tsunami,Aceh,Kota Banda Aceh,DC Sumatra,6,74,115,17132,844,AWAS,Selesai,SN-0043,3.8,4.798416,96.848447
+863,2025-07-14,7,2025,Kebakaran Hutan dan Lahan,Papua,Kab. Jayapura,DC Papua,18,2,26,741,187,WASPADA,Selesai,SN-0043,9.0,-3.865169,138.220665
+864,2025-12-03,12,2025,Tanah Longsor,Jawa Barat,Kab. Bandung,DC Jawa-Bali,28,37,63,1813,605,AWAS,Belum Ditangani,SN-0036,5.5,-7.313535,107.900022
+865,2025-10-20,10,2025,Banjir,DI Yogyakarta,Kab. Kulon Progo,DC Jawa-Bali,7,37,164,1615,2357,AWAS,Dalam Proses,SN-0039,5.4,-7.531569,110.230201
+866,2024-05-24,5,2024,Tanah Longsor,Jawa Tengah,Kab. Magelang,DC Jawa-Bali,26,29,73,4282,38,SIAGA,Selesai,SN-0002,5.3,-7.021882,110.417931
+867,2024-02-21,2,2024,Gempa Bumi,Nusa Tenggara Barat,Kab. Lombok Utara,DC Nusa Tenggara,44,3,233,8307,2937,SIAGA,Dalam Proses,SN-0004,6.7,-8.17932,117.110301
+868,2025-03-21,3,2025,Cuaca Ekstrem,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,12,12,48,713,399,SIAGA,Selesai,SN-0048,5.1,-2.735954,115.117563
+869,2025-11-11,11,2025,Banjir,Nusa Tenggara Timur,Kab. Flores Timur,DC Nusa Tenggara,41,25,80,10187,2036,AWAS,Dalam Proses,SN-0023,8.2,-8.774604,120.84408
+870,2024-03-12,3,2024,Banjir,Sulawesi Tengah,Kab. Donggala,DC Sulawesi,45,12,148,5087,2073,SIAGA,Selesai,SN-0040,2.9,-1.095496,119.930621
+871,2024-11-03,11,2024,Cuaca Ekstrem,Maluku Utara,Kab. Halmahera Barat,DC Maluku,25,11,25,272,471,SIAGA,Dalam Proses,SN-0019,14.0,1.239375,127.681273
+872,2025-10-11,10,2025,Banjir,Kalimantan Tengah,Kab. Barito Selatan,DC Kalimantan,32,9,170,4485,107,SIAGA,Dalam Proses,SN-0029,6.4,-2.021021,113.632475
+873,2024-10-01,10,2024,Kebakaran Hutan dan Lahan,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,36,3,26,449,106,WASPADA,Selesai,SN-0034,6.5,-8.606074,121.147486
+874,2025-09-29,9,2025,Kekeringan,Maluku Utara,Kab. Halmahera Barat,DC Maluku,16,2,13,189,0,AMAN,Selesai,SN-0009,14.6,0.603455,127.223774
+875,2025-03-23,3,2025,Banjir,Kalimantan Tengah,Kab. Seruyan,DC Kalimantan,35,50,129,11605,1948,AWAS,Dalam Proses,SN-0046,5.6,-1.908846,114.017592
+876,2025-11-27,11,2025,Banjir,Kalimantan Tengah,Kab. Barito Selatan,DC Kalimantan,38,29,158,7174,2036,SIAGA,Selesai,SN-0036,4.8,-1.762936,113.584841
+877,2025-10-16,10,2025,Banjir,Sumatera Utara,Kab. Tapanuli Utara,DC Sumatra,47,46,70,9334,1032,AWAS,Dalam Proses,SN-0009,5.8,2.164439,99.00583
+878,2024-12-15,12,2024,Banjir,Nusa Tenggara Timur,Kab. Manggarai,DC Nusa Tenggara,27,14,145,13081,2080,AWAS,Dalam Proses,SN-0001,5.9,-8.617687,121.260722
+879,2024-12-25,12,2024,Banjir,Maluku,Kab. Kepulauan Aru,DC Maluku,47,39,16,8679,1694,AWAS,Dalam Proses,SN-0012,13.0,-3.543881,130.625082
+880,2024-11-30,11,2024,Banjir,Riau,Kab. Pelalawan,DC Sumatra,25,25,146,11484,2807,AWAS,Selesai,SN-0012,6.2,0.414591,101.424408
+881,2024-01-23,1,2024,Tanah Longsor,Papua,Kab. Merauke,DC Papua,23,16,51,1643,232,SIAGA,Selesai,SN-0034,12.8,-4.136893,137.92012
+882,2025-03-02,3,2025,Banjir,Bali,Kab. Karangasem,DC Jawa-Bali,21,0,135,206,19,AMAN,Selesai,SN-0037,6.5,-8.455746,114.619654
+883,2024-04-06,4,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Bone,DC Sulawesi,44,6,22,198,446,WASPADA,Selesai,SN-0029,4.9,-4.735085,119.532418
+884,2025-11-06,11,2025,Tanah Longsor,DI Yogyakarta,Kab. Bantul,DC Jawa-Bali,20,39,4,4403,123,AWAS,Selesai,SN-0011,5.0,-8.187825,110.552532
+885,2024-12-20,12,2024,Tsunami,Sumatera Utara,Kab. Karo,DC Sumatra,29,140,425,12741,6423,AWAS,Selesai,SN-0010,3.2,2.235405,98.640464
+886,2025-02-07,2,2025,Tsunami,Maluku Utara,Kota Ternate,DC Maluku,43,25,434,17034,745,AWAS,Belum Ditangani,SN-0034,12.3,1.195167,127.429697
+887,2024-04-07,4,2024,Tanah Longsor,Nusa Tenggara Timur,Kab. Sikka,DC Nusa Tenggara,28,18,80,3492,413,SIAGA,Dalam Proses,SN-0031,5.9,-8.666835,121.070639
+888,2024-10-26,10,2024,Banjir,Nusa Tenggara Timur,Kab. Flores Timur,DC Nusa Tenggara,48,12,22,5031,2406,SIAGA,Selesai,SN-0035,8.4,-8.614513,121.220332
+889,2025-01-13,1,2025,Banjir,Sulawesi Selatan,Kab. Maros,DC Sulawesi,34,43,111,12100,2082,AWAS,Selesai,SN-0014,2.2,-5.138954,119.613833
+890,2025-01-29,1,2025,Tanah Longsor,Kalimantan Tengah,Kab. Kapuas,DC Kalimantan,40,31,26,4678,655,AWAS,Dalam Proses,SN-0019,5.4,-1.794014,113.61953
+891,2024-01-27,1,2024,Gempa Bumi,Nusa Tenggara Barat,Kab. Lombok Tengah,DC Nusa Tenggara,10,47,205,1466,1277,AWAS,Belum Ditangani,SN-0044,9.5,-8.531136,117.119785
+892,2025-09-21,9,2025,Cuaca Ekstrem,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,27,8,26,1413,5,WASPADA,Selesai,SN-0013,9.1,-8.333745,120.956532
+893,2024-11-20,11,2024,Gempa Bumi,Jawa Barat,Kab. Cianjur,DC Jawa-Bali,8,16,114,2310,937,SIAGA,Dalam Proses,SN-0011,4.7,-6.62631,107.1856
+894,2024-12-22,12,2024,Cuaca Ekstrem,Maluku Utara,Kab. Halmahera Barat,DC Maluku,26,8,6,1558,61,WASPADA,Selesai,SN-0036,14.6,1.106177,127.750727
+895,2024-12-17,12,2024,Banjir,Jawa Tengah,Kab. Cilacap,DC Jawa-Bali,12,14,9,13649,1589,AWAS,Dalam Proses,SN-0024,4.2,-6.956383,109.7077
+896,2024-05-20,5,2024,Banjir,Jawa Tengah,Kab. Purworejo,DC Jawa-Bali,37,13,185,5208,179,SIAGA,Dalam Proses,SN-0012,3.3,-7.497289,110.499788
+897,2024-04-21,4,2024,Cuaca Ekstrem,Jawa Tengah,Kab. Cilacap,DC Jawa-Bali,13,2,14,376,321,AMAN,Selesai,SN-0029,2.1,-7.314111,110.361481
+898,2024-01-17,1,2024,Erupsi Gunung Api,Nusa Tenggara Timur,Kab. Manggarai,DC Nusa Tenggara,44,30,81,1858,228,SIAGA,Dalam Proses,SN-0047,8.3,-8.639253,120.596862
+899,2024-12-05,12,2024,Banjir,Sumatera Barat,Kab. Padang Pariaman,DC Sumatra,50,36,14,13331,1587,AWAS,Belum Ditangani,SN-0035,2.2,-0.382897,101.062176
+900,2025-01-30,1,2025,Banjir,Riau,Kab. Bengkalis,DC Sumatra,44,39,99,7367,973,AWAS,Dalam Proses,SN-0031,5.2,0.283342,101.930131
+901,2024-12-18,12,2024,Tanah Longsor,Maluku,Kab. Maluku Tengah,DC Maluku,48,24,32,1313,376,SIAGA,Dalam Proses,SN-0046,10.1,-2.93305,129.789284
+902,2025-12-13,12,2025,Erupsi Gunung Api,Sumatera Utara,Kab. Nias,DC Sumatra,29,13,106,15092,1502,AWAS,Dalam Proses,SN-0026,3.6,1.955143,98.93856
+903,2024-02-08,2,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Gowa,DC Sulawesi,49,11,57,948,280,SIAGA,Selesai,SN-0031,4.0,-5.272883,119.239599
+904,2025-01-10,1,2025,Cuaca Ekstrem,Papua,Kab. Jayapura,DC Papua,34,5,42,787,479,WASPADA,Selesai,SN-0014,6.2,-4.338116,138.523599
+905,2025-04-09,4,2025,Tanah Longsor,Sumatera Utara,Kota Medan,DC Sumatra,16,9,52,2592,479,WASPADA,Selesai,SN-0021,6.7,2.43473,98.705555
+906,2025-10-17,10,2025,Banjir,Jawa Tengah,Kota Semarang,DC Jawa-Bali,21,0,13,5431,368,SIAGA,Selesai,SN-0020,6.8,-7.293304,110.383884
+907,2024-12-30,12,2024,Tanah Longsor,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,20,21,90,1435,296,SIAGA,Dalam Proses,SN-0027,4.9,-8.591012,117.762417
+908,2025-01-14,1,2025,Gempa Bumi,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,29,35,127,3714,1201,AWAS,Dalam Proses,SN-0031,4.4,-1.352322,120.250932
+909,2024-02-23,2,2024,Tanah Longsor,Maluku,Kab. Buru,DC Maluku,37,28,2,4028,687,SIAGA,Dalam Proses,SN-0012,9.3,-3.398723,129.730311
+910,2024-02-13,2,2024,Gempa Bumi,Sumatera Utara,Kab. Tapanuli Utara,DC Sumatra,23,25,164,9579,680,AWAS,Belum Ditangani,SN-0027,6.5,2.366018,98.590956
+911,2024-12-09,12,2024,Cuaca Ekstrem,Sulawesi Selatan,Kab. Bone,DC Sulawesi,11,0,31,652,463,WASPADA,Selesai,SN-0029,3.5,-5.595689,119.171504
+912,2024-12-09,12,2024,Banjir,Aceh,Kab. Aceh Besar,DC Sumatra,2,8,159,174,2349,WASPADA,Selesai,SN-0025,4.4,4.49781,96.449042
+913,2025-01-23,1,2025,Tsunami,Maluku Utara,Kab. Halmahera Barat,DC Maluku,23,104,362,11210,1084,AWAS,Selesai,SN-0029,8.4,0.835683,127.35553
+914,2024-12-22,12,2024,Banjir,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,5,8,195,1753,995,WASPADA,Selesai,SN-0016,7.4,-8.975793,116.926559
+915,2025-11-01,11,2025,Cuaca Ekstrem,Jawa Barat,Kab. Sukabumi,DC Jawa-Bali,30,4,37,1282,494,WASPADA,Selesai,SN-0040,5.3,-6.786497,107.450001
+916,2025-01-07,1,2025,Banjir,Jawa Timur,Kab. Lumajang,DC Jawa-Bali,15,0,110,12969,2808,AWAS,Dalam Proses,SN-0013,5.1,-7.766921,112.508301
+917,2024-06-16,6,2024,Tsunami,Sulawesi Tengah,Kab. Parigi Moutong,DC Sulawesi,1,15,226,6059,4158,SIAGA,Dalam Proses,SN-0037,6.4,-0.41751,119.633962
+918,2025-12-23,12,2025,Cuaca Ekstrem,Jawa Timur,Kab. Lumajang,DC Jawa-Bali,38,7,10,808,325,WASPADA,Selesai,SN-0014,5.2,-8.187181,112.533682
+919,2025-05-24,5,2025,Cuaca Ekstrem,Kalimantan Tengah,Kab. Seruyan,DC Kalimantan,4,9,48,330,33,WASPADA,Selesai,SN-0040,5.7,-2.653317,113.757723
+920,2024-11-22,11,2024,Cuaca Ekstrem,Aceh,Kab. Aceh Besar,DC Sumatra,24,10,37,1579,469,WASPADA,Selesai,SN-0037,6.8,4.893176,96.854907
+921,2025-03-15,3,2025,Cuaca Ekstrem,Maluku,Kab. Buru,DC Maluku,13,15,20,1118,381,SIAGA,Dalam Proses,SN-0030,9.7,-3.567947,130.336165
+922,2025-03-31,3,2025,Tanah Longsor,Maluku Utara,Kab. Tidore,DC Maluku,2,9,18,3158,429,SIAGA,Selesai,SN-0010,13.8,1.071565,127.248157
+923,2024-04-26,4,2024,Tanah Longsor,Sulawesi Tengah,Kab. Donggala,DC Sulawesi,31,13,12,134,400,SIAGA,Dalam Proses,SN-0020,4.0,-1.054385,119.392381
+924,2025-11-09,11,2025,Kebakaran Hutan dan Lahan,Kalimantan Tengah,Kab. Kotawaringin Barat,DC Kalimantan,32,3,13,970,40,WASPADA,Selesai,SN-0005,6.8,-1.747,113.47326
+925,2025-12-20,12,2025,Tsunami,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,20,55,213,16072,106,AWAS,Belum Ditangani,SN-0040,7.7,-8.818719,120.890012
+926,2024-01-10,1,2024,Kebakaran Hutan dan Lahan,Nusa Tenggara Barat,Kab. Sumbawa,DC Nusa Tenggara,5,2,18,993,121,WASPADA,Selesai,SN-0021,5.5,-9.13519,117.231609
+927,2025-10-29,10,2025,Cuaca Ekstrem,Nusa Tenggara Barat,Kota Mataram,DC Nusa Tenggara,9,10,44,398,461,WASPADA,Selesai,SN-0015,7.4,-8.187426,117.643195
+928,2025-11-27,11,2025,Banjir,Kalimantan Tengah,Kab. Barito Selatan,DC Kalimantan,25,20,130,14429,391,AWAS,Selesai,SN-0039,4.5,-2.092493,113.494808
+929,2025-12-24,12,2025,Tanah Longsor,Kalimantan Selatan,Kota Banjarmasin,DC Kalimantan,50,17,91,1172,372,SIAGA,Dalam Proses,SN-0040,3.6,-3.346014,115.41687
+930,2024-06-09,6,2024,Cuaca Ekstrem,Nusa Tenggara Barat,Kota Mataram,DC Nusa Tenggara,13,6,52,1660,330,WASPADA,Selesai,SN-0047,4.7,-8.195174,117.459187
+931,2025-01-17,1,2025,Erupsi Gunung Api,DI Yogyakarta,Kab. Gunung Kidul,DC Jawa-Bali,14,13,2,9770,534,SIAGA,Dalam Proses,SN-0006,5.8,-8.270316,110.521135
+932,2025-04-05,4,2025,Tsunami,Aceh,Kota Banda Aceh,DC Sumatra,18,80,55,8963,3735,AWAS,Dalam Proses,SN-0021,4.9,4.801642,96.534163
+933,2024-12-28,12,2024,Tanah Longsor,Nusa Tenggara Barat,Kab. Dompu,DC Nusa Tenggara,2,20,92,3072,563,SIAGA,Selesai,SN-0049,6.0,-8.506572,117.257138
+934,2024-01-19,1,2024,Tanah Longsor,Jawa Tengah,Kab. Purworejo,DC Jawa-Bali,10,31,8,556,143,AWAS,Dalam Proses,SN-0024,2.5,-7.486618,110.354154
+935,2024-12-14,12,2024,Kekeringan,Nusa Tenggara Barat,Kab. Lombok Utara,DC Nusa Tenggara,45,0,16,213,0,AMAN,Selesai,SN-0029,8.9,-8.997916,117.684446
+936,2025-02-28,2,2025,Banjir,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,15,3,164,13809,2856,AWAS,Dalam Proses,SN-0009,6.7,-3.550424,115.542328
+937,2024-07-25,7,2024,Cuaca Ekstrem,Maluku Utara,Kota Ternate,DC Maluku,45,15,1,1371,365,SIAGA,Selesai,SN-0015,6.3,0.351262,127.066824
+938,2024-09-23,9,2024,Tanah Longsor,Jawa Timur,Kab. Bojonegoro,DC Jawa-Bali,35,10,50,1743,155,WASPADA,Selesai,SN-0018,5.1,-8.47655,112.74908
+939,2024-08-06,8,2024,Banjir,Sulawesi Selatan,Kab. Bone,DC Sulawesi,42,20,66,6432,488,SIAGA,Dalam Proses,SN-0033,5.3,-5.618883,119.536068
+940,2024-11-04,11,2024,Gempa Bumi,Jawa Tengah,Kab. Cilacap,DC Jawa-Bali,45,26,102,18684,2446,AWAS,Belum Ditangani,SN-0004,3.8,-6.763348,110.45816
+941,2024-10-29,10,2024,Cuaca Ekstrem,Kalimantan Selatan,Kab. Banjar,DC Kalimantan,22,0,13,1698,92,WASPADA,Selesai,SN-0021,3.9,-3.386247,115.730595
+942,2024-05-25,5,2024,Tsunami,Sulawesi Tengah,Kab. Parigi Moutong,DC Sulawesi,16,73,407,21857,7023,AWAS,Dalam Proses,SN-0004,2.2,-1.284438,119.370971
+943,2025-12-30,12,2025,Tanah Longsor,Jawa Barat,Kab. Sukabumi,DC Jawa-Bali,42,6,6,3015,220,SIAGA,Dalam Proses,SN-0027,2.4,-6.994334,107.995545
+944,2024-10-02,10,2024,Tanah Longsor,Sumatera Barat,Kota Padang,DC Sumatra,12,13,15,248,487,SIAGA,Dalam Proses,SN-0038,6.3,-1.153805,100.534803
+945,2024-11-01,11,2024,Banjir,Riau,Kab. Pelalawan,DC Sumatra,2,4,101,11108,1545,AWAS,Dalam Proses,SN-0001,2.9,0.465788,101.415702
+946,2024-09-03,9,2024,Banjir,Kalimantan Selatan,Kab. Hulu Sungai,DC Kalimantan,13,17,6,10997,1113,AWAS,Dalam Proses,SN-0037,5.3,-3.144611,114.785749
+947,2024-11-23,11,2024,Gempa Bumi,Riau,Kab. Indragiri Hilir,DC Sumatra,24,36,186,2897,4899,AWAS,Dalam Proses,SN-0024,5.3,0.505775,101.113895
+948,2024-11-11,11,2024,Gempa Bumi,Maluku,Kab. Buru,DC Maluku,10,47,239,11384,2395,AWAS,Selesai,SN-0024,10.9,-2.986841,130.139811
+949,2024-12-09,12,2024,Cuaca Ekstrem,Sumatera Utara,Kab. Nias,DC Sumatra,44,14,48,1104,441,SIAGA,Dalam Proses,SN-0041,6.3,1.609456,99.081353
+950,2024-02-21,2,2024,Tanah Longsor,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,33,25,10,3432,114,SIAGA,Selesai,SN-0036,3.3,-0.872131,119.946165
+951,2024-10-08,10,2024,Cuaca Ekstrem,Nusa Tenggara Barat,Kota Mataram,DC Nusa Tenggara,26,12,33,1345,419,SIAGA,Dalam Proses,SN-0007,8.5,-8.801766,117.269598
+952,2025-02-05,2,2025,Erupsi Gunung Api,Sulawesi Selatan,Kota Makassar,DC Sulawesi,5,25,27,16226,295,AWAS,Belum Ditangani,SN-0014,3.5,-5.341144,119.688501
+953,2024-08-27,8,2024,Tanah Longsor,Sulawesi Selatan,Kota Makassar,DC Sulawesi,44,7,26,1521,794,WASPADA,Selesai,SN-0028,6.8,-5.576364,119.186134
+954,2025-12-01,12,2025,Tanah Longsor,Nusa Tenggara Timur,Kab. Sikka,DC Nusa Tenggara,41,19,54,4830,489,SIAGA,Selesai,SN-0021,4.2,-9.115425,121.070733
+955,2024-04-16,4,2024,Tanah Longsor,Maluku Utara,Kab. Morotai,DC Maluku,32,37,79,2875,701,AWAS,Selesai,SN-0006,12.8,0.663267,127.829468
+956,2024-06-03,6,2024,Cuaca Ekstrem,Kalimantan Tengah,Kab. Palangkaraya,DC Kalimantan,21,7,38,961,17,WASPADA,Selesai,SN-0014,6.3,-2.406286,114.190664
+957,2024-10-22,10,2024,Gempa Bumi,Sumatera Utara,Kab. Karo,DC Sumatra,12,64,227,2264,4112,AWAS,Dalam Proses,SN-0042,6.6,2.263831,98.963178
+958,2024-11-04,11,2024,Erupsi Gunung Api,DI Yogyakarta,Kab. Kulon Progo,DC Jawa-Bali,39,9,41,1304,594,WASPADA,Selesai,SN-0005,2.8,-7.964184,109.979175
+959,2024-02-01,2,2024,Banjir,Maluku Utara,Kab. Halmahera Utara,DC Maluku,38,11,57,5571,2797,SIAGA,Selesai,SN-0008,12.3,0.512033,127.311366
+960,2024-01-24,1,2024,Gempa Bumi,Jawa Barat,Kab. Cianjur,DC Jawa-Bali,7,2,268,12068,4452,AWAS,Dalam Proses,SN-0005,5.5,-7.383963,107.555391
+961,2024-01-31,1,2024,Tanah Longsor,Maluku,Kab. Buru,DC Maluku,6,8,15,197,165,WASPADA,Selesai,SN-0035,10.0,-3.168079,130.309941
+962,2024-04-03,4,2024,Tsunami,Sulawesi Tengah,Kab. Toli-Toli,DC Sulawesi,20,10,118,6633,1207,SIAGA,Dalam Proses,SN-0001,2.3,-0.690226,119.381894
+963,2025-01-19,1,2025,Tanah Longsor,DI Yogyakarta,Kab. Sleman,DC Jawa-Bali,13,20,31,3935,218,SIAGA,Selesai,SN-0036,2.9,-7.817325,110.083622
+964,2024-10-26,10,2024,Kebakaran Hutan dan Lahan,Jawa Timur,Kab. Lumajang,DC Jawa-Bali,31,1,27,778,17,WASPADA,Selesai,SN-0016,4.8,-7.970515,113.108762
+965,2024-10-21,10,2024,Tanah Longsor,Maluku,Kab. Maluku Tengah,DC Maluku,26,27,5,2625,799,SIAGA,Dalam Proses,SN-0039,9.5,-3.066844,130.57608
+966,2024-12-30,12,2024,Gempa Bumi,Sumatera Utara,Kota Medan,DC Sumatra,34,52,80,7908,4906,AWAS,Dalam Proses,SN-0005,2.2,2.339799,99.007742
+967,2025-09-25,9,2025,Erupsi Gunung Api,Sumatera Utara,Kab. Tapanuli Utara,DC Sumatra,22,8,118,21304,1652,AWAS,Dalam Proses,SN-0031,3.5,2.101991,98.902088
+968,2024-07-28,7,2024,Cuaca Ekstrem,Bali,Kota Denpasar,DC Jawa-Bali,45,4,30,690,46,WASPADA,Selesai,SN-0041,4.6,-8.350824,114.93441
+969,2025-01-30,1,2025,Tanah Longsor,Kalimantan Selatan,Kab. Hulu Sungai,DC Kalimantan,13,20,41,1961,579,SIAGA,Dalam Proses,SN-0027,4.6,-3.286252,115.609535
+970,2025-03-22,3,2025,Banjir,Sulawesi Selatan,Kab. Bone,DC Sulawesi,44,49,176,4833,778,AWAS,Belum Ditangani,SN-0030,3.0,-4.935079,119.485603
+971,2024-09-24,9,2024,Kekeringan,Nusa Tenggara Timur,Kab. Kupang,DC Nusa Tenggara,24,2,5,454,0,AMAN,Selesai,SN-0037,5.6,-8.911666,121.063743
+972,2024-06-09,6,2024,Kekeringan,Jawa Timur,Kab. Jember,DC Jawa-Bali,17,3,0,34,0,WASPADA,Selesai,SN-0038,7.0,-7.556094,112.576161
+973,2024-11-14,11,2024,Tanah Longsor,Sulawesi Selatan,Kab. Maros,DC Sulawesi,31,40,62,4876,110,AWAS,Dalam Proses,SN-0049,2.6,-5.334558,119.072427
+974,2024-11-28,11,2024,Cuaca Ekstrem,Jawa Timur,Kab. Jember,DC Jawa-Bali,48,4,50,196,473,WASPADA,Selesai,SN-0037,6.5,-7.797176,112.326293
+975,2024-01-20,1,2024,Tanah Longsor,Kalimantan Selatan,Kab. Hulu Sungai,DC Kalimantan,49,14,79,4945,584,SIAGA,Dalam Proses,SN-0036,2.8,-3.039984,115.624568
+976,2025-09-06,9,2025,Banjir,Maluku Utara,Kab. Halmahera Utara,DC Maluku,18,10,23,9359,2515,SIAGA,Selesai,SN-0016,9.7,0.407863,127.112893
+977,2024-06-06,6,2024,Tanah Longsor,Kalimantan Tengah,Kab. Kapuas,DC Kalimantan,25,19,55,4748,614,SIAGA,Selesai,SN-0029,4.0,-2.483919,114.260782
+978,2025-05-13,5,2025,Cuaca Ekstrem,Maluku Utara,Kota Ternate,DC Maluku,28,6,56,1378,251,WASPADA,Selesai,SN-0032,8.9,1.072888,127.390635
+979,2024-07-15,7,2024,Banjir,Sulawesi Selatan,Kab. Maros,DC Sulawesi,11,38,178,11194,1546,AWAS,Selesai,SN-0016,4.0,-5.440569,119.246912
+980,2025-11-13,11,2025,Cuaca Ekstrem,Riau,Kab. Pelalawan,DC Sumatra,2,2,28,1460,409,WASPADA,Selesai,SN-0032,3.9,0.42217,101.295184
+981,2024-05-14,5,2024,Tanah Longsor,Jawa Timur,Kab. Pacitan,DC Jawa-Bali,11,17,46,2128,490,SIAGA,Dalam Proses,SN-0013,5.0,-7.630253,112.766409
+982,2025-12-12,12,2025,Tanah Longsor,Jawa Tengah,Kab. Banjarnegara,DC Jawa-Bali,17,5,78,4528,51,SIAGA,Dalam Proses,SN-0028,3.5,-6.71799,110.093401
+983,2025-03-08,3,2025,Banjir,Papua,Kab. Merauke,DC Papua,37,14,23,10173,213,AWAS,Belum Ditangani,SN-0012,14.5,-3.985637,138.534239
+984,2024-03-14,3,2024,Tanah Longsor,Sulawesi Tengah,Kab. Donggala,DC Sulawesi,50,38,91,631,68,AWAS,Dalam Proses,SN-0030,2.6,-0.57441,119.549431
+985,2024-08-06,8,2024,Banjir,Sumatera Utara,Kab. Karo,DC Sumatra,50,0,83,14014,703,AWAS,Dalam Proses,SN-0026,6.5,2.380006,99.075913
+986,2024-02-05,2,2024,Kebakaran Hutan dan Lahan,Sumatera Utara,Kab. Tapanuli Selatan,DC Sumatra,16,4,25,285,118,WASPADA,Selesai,SN-0011,5.6,2.021644,99.285209
+987,2025-10-03,10,2025,Tsunami,Maluku Utara,Kab. Halmahera Utara,DC Maluku,49,135,409,16054,5550,AWAS,Dalam Proses,SN-0042,10.7,0.824769,127.270598
+988,2024-12-20,12,2024,Tsunami,Maluku Utara,Kab. Halmahera Barat,DC Maluku,9,42,257,28112,4093,AWAS,Selesai,SN-0020,9.3,0.490193,127.466498
+989,2025-01-13,1,2025,Cuaca Ekstrem,Maluku Utara,Kab. Halmahera Barat,DC Maluku,14,15,12,1536,8,SIAGA,Selesai,SN-0049,13.8,0.921754,127.01387
+990,2025-11-10,11,2025,Tanah Longsor,Maluku Utara,Kab. Halmahera Utara,DC Maluku,30,28,32,3987,408,SIAGA,Selesai,SN-0004,7.2,0.654867,127.071392
+991,2024-02-21,2,2024,Tanah Longsor,Sumatera Barat,Kota Padang,DC Sumatra,39,29,49,3550,79,SIAGA,Dalam Proses,SN-0031,2.2,-0.418806,100.851607
+992,2024-01-10,1,2024,Banjir,DI Yogyakarta,Kab. Bantul,DC Jawa-Bali,18,9,190,11650,2300,AWAS,Dalam Proses,SN-0029,3.9,-7.786093,110.500175
+993,2025-04-15,4,2025,Cuaca Ekstrem,Maluku,Kab. Kepulauan Aru,DC Maluku,8,1,51,1058,299,WASPADA,Selesai,SN-0033,9.9,-2.854967,130.403792
+994,2025-01-24,1,2025,Banjir,DI Yogyakarta,Kab. Sleman,DC Jawa-Bali,29,24,84,10823,2925,AWAS,Selesai,SN-0013,5.8,-7.660395,110.013451
+995,2024-01-13,1,2024,Banjir,Kalimantan Tengah,Kab. Palangkaraya,DC Kalimantan,13,8,49,6854,2331,SIAGA,Selesai,SN-0017,4.7,-1.890178,113.565146
+996,2024-12-03,12,2024,Gempa Bumi,Sulawesi Tengah,Kab. Palu,DC Sulawesi,44,8,112,15345,1356,AWAS,Dalam Proses,SN-0040,6.5,-1.31173,119.830306
+997,2024-11-16,11,2024,Cuaca Ekstrem,Kalimantan Selatan,Kab. Balangan,DC Kalimantan,44,10,33,318,341,WASPADA,Selesai,SN-0039,5.4,-2.757241,115.37358
+998,2024-11-27,11,2024,Cuaca Ekstrem,Jawa Barat,Kab. Cianjur,DC Jawa-Bali,26,9,31,1992,370,WASPADA,Selesai,SN-0017,6.0,-7.366213,107.710793
+999,2024-01-08,1,2024,Tanah Longsor,Kalimantan Tengah,Kab. Kotawaringin Barat,DC Kalimantan,24,6,89,4441,517,SIAGA,Selesai,SN-0016,3.5,-2.316249,113.980073
+1000,2024-02-22,2,2024,Banjir,Jawa Timur,Kab. Jember,DC Jawa-Bali,31,25,110,2523,1696,SIAGA,Selesai,SN-0032,3.5,-8.150114,112.49178
